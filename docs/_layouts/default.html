@@ -344,6 +344,77 @@
             margin: 2rem 0;
         }
 
+        /* Site Header */
+        .site-header {
+            background: #2c3e50;
+            color: white;
+            border-bottom: 3px solid #3498db;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .site-header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-title {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .site-title a {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            color: white;
+        }
+
+        .site-logo {
+            font-size: 1.8rem;
+        }
+
+        .site-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .site-tagline {
+            color: #bdc3c7;
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        .site-nav {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            background: #3498db;
+            color: white;
+            transform: translateY(-1px);
+        }
+
         footer {
             background: #2c3e50;
             color: white;
@@ -353,6 +424,27 @@
         }
 
         @media (max-width: 768px) {
+            .site-header-content {
+                padding: 0.8rem 1rem;
+                flex-direction: column;
+                gap: 0.5rem;
+                text-align: center;
+            }
+
+            .site-title {
+                flex-direction: column;
+                gap: 0.3rem;
+            }
+
+            .site-nav {
+                gap: 1rem;
+            }
+
+            .nav-link {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.9rem;
+            }
+
             .layout {
                 flex-direction: column;
                 padding: 0 1rem;
@@ -396,6 +488,24 @@
     <!-- Mobile sidebar toggle -->
     <button class="sidebar-toggle" onclick="toggleSidebar()">☰ Menu</button>
     <div class="sidebar-overlay" onclick="closeSidebar()"></div>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="site-header-content">
+            <div class="site-title">
+                <a href="{{ site.baseurl }}/">
+                    <span class="site-logo">🤖</span>
+                    <span class="site-name">HeadElf</span>
+                </a>
+                <span class="site-tagline">C-Suite Executive Intelligence System</span>
+            </div>
+            <nav class="site-nav">
+                <a href="{{ site.baseurl }}/getting-started" class="nav-link">Get Started</a>
+                <a href="{{ site.baseurl }}/examples" class="nav-link">Examples</a>
+                <a href="https://github.com/pauljbernard/headElf" class="nav-link" target="_blank">GitHub</a>
+            </nav>
+        </div>
+    </header>
 
     <main>
         <div class="layout">
