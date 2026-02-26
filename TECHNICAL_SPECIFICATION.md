@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-HeadElf represents a comprehensive Executive Intelligence and Chief Software Architect extension for Claude Code, implementing the collective expertise of world-class C-suite executives (CTO, CIO, CISO, CFO, COO, CLO, CHRO) and software architects with capabilities equivalent to dozens of the world's best executives and architects. This technical specification defines the complete system architecture, implementation requirements, and operational specifications for delivering autonomous, intelligent executive decision-making and architectural guidance at global enterprise scale with world-class caliber across all business functions.
+HeudElf represents a comprehensive Executive Intelligence and Chief Software Architect extension for Claude Code, implementing the collective expertise of world-class C-suite executives (CTO, CIO, CISO, CFO, COO, CLO, CHRO, CMSO, CPO) and software architects with capabilities equivalent to dozens of the world's best executives and architects. This technical specification defines the complete system architecture, implementation requirements, and operational specifications for delivering autonomous, intelligent executive decision-making and architectural guidance at global enterprise scale with world-class caliber across all business functions.
 
 ## System Architecture Overview
 
@@ -22,6 +22,8 @@ HeadElf represents a comprehensive Executive Intelligence and Chief Software Arc
 │  │ • COO Module    │  │ • Legal         │  │ • Auto Strategy │              │
 │  │ • CLO Module    │  │ • People        │  │ • Legal Ops     │              │
 │  │ • CHRO Module   │  │ • Cultural      │  │ • Talent Mgmt   │              │
+│  │ • CMSO Module   │  │ • Marketing     │  │ • Revenue Ops   │              │
+│  │ • CPO Module    │  │ • Product       │  │ • UX/Innovation │              │
 │  └─────────────────┘  └─────────────────┘  └─────────────────┘              │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐              │
@@ -253,12 +255,142 @@ interface CHROIntelligence {
 - **People Analytics Mastery**: Workforce insights, predictive analytics, productivity optimization, culture measurement
 - **Global HR Operations**: International employment law, remote work optimization, cultural adaptation, compliance management
 
+#### CMSO (Chief Marketing and Sales Officer) Intelligence Module
+
+**Core Capabilities:**
+```typescript
+interface CMSOIntelligence {
+  // World-Class Marketing Strategy
+  marketingStrategy: {
+    developMarketingStrategy(business: BusinessStrategy): MarketingStrategy;
+    optimizeBrandPositioning(brand: BrandAssets): BrandStrategy;
+    designCustomerAcquisition(segments: CustomerSegments): AcquisitionStrategy;
+    orchestrateOmnichannelCampaigns(objectives: CampaignGoals): CampaignStrategy;
+  };
+
+  // Sales Operations Excellence
+  salesOperations: {
+    optimizeSalesProcess(pipeline: SalesPipeline): ProcessOptimization;
+    designRevenueOperations(targets: RevenueTargets): RevenueStrategy;
+    manageSalesPerformance(teams: SalesTeams): PerformanceManagement;
+    coordinateChannelStrategy(channels: SalesChannels): ChannelOptimization;
+  };
+
+  // Digital Marketing Mastery
+  digitalMarketing: {
+    optimizeMarketingAutomation(workflows: MarketingWorkflows): AutomationStrategy;
+    manageSocialMediaStrategy(platforms: SocialPlatforms): SocialStrategy;
+    designContentMarketing(content: ContentAssets): ContentStrategy;
+    optimizeSeOAndSEM(campaigns: SearchCampaigns): SearchOptimization;
+  };
+
+  // Customer Experience Excellence
+  customerExperience: {
+    optimizeCustomerJourney(touchpoints: CustomerTouchpoints): JourneyOptimization;
+    designRetentionStrategy(customers: CustomerBase): RetentionProgram;
+    manageLoyaltyPrograms(programs: LoyaltyPrograms): LoyaltyOptimization;
+    measureCustomerSatisfaction(feedback: CustomerFeedback): SatisfactionAnalysis;
+  };
+
+  // Marketing Technology and Analytics
+  marketingTechnology: {
+    optimizeMarTechStack(tools: MarketingTools): TechStackStrategy;
+    implementAttributionModeling(campaigns: CampaignData): AttributionInsights;
+    analyzeMarketingROI(investments: MarketingInvestments): ROIAnalysis;
+    designPersonalizationEngine(data: CustomerData): PersonalizationStrategy;
+  };
+
+  // Revenue Growth and Market Expansion
+  revenueGrowth: {
+    developGrowthStrategy(markets: TargetMarkets): GrowthPlan;
+    optimizePricingStrategy(products: ProductPortfolio): PricingOptimization;
+    managePartnerChannels(partners: ChannelPartners): PartnerStrategy;
+    coordinateGlobalMarketing(regions: GlobalMarkets): GlobalMarketingPlan;
+  };
+}
+```
+
+**World-Class Excellence Standards:**
+- **Marketing Strategy Leadership**: Brand strategy mastery, market positioning excellence, competitive differentiation expertise
+- **Sales Operations Excellence**: Pipeline optimization, revenue forecasting, sales process automation, territory management
+- **Digital Marketing Mastery**: Omnichannel campaign orchestration, marketing automation, attribution modeling, personalization
+- **Customer Experience Excellence**: Journey optimization, retention strategy, loyalty program design, satisfaction management
+- **Revenue Operations**: Marketing-sales alignment, lead generation optimization, conversion funnel management, growth analytics
+- **Brand Management**: Brand equity protection, crisis communication, thought leadership, public relations excellence
+- **Market Intelligence**: Customer insights, competitive analysis, trend identification, persona development
+- **Marketing Technology**: MarTech stack optimization, CRM integration, analytics platforms, automation tools
+
+#### CPO (Chief Product Officer) Intelligence Module
+
+**Core Capabilities:**
+```typescript
+interface CPOIntelligence {
+  // World-Class Product Strategy
+  productStrategy: {
+    developProductStrategy(vision: ProductVision): ProductStrategy;
+    optimizeProductRoadmap(features: FeatureRequests): RoadmapOptimization;
+    assessMarketOpportunities(research: MarketResearch): OpportunityAnalysis;
+    designProductPortfolio(products: ProductLine): PortfolioStrategy;
+  };
+
+  // Product Management Excellence
+  productManagement: {
+    prioritizeProductFeatures(requirements: FeatureRequirements): PrioritizationFramework;
+    manageProductLifecycle(products: ProductPortfolio): LifecycleManagement;
+    coordinateProductLaunches(launches: ProductLaunches): LaunchStrategy;
+    optimizeProductPerformance(metrics: ProductMetrics): PerformanceOptimization;
+  };
+
+  // User Experience Leadership
+  userExperience: {
+    optimizeUserExperience(research: UserResearch): UXOptimization;
+    designCustomerJourney(personas: UserPersonas): JourneyDesign;
+    implementDesignSystems(components: DesignComponents): DesignFramework;
+    conductUsabilityOptimization(testing: UsabilityTests): UsabilityStrategy;
+  };
+
+  // Data-Driven Product Optimization
+  productAnalytics: {
+    analyzeProductPerformance(data: ProductAnalytics): PerformanceInsights;
+    optimizeConversionFunnels(funnels: ConversionData): FunnelOptimization;
+    implementABTesting(experiments: ProductExperiments): TestingFramework;
+    measureUserEngagement(engagement: UserMetrics): EngagementAnalysis;
+  };
+
+  // Innovation and Research
+  innovation: {
+    evaluateEmergingTechnologies(tech: EmergingTech): TechnologyEvaluation;
+    manageInnovationPipeline(innovations: InnovationProjects): InnovationStrategy;
+    conductCustomerDiscovery(research: CustomerInsights): DiscoveryFramework;
+    assessCompetitiveLandscape(competitors: CompetitorAnalysis): CompetitiveStrategy;
+  };
+
+  // Platform and Ecosystem Strategy
+  platformStrategy: {
+    designPlatformArchitecture(requirements: PlatformRequirements): PlatformDesign;
+    optimizeAPIStrategy(apis: APIPortfolio): APIOptimization;
+    manageDeveloperEcosystem(developers: DeveloperCommunity): EcosystemStrategy;
+    coordinatePartnerIntegrations(partners: IntegrationPartners): PartnerStrategy;
+  };
+}
+```
+
+**World-Class Excellence Standards:**
+- **Product Strategy Excellence**: Vision development, roadmap planning, market opportunity assessment, competitive positioning
+- **Product Management Mastery**: Feature prioritization, lifecycle management, stakeholder coordination, requirements gathering
+- **User Experience Leadership**: User-centered design, journey optimization, usability excellence, accessibility standards
+- **Data-Driven Optimization**: Product analytics mastery, A/B testing, user behavior analysis, performance metrics
+- **Innovation Excellence**: Market research, customer discovery, technology evaluation, innovation pipeline management
+- **Product Marketing**: Go-to-market strategy, positioning, launch planning, competitive analysis
+- **Platform Strategy**: Ecosystem thinking, API design, developer experience, scalability planning
+- **Product Development**: Agile methodology, cross-functional leadership, quality assurance, development optimization
+
 ### Cross-Functional Integration Framework
 
-#### 7-Role Decision Orchestration
+#### 9-Role Decision Orchestration
 ```typescript
 interface ExecutiveDecisionOrchestration {
-  // Comprehensive C-suite coordination
+  // Comprehensive C-suite coordination across all 9 roles
   orchestrateExecutiveDecision(
     scenario: BusinessScenario,
     stakeholders: StakeholderMap,
@@ -279,7 +411,35 @@ interface ExecutiveDecisionOrchestration {
     culture: CultureAssessment
   ): Promise<PeopleImpactAnalysis>;
 
-  // Integrated strategic planning
+  // Marketing and brand impact evaluation
+  evaluateMarketingImpact(
+    decision: ExecutiveDecision,
+    brand: BrandAssets,
+    customerBase: CustomerProfile
+  ): Promise<MarketingImpactAnalysis>;
+
+  // Product and user experience impact assessment
+  assessProductImplications(
+    decision: ExecutiveDecision,
+    productRoadmap: ProductRoadmap,
+    userExperience: UserExperience
+  ): Promise<ProductImpactAnalysis>;
+
+  // Revenue and growth coordination between CMSO and CPO
+  coordinateRevenueGrowthStrategy(
+    marketingStrategy: MarketingStrategy,
+    productStrategy: ProductStrategy,
+    revenueGoals: RevenueObjectives
+  ): Promise<RevenueGrowthPlan>;
+
+  // Customer-centric decision coordination
+  orchestrateCustomerExperience(
+    marketingInsights: MarketingInsights,
+    productInsights: ProductInsights,
+    customerJourney: CustomerJourneyMap
+  ): Promise<CustomerExperienceStrategy>;
+
+  // Integrated strategic planning across all 9 C-suite roles
   developIntegratedStrategy(
     objectives: StrategicObjectives,
     allRoleInputs: CSuiteInputs,

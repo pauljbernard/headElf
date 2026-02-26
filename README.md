@@ -13,36 +13,45 @@ HeadElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
 - **⚙️ Chief Operating Officer (COO)**: Operational excellence, supply chain optimization, performance management
 - **⚖️ Chief Legal Officer (CLO)**: Corporate legal strategy, multi-jurisdictional compliance, contract excellence, IP strategy, litigation management
 - **👥 Chief People Officer (CHRO)**: Talent strategy, organizational culture, performance management, compensation strategy, leadership development, workforce analytics
-- **🏗️ Software Architecture Excellence**: 29+ architectural skills across enterprise, application, and full-stack domains
+- **🏗️ Chief Software Architect**: 29+ architectural skills across enterprise, application, and full-stack domains
 
 ## Executive Intelligence Architecture
 
 ```
 HeadElf/
-├── src/
-│   ├── core/                     # Core C-suite executive modules
-│   │   ├── executive-intelligence-engine.ts    # AI-powered decision engine
-│   │   ├── cto-intelligence-module.ts         # Technology leadership
-│   │   ├── cio-intelligence-module.ts         # Digital transformation
-│   │   ├── ciso-intelligence-module.ts        # Security & compliance
-│   │   ├── cfo-intelligence-module.ts         # Financial strategy
-│   │   ├── coo-intelligence-module.ts         # Operations excellence
-│   │   ├── clo-intelligence-module.ts         # Legal strategy & compliance
-│   │   └── chro-intelligence-module.ts        # People & culture excellence
-│   ├── advanced/                 # Advanced C-suite capabilities
-│   │   ├── cto-venture-capital-framework.ts   # VC investment evaluation
-│   │   ├── cfo-capital-markets-framework.ts   # M&A and capital markets
-│   │   ├── ciso-global-compliance-framework.ts # Multi-jurisdictional compliance
-│   │   ├── enterprise-integration-platform.ts  # Real-time data platforms
-│   │   ├── global-operations-platform.ts      # 24/7 follow-the-sun ops
-│   │   ├── advanced-ai-ml-models.ts           # Executive reasoning engines
-│   │   └── stakeholder-engagement-excellence.ts # Board/investor relations
-│   ├── ai-ml/                   # AI/ML executive intelligence
-│   ├── integration/             # Enterprise system integration
-│   ├── testing/                 # Executive decision validation
-│   └── claude-code-integration/ # Native Claude Code integration
-├── docs/                        # Comprehensive documentation
-└── PROJECT_CONSTITUTION.md      # Executive governance framework
+├── skills/                       # Claude Code Skills (40+ skills across 13 domains)
+│   ├── executive/               # C-Suite Executive Skills (7 roles)
+│   │   ├── cto-intelligence/    # Chief Technology Officer
+│   │   ├── cio-mastery/        # Chief Information Officer
+│   │   ├── ciso-intelligence/   # Chief Information Security Officer
+│   │   ├── cfo-intelligence/    # Chief Financial Officer
+│   │   ├── coo-intelligence/    # Chief Operating Officer
+│   │   ├── clo-intelligence/    # Chief Legal Officer
+│   │   └── chro-intelligence/   # Chief People Officer
+│   ├── advanced/               # Advanced Executive Capabilities
+│   │   ├── m-and-a-executive/  # M&A Executive Leadership
+│   │   └── global-expansion/   # Global Expansion Executive
+│   ├── industry/               # Industry Vertical Extensions
+│   │   └── financial-services/ # Financial Services Intelligence
+│   ├── integration/            # Skills-Extension Bridge
+│   │   └── extension-activator/ # Extension Framework Activator
+│   ├── enterprise/             # Enterprise Architecture (29+ skills)
+│   ├── application/            # Application Architecture
+│   ├── full-stack/             # Full-Stack Development
+│   └── [8 additional domains]  # Cloud, Data, Security, AI/ML, etc.
+├── subagents/                  # Executive Subagents (5 specialized agents)
+│   ├── strategic-advisor/      # C-Suite Strategic Intelligence Advisor
+│   ├── executive-orchestrator/ # Cross-Functional Decision Coordination
+│   ├── autonomous-execution/   # 24/7 Executive Operations
+│   ├── persona-manager/        # Multi-Persona Executive Coordination
+│   └── meeting-proxy/          # Executive Meeting and Communication
+├── src/                        # TypeScript Intelligence Modules
+│   ├── core/                   # Core executive intelligence engines
+│   ├── advanced/               # Advanced C-suite capabilities
+│   ├── extensions/             # Industry & enterprise extensions
+│   └── integration/            # Claude Code integration layer
+├── docs/                       # Comprehensive documentation
+└── PROJECT_CONSTITUTION.md     # Executive governance framework
 ```
 
 ## Executive Intelligence Capabilities
@@ -110,28 +119,56 @@ HeadElf/
 # Clone the HeadElf repository
 git clone https://github.com/pauljbernard/headElf.git
 
-# Install in Claude Code skills directory
-cp -r headElf ~/.claude/skills/
+# Install skills and subagents in Claude Code
+cp -r headElf/skills/* ~/.claude/skills/
+cp -r headElf/subagents/* ~/.claude/subagents/
 
-# Verify installation
-claude-code --list-skills | grep headelf
+# Verify installation - should show 45+ skills across 15 domains
+claude-code --list-skills | grep -E "(cto|cio|ciso|cfo|coo|clo|chro|cmso|cpo|m-and-a|global-expansion)"
 ```
 
 ## Usage
 
-### Executive Consultations
+### C-Suite Executive Skills
 ```bash
-# Launch Claude Code with HeadElf
+# Launch Claude Code and activate specific C-suite skills
 claude-code
 
-# M&A evaluation
-> "Evaluate acquisition of AI startup: $500M valuation, 200 employees, regulatory considerations"
+# CTO Intelligence - Technology strategy and innovation
+> "Use cto-intelligence: Evaluate $50M venture capital investment in quantum computing startup"
 
-# Global expansion strategy
-> "Design expansion into EMEA markets: compliance, operations, technology, financial planning"
+# CFO Intelligence - Financial analysis and M&A
+> "Use cfo-intelligence: Analyze acquisition of fintech company with $2B valuation"
 
-# Crisis management
-> "Supply chain disruption affecting 60% revenue - need coordinated C-suite response"
+# CISO Intelligence - Global compliance and security
+> "Use ciso-intelligence: Develop zero trust architecture for multinational expansion"
+
+# M&A Executive - Complex transaction coordination
+> "Use m-and-a-executive: Coordinate due diligence for cross-border acquisition"
+
+# Global Expansion - International market entry
+> "Use global-expansion: Plan expansion into APAC markets with regulatory compliance"
+```
+
+### Executive Subagents
+```bash
+# Activate executive subagents for autonomous coordination
+claude-code
+
+# Strategic advisor - Cross-functional strategic intelligence
+> "Use strategic-advisor: Develop 3-year digital transformation strategy"
+
+# Executive orchestrator - C-suite decision coordination
+> "Use executive-orchestrator: Coordinate crisis response for supply chain disruption"
+```
+
+### Industry Vertical Integration
+```bash
+# Financial services with regulatory compliance
+> "Use financial-services + cfo-intelligence: Basel III compliance strategy for regional bank"
+
+# Extension framework activation
+> "Use extension-activator: Activate financial services compliance for M&A transaction"
 ```
 
 ### Cross-Functional Decision Making

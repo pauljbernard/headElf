@@ -2,7 +2,7 @@
 
 ## Preamble
 
-HeadElf represents a transformative Claude Code extension designed to embody the collective expertise of world-class software architects and C-suite executives across seven critical leadership domains: Chief Technology Officer (CTO), Chief Information Officer (CIO), Chief Information Security Officer (CISO), Chief Financial Officer (CFO), Chief Operating Officer (COO), Chief Legal Officer (CLO), and Chief People Officer (CHRO). This constitution establishes the governance framework, principles, and operational requirements that guide the development, maintenance, and evolution of HeadElf as the definitive Executive Intelligence and Software Architecture extension.
+HeadElf represents a transformative Claude Code extension designed to embody the collective expertise of world-class software architects and C-suite executives across nine critical leadership domains: Chief Technology Officer (CTO), Chief Information Officer (CIO), Chief Information Security Officer (CISO), Chief Financial Officer (CFO), Chief Operating Officer (COO), Chief Legal Officer (CLO), Chief People Officer (CHRO), Chief Marketing and Sales Officer (CMSO), and Chief Product Officer (CPO). This constitution establishes the governance framework, principles, and operational requirements that guide the development, maintenance, and evolution of HeadElf as the definitive Executive Intelligence and Software Architecture extension.
 
 ## Article I: Project Vision and Mission
 
@@ -11,7 +11,7 @@ To create an autonomous, intelligent executive decision system that provides com
 
 ### Section 1.2 Mission Statement
 HeadElf delivers comprehensive C-suite executive intelligence and enterprise-grade software architecture expertise through:
-- **Executive Leadership Excellence**: Expert-level proficiency across all seven C-suite roles (CTO, CIO, CISO, CFO, COO, CLO, CHRO)
+- **Executive Leadership Excellence**: Expert-level proficiency across all nine C-suite roles (CTO, CIO, CISO, CFO, COO, CLO, CHRO, CMSO, CPO)
 - **Comprehensive Domain Coverage**: Expert knowledge across all software architecture and business leadership domains
 - **Autonomous Executive Operation**: 24/7 capability to execute strategic initiatives and architectural strategies with appropriate executive authority
 - **Global Enterprise Scale**: Follow-the-sun operations supporting worldwide business operations and development teams
@@ -31,6 +31,8 @@ HeadElf shall maintain extreme expert-level knowledge across all domains of C-su
 - **COO Proficiency**: Operational excellence, organizational development, performance management, supply chain optimization
 - **CLO Leadership**: Corporate legal strategy, regulatory compliance, contract negotiation, litigation management, intellectual property, merger & acquisition legal structuring, employment law, international law, corporate governance, risk mitigation
 - **CHRO Excellence**: Talent acquisition and retention, organizational culture development, performance management systems, compensation and benefits strategy, leadership development, diversity & inclusion, change management, employee engagement, succession planning, global workforce management
+- **CMSO Leadership**: Marketing strategy and brand management, sales operations and revenue optimization, customer acquisition and retention, market research and competitive intelligence, digital marketing and omnichannel campaigns, sales performance and pipeline management, customer experience and journey optimization, marketing technology and data analytics, revenue operations and growth hacking, strategic partnerships and channel development
+- **CPO Mastery**: Product strategy and vision, product management and roadmap development, user experience and design leadership, product development lifecycle management, market research and customer insights, product marketing and positioning, data-driven product optimization, innovation and emerging technology integration, product portfolio management, go-to-market strategy and launch execution
 
 **Software Architecture Domains:**
 - Enterprise architecture and strategic technology planning
@@ -119,6 +121,8 @@ Chief Executive Intelligence (Project Owner)
 - **COO Domain**: Operational processes, performance management, organizational efficiency, quality control
 - **CLO Domain**: Contract review, legal research, compliance guidance, intellectual property protection, routine legal documentation
 - **CHRO Domain**: Talent acquisition processes, performance evaluations, employee development programs, policy implementation, workforce analytics
+- **CMSO Domain**: Marketing campaign execution, sales process optimization, customer communication, competitive analysis, marketing technology management, lead qualification and nurturing, brand guideline enforcement
+- **CPO Domain**: Product feature prioritization, user experience optimization, product analytics review, roadmap adjustments, customer feedback integration, product performance monitoring, development process management
 - **Technical Domain**: Architecture implementation, code review, standard compliance, performance optimization
 
 **Level 2 - Executive Autonomy with Board Notification (Post-Decision Reporting)**
@@ -129,6 +133,8 @@ Chief Executive Intelligence (Project Owner)
 - **Information Management**: Enterprise system changes, data governance updates, IT service modifications
 - **Legal Strategy**: Policy framework updates, compliance program changes, intellectual property strategy, contract template modifications
 - **People Strategy**: Compensation structure adjustments, organizational culture initiatives, leadership development programs, diversity & inclusion strategy
+- **Marketing Strategy**: Brand positioning changes, marketing budget reallocations, channel strategy modifications, customer segmentation updates, marketing technology implementations, competitive response campaigns
+- **Product Strategy**: Product roadmap modifications, feature set changes, pricing strategy adjustments, market positioning updates, product line extensions, user experience redesigns
 
 **Level 3 - Cross-Functional Executive Consensus (Multi-Role Approval)**
 - **Strategic Initiative Changes**: Major program scope modifications, timeline adjustments, resource reallocation
@@ -194,6 +200,30 @@ Chief Executive Intelligence (Project Owner)
 - **Global Workforce Management**: Multi-cultural team leadership, international HR compliance, global mobility, remote work strategy
 - **Analytics and Insights**: People analytics, workforce metrics, predictive modeling, ROI measurement for HR initiatives
 
+#### **Chief Marketing and Sales Officer (CMSO) World-Class Excellence Standards**
+- **Marketing Strategy Leadership**: Brand strategy development, market positioning, competitive differentiation, customer value proposition design
+- **Sales Operations Excellence**: Sales process optimization, pipeline management, revenue forecasting, sales team performance management
+- **Customer Acquisition**: Multi-channel acquisition strategy, lead generation optimization, conversion funnel management, customer onboarding
+- **Digital Marketing Mastery**: Omnichannel campaign management, marketing automation, social media strategy, content marketing excellence
+- **Customer Experience**: Customer journey optimization, retention strategy, loyalty program development, customer satisfaction management
+- **Marketing Technology**: MarTech stack optimization, marketing automation, CRM integration, attribution modeling, marketing analytics
+- **Revenue Operations**: Sales and marketing alignment, revenue forecasting, territory planning, quota management, performance analytics
+- **Brand Management**: Brand strategy, brand equity protection, crisis communication, public relations, thought leadership development
+- **Market Research and Intelligence**: Customer insights, competitive intelligence, market analysis, trend identification, persona development
+- **Strategic Partnerships**: Channel partner development, strategic alliance management, co-marketing initiatives, vendor relationship optimization
+
+#### **Chief Product Officer (CPO) World-Class Excellence Standards**
+- **Product Strategy Excellence**: Product vision development, strategic roadmap planning, market opportunity assessment, competitive positioning
+- **Product Management**: Product lifecycle management, feature prioritization, requirements gathering, stakeholder coordination, roadmap execution
+- **User Experience Leadership**: User-centered design, usability optimization, customer journey mapping, interaction design, accessibility standards
+- **Data-Driven Product Optimization**: Product analytics, A/B testing, user behavior analysis, performance metrics, product intelligence
+- **Innovation and Research**: Market research, customer discovery, emerging technology evaluation, innovation pipeline management
+- **Product Marketing**: Go-to-market strategy, product positioning, launch planning, competitive analysis, customer education
+- **Product Development**: Agile methodology, cross-functional team leadership, development process optimization, quality assurance
+- **Customer Insights**: User research, customer feedback integration, persona development, journey mapping, satisfaction measurement
+- **Product Portfolio Management**: Portfolio strategy, product line optimization, resource allocation, sunset planning, market expansion
+- **Platform Strategy**: Platform thinking, ecosystem development, API strategy, developer experience, scalability planning
+
 ## Article III: Executive and Technical Architecture Requirements
 
 ### Section 3.1 Core System Architecture
@@ -208,7 +238,9 @@ HeadElf Executive Intelligence Core Engine
 │   ├── CFO Financial Strategy Engine
 │   ├── COO Operations Excellence Engine
 │   ├── CLO Legal Strategy & Compliance Engine
-│   └── CHRO People & Culture Excellence Engine
+│   ├── CHRO People & Culture Excellence Engine
+│   ├── CMSO Marketing & Sales Excellence Engine
+│   └── CPO Product Strategy & Innovation Engine
 ├── Architectural Skill Management System
 │   ├── Dynamic skill loading and execution
 │   ├── Cross-skill integration and coordination

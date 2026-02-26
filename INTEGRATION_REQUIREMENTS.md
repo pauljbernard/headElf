@@ -14,7 +14,7 @@ HeadElf Executive Integration Architecture:
 
 Claude Code Executive Framework
 ├── C-Suite Role Discovery and Activation
-│   ├── Automatic executive role registration (CTO, CIO, CISO, CFO, COO, CLO, CHRO)
+│   ├── Automatic executive role registration (CTO, CIO, CISO, CFO, COO, CLO, CHRO, CMSO, CPO)
 │   ├── Dynamic executive capability loading and initialization
 │   ├── Executive dependency resolution and authority management
 │   └── Executive competency validation and certification
@@ -197,19 +197,198 @@ interface PeopleContext {
 }
 ```
 
+### CMSO (Chief Marketing and Sales Officer) Module Integration
+
+#### **Marketing and Sales Intelligence Integration**
+```typescript
+interface CMSOIntelligence {
+  // Marketing Strategy Excellence
+  developMarketingStrategy(
+    businessGoals: BusinessObjective[],
+    marketResearch: MarketIntelligence,
+    competitiveAnalysis: CompetitiveIntelligence
+  ): Promise<MarketingStrategy>;
+
+  optimizeBrandPositioning(
+    brandAssets: BrandAsset[],
+    marketSegments: MarketSegment[],
+    valueProposition: ValueProposition
+  ): Promise<BrandPositioningStrategy>;
+
+  // Sales Operations Excellence
+  optimizeSalesProcess(
+    salesData: SalesPerformanceData,
+    customerJourney: CustomerJourney,
+    revenueTargets: RevenueGoals
+  ): Promise<SalesProcessOptimization>;
+
+  designRevenue Operations(
+    salesTargets: SalesTarget[],
+    marketingChannels: MarketingChannel[],
+    conversionMetrics: ConversionMetric[]
+  ): Promise<RevenueOperationsFramework>;
+
+  // Customer Acquisition and Retention
+  developCustomerAcquisitionStrategy(
+    targetSegments: CustomerSegment[],
+    acquisitionChannels: AcquisitionChannel[],
+    budgetAllocation: MarketingBudget
+  ): Promise<CustomerAcquisitionPlan>;
+
+  optimizeCustomerRetention(
+    customerData: CustomerAnalytics,
+    loyaltyPrograms: LoyaltyProgram[],
+    churnPrediction: ChurnRiskAnalysis
+  ): Promise<RetentionStrategy>;
+
+  // Digital Marketing Mastery
+  orchestrateOmnichannelCampaigns(
+    campaignObjectives: CampaignObjective[],
+    channels: MarketingChannel[],
+    contentAssets: ContentAsset[]
+  ): Promise<OmnichannelCampaign>;
+
+  optimizeMarketingAutomation(
+    customerSegments: CustomerSegment[],
+    touchpointMap: TouchpointMap,
+    conversionGoals: ConversionGoal[]
+  ): Promise<MarketingAutomationFramework>;
+
+  // Performance Analytics and Optimization
+  analyzeMarketingPerformance(
+    campaignData: CampaignPerformanceData,
+    attributionModels: AttributionModel[],
+    roiTargets: ROITarget[]
+  ): Promise<MarketingPerformanceInsights>;
+
+  optimizeConversionFunnels(
+    funnelData: FunnelAnalytics,
+    customerBehavior: BehaviorAnalytics,
+    optimizationGoals: OptimizationGoal[]
+  ): Promise<ConversionOptimizationPlan>;
+}
+
+// Marketing and Sales Context Integration
+interface MarketingContext {
+  brandProfile: BrandProfile;
+  marketPosition: MarketPosition;
+  customerSegments: CustomerSegment[];
+  competitorAnalysis: CompetitorAnalysis;
+  marketingChannels: MarketingChannel[];
+  salesPipeline: SalesPipelineData;
+  customerJourney: CustomerJourney;
+  marketingTechnology: MarTechStack;
+  performanceMetrics: MarketingMetrics;
+  campaignHistory: CampaignHistory;
+}
+```
+
+### CPO (Chief Product Officer) Module Integration
+
+#### **Product Intelligence Integration**
+```typescript
+interface CPOIntelligence {
+  // Product Strategy Excellence
+  developProductStrategy(
+    marketOpportunity: MarketOpportunity,
+    customerInsights: CustomerInsights,
+    competitiveAnalysis: ProductCompetitiveAnalysis
+  ): Promise<ProductStrategy>;
+
+  optimizeProductRoadmap(
+    productVision: ProductVision,
+    featureRequests: FeatureRequest[],
+    resourceConstraints: ResourceConstraint[]
+  ): Promise<ProductRoadmapOptimization>;
+
+  // Product Management Excellence
+  prioritizeProductFeatures(
+    customerNeeds: CustomerNeed[],
+    businessObjectives: BusinessObjective[],
+    technicalConstraints: TechnicalConstraint[]
+  ): Promise<FeaturePrioritization>;
+
+  manageProductLifecycle(
+    productPortfolio: ProductPortfolio,
+    marketDynamics: MarketDynamics,
+    performanceMetrics: ProductMetrics[]
+  ): Promise<ProductLifecycleManagement>;
+
+  // User Experience Leadership
+  optimizeUserExperience(
+    userResearch: UserResearchData,
+    usabilityMetrics: UsabilityMetric[],
+    designPrinciples: DesignPrinciple[]
+  ): Promise<UXOptimizationPlan>;
+
+  designCustomerJourney(
+    userPersonas: UserPersona[],
+    touchpoints: Touchpoint[],
+    experienceGoals: ExperienceGoal[]
+  ): Promise<CustomerJourneyOptimization>;
+
+  // Data-Driven Product Optimization
+  analyzeProductPerformance(
+    productAnalytics: ProductAnalytics,
+    userBehavior: UserBehaviorData,
+    businessMetrics: ProductBusinessMetric[]
+  ): Promise<ProductPerformanceInsights>;
+
+  optimizeProductMetrics(
+    kpiFramework: ProductKPIFramework,
+    performanceData: PerformanceData,
+    improvementGoals: ImprovementGoal[]
+  ): Promise<ProductMetricsOptimization>;
+
+  // Innovation and Market Research
+  assessMarketOpportunities(
+    marketResearch: MarketResearchData,
+    trendAnalysis: TrendAnalysis,
+    customerDiscovery: CustomerDiscoveryInsights
+  ): Promise<MarketOpportunityAssessment>;
+
+  evaluateEmergingTechnologies(
+    technologyTrends: TechnologyTrend[],
+    productStrategy: ProductStrategy,
+    innovationGoals: InnovationGoal[]
+  ): Promise<TechnologyEvaluationReport>;
+
+  // Go-to-Market Strategy
+  developGoToMarketStrategy(
+    productLaunch: ProductLaunchPlan,
+    marketSegments: MarketSegment[],
+    competitivePositioning: CompetitivePositioning
+  ): Promise<GoToMarketStrategy>;
+}
+
+// Product Context Integration
+interface ProductContext {
+  productPortfolio: ProductPortfolio;
+  userBase: UserBaseProfile;
+  productMetrics: ProductMetrics;
+  featureBacklog: FeatureBacklog;
+  userFeedback: UserFeedbackData;
+  competitiveIntelligence: ProductCompetitiveIntelligence;
+  technologyStack: ProductTechnologyStack;
+  designSystem: DesignSystem;
+  analyticsFramework: ProductAnalyticsFramework;
+  innovationPipeline: InnovationPipeline;
+}
+```
+
 ### Cross-Functional C-Suite Integration
 
-#### **7-Role Decision Orchestration**
+#### **9-Role Decision Orchestration**
 ```typescript
 interface CSuiteOrchestration {
-  // Comprehensive decision-making across all 7 roles
+  // Comprehensive decision-making across all 9 roles
   coordinateExecutiveDecision(
     scenario: BusinessScenario,
     stakeholderMap: StakeholderMap,
     constraints: BusinessConstraints
   ): Promise<ExecutiveDecisionPlan>;
 
-  // Legal and People considerations in all decisions
+  // Legal, People, Marketing, and Product considerations in all decisions
   validateLegalCompliance(
     decision: ExecutiveDecision,
     jurisdiction: LegalJurisdiction[],
@@ -222,12 +401,38 @@ interface CSuiteOrchestration {
     cultureGoals: CulturalObjectives
   ): Promise<PeopleImpactAssessment>;
 
-  // Integrated strategic planning
+  evaluateMarketingImpact(
+    decision: ExecutiveDecision,
+    brandImplications: BrandImplication[],
+    customerExpectations: CustomerExpectation[]
+  ): Promise<MarketingImpactAssessment>;
+
+  assessProductImplications(
+    decision: ExecutiveDecision,
+    productRoadmap: ProductRoadmap,
+    userExperience: UserExperienceFramework
+  ): Promise<ProductImpactAssessment>;
+
+  // Integrated strategic planning across all 9 C-suite roles
   developIntegratedStrategy(
     businessObjectives: StrategicGoals,
     allRoleInputs: CSuiteInputs,
     environmentalFactors: BusinessEnvironment
   ): Promise<IntegratedStrategicPlan>;
+
+  // Revenue and growth coordination between CMSO and CPO
+  coordinateRevenueGrowthStrategy(
+    marketingStrategy: MarketingStrategy,
+    productStrategy: ProductStrategy,
+    revenueGoals: RevenueObjective[]
+  ): Promise<RevenueGrowthPlan>;
+
+  // Customer-centric decision coordination
+  orchestrateCustomerExperience(
+    marketingInsights: MarketingInsights,
+    productInsights: ProductInsights,
+    customerJourneyMap: CustomerJourneyMap
+  ): Promise<CustomerExperienceStrategy>;
 }
 ```
 
