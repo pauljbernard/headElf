@@ -1,0 +1,24 @@
+{
+  "time_range": {
+    "start": "2026-02-19T22:54:23.830298Z",
+    "end": "2026-02-26T22:54:23.830298Z"
+  },
+  "total_decisions": 1,
+  "decisions_by_role": {
+    "CTO": 1
+  },
+  "confidence_metrics": {
+    "average": 0.87,
+    "distribution": {
+      "0.9": 1
+    }
+  },
+  "most_active_areas": [
+    [
+      "technology_strategy",
+      1
+    ]
+  ],
+  "trend_analysis": {},
+  "generated_at": "2026-02-26T22:54:23.830416Z"
+}
