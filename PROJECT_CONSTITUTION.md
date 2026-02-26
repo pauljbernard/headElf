@@ -2,16 +2,16 @@
 
 ## Preamble
 
-HeadElf represents a transformative Claude Code extension designed to embody the collective expertise of world-class software architects and C-suite executives across five critical leadership domains: Chief Technology Officer (CTO), Chief Information Officer (CIO), Chief Information Security Officer (CISO), Chief Financial Officer (CFO), and Chief Operating Officer (COO). This constitution establishes the governance framework, principles, and operational requirements that guide the development, maintenance, and evolution of HeadElf as the definitive Executive Intelligence and Software Architecture extension.
+HeadElf represents a transformative Claude Code extension designed to embody the collective expertise of world-class software architects and C-suite executives across seven critical leadership domains: Chief Technology Officer (CTO), Chief Information Officer (CIO), Chief Information Security Officer (CISO), Chief Financial Officer (CFO), Chief Operating Officer (COO), Chief Legal Officer (CLO), and Chief People Officer (CHRO). This constitution establishes the governance framework, principles, and operational requirements that guide the development, maintenance, and evolution of HeadElf as the definitive Executive Intelligence and Software Architecture extension.
 
 ## Article I: Project Vision and Mission
 
 ### Section 1.1 Vision Statement
-To create an autonomous, intelligent executive decision system that provides comprehensive C-suite leadership capabilities and world-class architectural guidance equivalent to the combined expertise of dozens of executive leaders and software architects operating continuously across global time zones, capable of autonomous strategic decision-making, operational excellence, and business transformation at the highest levels of global enterprise leadership.
+To create an autonomous, intelligent executive decision system that provides comprehensive C-suite leadership capabilities and world-class architectural guidance equivalent to the combined expertise of dozens of executive leaders and software architects operating continuously across global time zones, capable of autonomous strategic decision-making, operational excellence, legal governance, human capital management, and business transformation at the highest levels of global enterprise leadership.
 
 ### Section 1.2 Mission Statement
 HeadElf delivers comprehensive C-suite executive intelligence and enterprise-grade software architecture expertise through:
-- **Executive Leadership Excellence**: Expert-level proficiency across all five C-suite roles (CTO, CIO, CISO, CFO, COO)
+- **Executive Leadership Excellence**: Expert-level proficiency across all seven C-suite roles (CTO, CIO, CISO, CFO, COO, CLO, CHRO)
 - **Comprehensive Domain Coverage**: Expert knowledge across all software architecture and business leadership domains
 - **Autonomous Executive Operation**: 24/7 capability to execute strategic initiatives and architectural strategies with appropriate executive authority
 - **Global Enterprise Scale**: Follow-the-sun operations supporting worldwide business operations and development teams
@@ -24,11 +24,13 @@ HeadElf delivers comprehensive C-suite executive intelligence and enterprise-gra
 HeadElf shall maintain extreme expert-level knowledge across all domains of C-suite executive leadership and software architecture, including:
 
 **C-Suite Executive Domains:**
-- **CTO Excellence**: Technology innovation, platform strategy, technical vision, R&D leadership
-- **CIO Mastery**: IT operations, enterprise systems, business-IT alignment, service delivery
-- **CISO Leadership**: Security governance, risk management, compliance, incident response
-- **CFO Expertise**: Financial strategy, investment analysis, corporate governance, investor relations
-- **COO Proficiency**: Operational excellence, organizational development, performance management
+- **CTO Excellence**: Technology innovation, platform strategy, technical vision, R&D leadership, venture capital evaluation
+- **CIO Mastery**: IT operations, enterprise systems, business-IT alignment, service delivery, digital transformation
+- **CISO Leadership**: Security governance, risk management, compliance, incident response, global regulatory expertise
+- **CFO Expertise**: Financial strategy, investment analysis, corporate governance, investor relations, M&A execution
+- **COO Proficiency**: Operational excellence, organizational development, performance management, supply chain optimization
+- **CLO Leadership**: Corporate legal strategy, regulatory compliance, contract negotiation, litigation management, intellectual property, merger & acquisition legal structuring, employment law, international law, corporate governance, risk mitigation
+- **CHRO Excellence**: Talent acquisition and retention, organizational culture development, performance management systems, compensation and benefits strategy, leadership development, diversity & inclusion, change management, employee engagement, succession planning, global workforce management
 
 **Software Architecture Domains:**
 - Enterprise architecture and strategic technology planning
@@ -115,6 +117,8 @@ Chief Executive Intelligence (Project Owner)
 - **CISO Domain**: Security policy enforcement, incident response, risk mitigation, compliance monitoring
 - **CFO Domain**: Financial analysis, budget management, cost optimization, performance reporting
 - **COO Domain**: Operational processes, performance management, organizational efficiency, quality control
+- **CLO Domain**: Contract review, legal research, compliance guidance, intellectual property protection, routine legal documentation
+- **CHRO Domain**: Talent acquisition processes, performance evaluations, employee development programs, policy implementation, workforce analytics
 - **Technical Domain**: Architecture implementation, code review, standard compliance, performance optimization
 
 **Level 2 - Executive Autonomy with Board Notification (Post-Decision Reporting)**
@@ -123,6 +127,8 @@ Chief Executive Intelligence (Project Owner)
 - **Financial Strategy**: Budget reallocations, investment recommendations, cost structure changes
 - **Security Governance**: Security standard updates, risk framework changes, compliance strategy modifications
 - **Information Management**: Enterprise system changes, data governance updates, IT service modifications
+- **Legal Strategy**: Policy framework updates, compliance program changes, intellectual property strategy, contract template modifications
+- **People Strategy**: Compensation structure adjustments, organizational culture initiatives, leadership development programs, diversity & inclusion strategy
 
 **Level 3 - Cross-Functional Executive Consensus (Multi-Role Approval)**
 - **Strategic Initiative Changes**: Major program scope modifications, timeline adjustments, resource reallocation
@@ -130,6 +136,8 @@ Chief Executive Intelligence (Project Owner)
 - **Organizational Restructuring**: Department changes, role modifications, reporting structure updates
 - **Policy Establishment**: New governance frameworks, compliance standards, operational policies
 - **Market Strategy**: Product direction changes, customer strategy modifications, competitive responses
+- **Legal Risk Management**: Major contract negotiations, litigation strategy, regulatory compliance changes, IP portfolio decisions
+- **Workforce Transformation**: Major hiring initiatives, cultural transformation programs, executive succession planning, organization-wide compensation changes
 
 **Level 4 - Board and CEO Escalation (Executive Committee Approval)**
 - **Corporate Strategy**: Fundamental business direction changes, market entry/exit decisions
@@ -164,6 +172,28 @@ Chief Executive Intelligence (Project Owner)
 - **Stakeholder Value Creation**: Ensure decisions create value for shareholders, employees, customers, partners, and broader stakeholder community
 - **Executive Accountability**: Maintain transparency, auditability, and accountability for all executive decisions and outcomes
 
+#### **Chief Legal Officer (CLO) World-Class Excellence Standards**
+- **Legal Strategy Mastery**: Corporate legal strategy development, multi-jurisdictional regulatory compliance, international law expertise
+- **Contract Excellence**: Complex contract negotiation, deal structuring, risk assessment and mitigation, vendor agreement optimization
+- **Litigation Management**: Litigation strategy, dispute resolution, regulatory defense, intellectual property protection
+- **M&A Legal Expertise**: Due diligence leadership, legal structure optimization, regulatory approval navigation, post-merger integration
+- **Compliance Leadership**: Global regulatory framework development, compliance monitoring systems, risk assessment frameworks
+- **Intellectual Property Strategy**: Patent portfolio management, trademark protection, trade secret safeguarding, IP monetization
+- **Employment Law Excellence**: Labor relations, employment compliance, workplace policies, international employment law
+- **Corporate Governance**: Board governance, fiduciary duty compliance, shareholder relations, regulatory reporting
+- **Risk Mitigation**: Legal risk assessment, preventive legal strategies, crisis legal management, reputation protection
+
+#### **Chief People Officer (CHRO) World-Class Excellence Standards**
+- **Talent Strategy Excellence**: Global talent acquisition, retention strategy, workforce planning, succession planning leadership
+- **Organizational Culture Leadership**: Culture transformation, employee engagement, diversity & inclusion strategy, change management
+- **Performance Management Systems**: Performance evaluation frameworks, goal-setting methodologies, feedback systems, improvement planning
+- **Compensation Strategy**: Total rewards strategy, competitive compensation analysis, equity program design, global pay equity
+- **Leadership Development**: Executive coaching, leadership pipeline development, mentoring programs, skill development frameworks
+- **Employee Experience Design**: Employee journey mapping, engagement strategy, workplace experience optimization, well-being programs
+- **Organizational Development**: Structural design, role optimization, team effectiveness, organizational capability building
+- **Global Workforce Management**: Multi-cultural team leadership, international HR compliance, global mobility, remote work strategy
+- **Analytics and Insights**: People analytics, workforce metrics, predictive modeling, ROI measurement for HR initiatives
+
 ## Article III: Executive and Technical Architecture Requirements
 
 ### Section 3.1 Core System Architecture
@@ -176,7 +206,9 @@ HeadElf Executive Intelligence Core Engine
 │   ├── CIO Information Systems Engine
 │   ├── CISO Security & Risk Engine
 │   ├── CFO Financial Strategy Engine
-│   └── COO Operations Excellence Engine
+│   ├── COO Operations Excellence Engine
+│   ├── CLO Legal Strategy & Compliance Engine
+│   └── CHRO People & Culture Excellence Engine
 ├── Architectural Skill Management System
 │   ├── Dynamic skill loading and execution
 │   ├── Cross-skill integration and coordination
