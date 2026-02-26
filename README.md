@@ -1,6 +1,6 @@
 # HeadElf - World-Class C-Suite Executive Intelligence System for Claude Code
 
-The most advanced Claude Code extension ever developed, providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, and COO functions with 24/7 global operations and world-class decision-making intelligence.
+A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, and COO functions with 24/7 global operations and world-class decision-making intelligence.
 
 ## Overview
 
