@@ -45,38 +45,110 @@
             overflow-y: auto;
         }
 
-        .sidebar h3 {
-            color: #2c3e50;
+        .nav-section {
             margin-bottom: 1rem;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
         }
 
-        .sidebar ul {
+        .nav-section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.8rem 1rem;
+            background: #f8fafc;
+            border-radius: 5px;
+            cursor: pointer;
+            border: 1px solid #e2e8f0;
+            margin-bottom: 0.5rem;
+            transition: all 0.3s;
+            user-select: none;
+        }
+
+        .nav-section-header:hover {
+            background: #e2e8f0;
+            border-color: #3498db;
+        }
+
+        .nav-section-header.active {
+            background: #3498db;
+            color: white;
+            border-color: #2980b9;
+        }
+
+        .nav-section-title {
+            font-weight: 600;
+            font-size: 1rem;
+            color: #2c3e50;
+        }
+
+        .nav-section-header.active .nav-section-title {
+            color: white;
+        }
+
+        .nav-section-toggle {
+            font-size: 0.8rem;
+            font-weight: bold;
+            transition: transform 0.3s;
+            color: #666;
+        }
+
+        .nav-section-header.active .nav-section-toggle {
+            color: white;
+        }
+
+        .nav-section-toggle.expanded {
+            transform: rotate(90deg);
+        }
+
+        .nav-section-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            background: #fafbfc;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .nav-section-content.expanded {
+            max-height: 500px;
+            transition: max-height 0.3s ease-in;
+        }
+
+        .nav-section ul {
             list-style: none;
             padding: 0;
-            margin: 0 0 2rem 0;
+            margin: 0;
         }
 
-        .sidebar li {
-            margin-bottom: 0.5rem;
+        .nav-section li {
+            border-bottom: 1px solid #e2e8f0;
         }
 
-        .sidebar a {
+        .nav-section li:last-child {
+            border-bottom: none;
+        }
+
+        .nav-section a {
             display: block;
-            padding: 0.8rem 1rem;
+            padding: 0.8rem 1.5rem;
             text-decoration: none;
-            color: #666;
-            border-radius: 5px;
+            color: #555;
             transition: all 0.3s;
             font-size: 0.95rem;
+            border-left: 3px solid transparent;
         }
 
-        .sidebar a:hover {
-            background: #f8fafc;
+        .nav-section a:hover {
+            background: #f1f5f9;
             color: #3498db;
-            padding-left: 1.2rem;
+            border-left-color: #3498db;
+            padding-left: 1.8rem;
+        }
+
+        .nav-section a.current {
+            background: #e3f2fd;
+            color: #1976d2;
+            border-left-color: #1976d2;
+            font-weight: 600;
         }
 
         .main-content {
@@ -357,37 +429,72 @@
         <div class="layout">
             <!-- Sidebar Navigation -->
             <nav class="sidebar" id="sidebar">
-                <h3>📚 Getting Started</h3>
-                <ul>
-                    <li><a href="getting-started">🚀 Installation Guide</a></li>
-                    <li><a href="user-guide">💼 Executive User Guide</a></li>
-                    <li><a href="examples">📊 Real-World Examples</a></li>
-                </ul>
+                <div class="nav-section">
+                    <div class="nav-section-header" onclick="toggleSection('getting-started')">
+                        <span class="nav-section-title">📚 Getting Started</span>
+                        <span class="nav-section-toggle" id="getting-started-toggle">▶</span>
+                    </div>
+                    <div class="nav-section-content" id="getting-started-content">
+                        <ul>
+                            <li><a href="getting-started">🚀 Installation Guide</a></li>
+                            <li><a href="user-guide">💼 Executive User Guide</a></li>
+                            <li><a href="examples">📊 Real-World Examples</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-                <h3>🏗️ Architecture</h3>
-                <ul>
-                    <li><a href="architecture">🏛️ System Architecture</a></li>
-                    <li><a href="technical-specification">🔧 Technical Specs</a></li>
-                    <li><a href="api-reference">📡 API Reference</a></li>
-                </ul>
+                <div class="nav-section">
+                    <div class="nav-section-header" onclick="toggleSection('architecture')">
+                        <span class="nav-section-title">🏗️ Architecture</span>
+                        <span class="nav-section-toggle" id="architecture-toggle">▶</span>
+                    </div>
+                    <div class="nav-section-content" id="architecture-content">
+                        <ul>
+                            <li><a href="architecture">🏛️ System Architecture</a></li>
+                            <li><a href="technical-specification">🔧 Technical Specs</a></li>
+                            <li><a href="api-reference">📡 API Reference</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-                <h3>🔌 Extensibility</h3>
-                <ul>
-                    <li><a href="extensibility-framework">🧩 Extension Framework</a></li>
-                    <li><a href="developer-guide">🛠️ Developer Guide</a></li>
-                </ul>
+                <div class="nav-section">
+                    <div class="nav-section-header" onclick="toggleSection('extensibility')">
+                        <span class="nav-section-title">🔌 Extensibility</span>
+                        <span class="nav-section-toggle" id="extensibility-toggle">▶</span>
+                    </div>
+                    <div class="nav-section-content" id="extensibility-content">
+                        <ul>
+                            <li><a href="extensibility-framework">🧩 Extension Framework</a></li>
+                            <li><a href="developer-guide">🛠️ Developer Guide</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-                <h3>📋 Governance</h3>
-                <ul>
-                    <li><a href="constitution">📜 Project Constitution</a></li>
-                    <li><a href="legal-disclaimer">⚖️ Legal Disclaimer</a></li>
-                </ul>
+                <div class="nav-section">
+                    <div class="nav-section-header" onclick="toggleSection('governance')">
+                        <span class="nav-section-title">📋 Governance</span>
+                        <span class="nav-section-toggle" id="governance-toggle">▶</span>
+                    </div>
+                    <div class="nav-section-content" id="governance-content">
+                        <ul>
+                            <li><a href="constitution">📜 Project Constitution</a></li>
+                            <li><a href="legal-disclaimer">⚖️ Legal Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-                <h3>🔗 External Links</h3>
-                <ul>
-                    <li><a href="https://github.com/pauljbernard/headElf" target="_blank">📂 GitHub Repository</a></li>
-                    <li><a href="https://claude.ai/code" target="_blank">🤖 Claude Code</a></li>
-                </ul>
+                <div class="nav-section">
+                    <div class="nav-section-header" onclick="toggleSection('external')">
+                        <span class="nav-section-title">🔗 External Links</span>
+                        <span class="nav-section-toggle" id="external-toggle">▶</span>
+                    </div>
+                    <div class="nav-section-content" id="external-content">
+                        <ul>
+                            <li><a href="https://github.com/pauljbernard/headElf" target="_blank">📂 GitHub Repository</a></li>
+                            <li><a href="https://claude.ai/code" target="_blank">🤖 Claude Code</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
 
             <!-- Main Content -->
@@ -525,10 +632,60 @@
             overlay.classList.remove('open');
         }
 
+        function toggleSection(sectionId) {
+            const header = document.querySelector(`[onclick="toggleSection('${sectionId}')"]`);
+            const toggle = document.getElementById(`${sectionId}-toggle`);
+            const content = document.getElementById(`${sectionId}-content`);
+
+            // Toggle the section
+            const isExpanded = content.classList.contains('expanded');
+
+            if (isExpanded) {
+                // Collapse
+                content.classList.remove('expanded');
+                toggle.classList.remove('expanded');
+                header.classList.remove('active');
+                toggle.textContent = '▶';
+            } else {
+                // Expand
+                content.classList.add('expanded');
+                toggle.classList.add('expanded');
+                header.classList.add('active');
+                toggle.textContent = '▼';
+            }
+        }
+
+        // Initialize navigation - expand Getting Started by default
+        document.addEventListener('DOMContentLoaded', function() {
+            toggleSection('getting-started');
+        });
+
         // Close sidebar when clicking on a link (mobile)
         document.querySelectorAll('.sidebar a').forEach(link => {
             link.addEventListener('click', closeSidebar);
         });
+
+        // Set current page indicator
+        function setCurrentPage() {
+            const currentPath = window.location.pathname;
+            const links = document.querySelectorAll('.sidebar a');
+
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href && currentPath.includes(href)) {
+                    link.classList.add('current');
+                    // Also expand the parent section
+                    const section = link.closest('.nav-section');
+                    const sectionId = section.querySelector('[onclick*="toggleSection"]').onclick.toString().match(/'([^']+)'/)[1];
+                    if (!document.getElementById(`${sectionId}-content`).classList.contains('expanded')) {
+                        toggleSection(sectionId);
+                    }
+                }
+            });
+        }
+
+        // Set current page on load
+        document.addEventListener('DOMContentLoaded', setCurrentPage);
     </script>
 
     <footer>
