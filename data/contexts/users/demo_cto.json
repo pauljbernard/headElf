@@ -1,12 +1,33 @@
 {
   "user_id": "demo_cto",
-  "organization_profile": {},
-  "role_preferences": {},
-  "historical_decisions": [],
-  "learning_patterns": {},
-  "custom_extensions": [],
-  "last_decision": "1772164463689-ce7d4a9a",
-  "last_activity": "2026-02-26T22:54:23.689467Z",
-  "decision_count": 2,
-  "last_updated": "2026-02-26T22:54:23.690228Z"
+  "organization_profile": {
+    "name": "Demo Manufacturing Corp",
+    "industry": "manufacturing",
+    "size": "1000_employees",
+    "tech_maturity": "transitioning"
+  },
+  "role_preferences": {
+    "decision_style": "data_driven",
+    "risk_tolerance": "moderate",
+    "communication_style": "detailed"
+  },
+  "learning_patterns": {
+    "frequent_decision_types": [
+      "technology_strategy",
+      "vendor_selection"
+    ],
+    "success_factors": [
+      "thorough_analysis",
+      "stakeholder_buy_in"
+    ],
+    "preferred_frameworks": [
+      "togaf",
+      "lean_startup"
+    ]
+  },
+  "custom_extensions": [
+    "manufacturing_systems",
+    "iot_integration"
+  ],
+  "last_updated": "2026-02-26T22:54:23.793685Z"
 }
