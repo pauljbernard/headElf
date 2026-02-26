@@ -1,0 +1,107 @@
+# Site settings
+title: "HeadElf Documentation"
+subtitle: "World-Class Chief Software Architect Extension for Claude Code"
+description: >-
+  HeadElf transforms Claude Code into a comprehensive Chief Software Architect
+  with autonomous operational capabilities, 24/7 global operations, and expertise
+  spanning 80+ years of computing history across all architectural domains.
+
+url: "https://pauljbernard.github.io"
+baseurl: "/headElf"
+repository: "pauljbernard/headElf"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Installation"
+    url: "/installation/"
+  - title: "Usage Guide"
+    url: "/usage/"
+  - title: "API Reference"
+    url: "/api/"
+  - title: "Contributing"
+    url: "/contributing/"
+  - title: "Examples"
+    url: "/examples/"
+
+# Collection settings
+collections:
+  skills:
+    output: true
+    permalink: /:collection/:name/
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  examples:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "skills"
+    values:
+      layout: "skill"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+  - scope:
+      path: ""
+      type: "examples"
+    values:
+      layout: "example"
+
+# Syntax highlighting
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# SEO
+author:
+  name: "HeadElf Development Team"
+  email: "noreply@headelf.dev"
+
+social:
+  - name: "GitHub"
+    url: "https://github.com/pauljbernard/headElf"
+    icon: "fab fa-github"
+
+# Google Analytics (optional)
+# google_analytics: "UA-XXXXXXXX-X"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
