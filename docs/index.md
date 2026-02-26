@@ -5,7 +5,7 @@ description: "Comprehensive Claude Code extension providing autonomous C-suite e
 permalink: /
 ---
 
-A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, COO, CLO, CHRO, CMSO, and CPO functions with 24/7 global operations and world-class decision-making intelligence.
+A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, COO, CLO, CHRO, CMSO, and CPO functions with world-class decision-making intelligence.
 
 ## 🚀 Revolutionary Git-Based Architecture
 
@@ -40,6 +40,36 @@ HeudElf pioneers a **Git-first operational model** that transforms executive int
 **👔 Executive Intelligence Users**: Install HeadElf as Claude Code extension, create your own Git repository for decision persistence and team collaboration.
 
 [**📖 Complete Git-Based Architecture Guide**](git-based-architecture) - Learn how HeudElf's revolutionary approach solves enterprise challenges through Git workflows.
+
+### 🔌 Enterprise System Integration via MCP
+
+HeadElf seamlessly connects to **any enterprise system** through Claude Code's Model Context Protocol (MCP):
+
+<div class="mcp-integration-highlights">
+  <div class="mcp-feature">
+    <h4>📊 ERP Integration</h4>
+    <p>SAP, Oracle, NetSuite, Dynamics - Real-time financial data for executive analysis</p>
+  </div>
+
+  <div class="mcp-feature">
+    <h4>👥 CRM Integration</h4>
+    <p>Salesforce, HubSpot, Dynamics CRM - Live customer and sales pipeline intelligence</p>
+  </div>
+
+  <div class="mcp-feature">
+    <h4>💰 Financial Systems</h4>
+    <p>QuickBooks, Sage, Workday - Complete financial operations integration</p>
+  </div>
+
+  <div class="mcp-feature">
+    <h4>👤 HRIS Integration</h4>
+    <p>BambooHR, ADP, SuccessFactors - Workforce analytics and people intelligence</p>
+  </div>
+</div>
+
+**No custom development required** - MCP servers provide secure, authenticated connections to enterprise systems with real-time data access for executive decision-making.
+
+[**🔌 Complete MCP Integration Guide**](mcp-integration) - Learn how to configure enterprise system integrations with HeudElf.
 
 ## Executive Intelligence Overview
 
@@ -201,8 +231,14 @@ HeadElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
   </div>
 
   <div class="nav-card">
-    <h3>🔌 Extension Framework</h3>
-    <p>Two-dimensional extension system for industry verticals and enterprise contexts.</p>
+    <h3>🔌 MCP Integration</h3>
+    <p>Enterprise system integration via Model Context Protocol - ERP, CRM, HRIS, Financial systems.</p>
+    <a href="mcp-integration" class="nav-button">Integration</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>🧩 Extension Framework</h3>
+    <p>Three-dimensional extension system for industry verticals and enterprise contexts.</p>
     <a href="extensibility-framework" class="nav-button">Extensions</a>
   </div>
 
@@ -242,8 +278,8 @@ HeadElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
   </div>
 
   <div class="stat-card">
-    <div class="stat-number">24/7</div>
-    <div class="stat-label">Global Operations</div>
+    <div class="stat-number">9</div>
+    <div class="stat-label">C-Suite Roles</div>
   </div>
 </div>
 
@@ -296,7 +332,7 @@ HeadElf is fully implemented and ready for immediate deployment with Claude Code
 ### ✅ Executive Subagent Coordination
 - **Strategic Advisor**: Cross-functional C-suite strategic intelligence coordination
 - **Executive Orchestrator**: Autonomous decision-making with executive authority matrix
-- **Autonomous Execution**: 24/7 global operations with follow-the-sun coordination
+- **Autonomous Execution**: Autonomous executive decision-making with enterprise authority matrix
 - **Persona Manager**: Multi-domain expertise coordination across specialized personas
 - **Meeting Proxy**: Executive communication and stakeholder coordination
 
@@ -350,7 +386,7 @@ HeadElf is built with community contribution in mind:
 
 **Ready to Transform Your Executive Decision-Making?**
 
-HeadElf provides world-class C-suite executive intelligence that enhances your decision-making capabilities across all business functions. Whether you're evaluating M&A opportunities, managing global operations, or leading digital transformation initiatives, HeadElf offers the comprehensive executive support you need.
+HeadElf provides world-class C-suite executive intelligence that enhances your decision-making capabilities across all business functions. Whether you're evaluating M&A opportunities, managing enterprise operations, or leading digital transformation initiatives, HeadElf offers the comprehensive executive support you need.
 
 <style>
 .capabilities-grid {
@@ -496,5 +532,40 @@ HeadElf provides world-class C-suite executive intelligence that enhances your d
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.5;
     margin: 0;
+}
+
+/* MCP Integration Highlights */
+.mcp-integration-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.mcp-feature {
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f0fe 100%);
+    border: 1px solid #4285f4;
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mcp-feature:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(66, 133, 244, 0.15);
+}
+
+.mcp-feature h4 {
+    margin: 0 0 0.8rem 0;
+    color: #1565c0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.mcp-feature p {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.4;
 }
 </style>

@@ -746,62 +746,185 @@ export class ClaudeCodeIntegration {
 }
 ```
 
-### Enterprise System Integration
+### Enterprise System Integration via MCP
 
-#### ERP Integration Framework
+HeudElf leverages **Claude Code's Model Context Protocol (MCP)** infrastructure for all enterprise system integrations. This approach eliminates the need for custom API connectors by utilizing standardized MCP servers that handle authentication, data transformation, and real-time synchronization.
+
+#### MCP-Based Integration Architecture
 
 ```typescript
-export class ERPIntegrationPlatform extends EventEmitter {
-  private connectors: Map<ERPType, ERPConnector>
-  private dataTransformers: Map<ERPType, DataTransformer>
+export class MCPEnterpriseIntegration extends EventEmitter {
+  private mcpServers: Map<SystemType, MCPServerConfig>
+  private activeConnections: Map<string, MCPConnection>
 
-  async connectERP(credentials: ERPCredentials): Promise<ERPConnection> {
-    const connector = this.connectors.get(credentials.type)
-
-    if (!connector) {
-      throw new UnsupportedERPError(`ERP type ${credentials.type} not supported`)
+  async initializeMCPServers(configs: MCPServerConfig[]): Promise<void> {
+    for (const config of configs) {
+      await this.registerMCPServer(config)
     }
 
-    const connection = await connector.connect(credentials)
-    await this.validateConnection(connection)
-
-    this.emit('erp-connected', { type: credentials.type, connection })
-    return connection
+    this.emit('mcp-servers-initialized', {
+      serverCount: configs.length,
+      supportedSystems: configs.map(c => c.systemType)
+    })
   }
 
-  async syncERPData(): Promise<ERPDataSync> {
-    const syncResults: ERPSyncResult[] = []
+  async queryEnterpriseData(
+    systemType: SystemType,
+    query: EnterpriseDataQuery
+  ): Promise<EnterpriseDataResponse> {
+    const connection = this.activeConnections.get(systemType)
 
-    for (const [erpType, connector] of this.connectors) {
-      if (connector.isConnected()) {
-        const result = await this.syncSingleERP(erpType, connector)
-        syncResults.push(result)
+    if (!connection) {
+      throw new MCPConnectionError(`No active MCP connection for ${systemType}`)
+    }
+
+    // Execute query through MCP protocol
+    const mcpRequest: MCPRequest = {
+      method: 'enterprise/query',
+      params: {
+        systemType,
+        query: query.sql || query.graphql,
+        filters: query.filters,
+        limit: query.limit
       }
     }
 
-    return {
-      syncResults,
-      timestamp: new Date(),
-      totalRecords: syncResults.reduce((total, result) => total + result.recordCount, 0)
-    }
+    const response = await connection.sendRequest(mcpRequest)
+    return this.transformMCPResponse(response)
   }
 
-  private async syncSingleERP(
-    erpType: ERPType,
-    connector: ERPConnector
-  ): Promise<ERPSyncResult> {
-    const transformer = this.dataTransformers.get(erpType)
-    const rawData = await connector.extractData()
-    const transformedData = await transformer.transform(rawData)
+  private async registerMCPServer(config: MCPServerConfig): Promise<void> {
+    const connection = await MCPConnection.create({
+      serverPath: config.serverPath,
+      serverArgs: config.serverArgs,
+      authentication: config.authentication,
+      timeout: config.timeout || 30000
+    })
 
-    await this.storeTransformedData(transformedData)
+    await connection.initialize()
+    this.activeConnections.set(config.systemType, connection)
+    this.mcpServers.set(config.systemType, config)
+  }
+}
+```
 
-    return {
-      erpType,
-      recordCount: rawData.length,
-      transformedCount: transformedData.length,
-      syncedAt: new Date()
+#### Supported Enterprise Systems via MCP
+
+HeudElf supports enterprise integration through Claude Code's MCP ecosystem:
+
+**ERP Systems:**
+- SAP S/4HANA, ECC (via `mcp-server-sap`)
+- Oracle ERP Cloud, PeopleSoft (via `mcp-server-oracle`)
+- Microsoft Dynamics 365 (via `mcp-server-dynamics`)
+- NetSuite (via `mcp-server-netsuite`)
+
+**CRM Systems:**
+- Salesforce (via `mcp-server-salesforce`)
+- HubSpot (via `mcp-server-hubspot`)
+- Microsoft Dynamics CRM (via `mcp-server-dynamics-crm`)
+
+**Financial Systems:**
+- QuickBooks Online/Enterprise (via `mcp-server-quickbooks`)
+- Xero (via `mcp-server-xero`)
+- SAP Concur (via `mcp-server-concur`)
+
+**HRIS Systems:**
+- BambooHR (via `mcp-server-bamboohr`)
+- Workday (via `mcp-server-workday`)
+- ADP Workforce Now (via `mcp-server-adp`)
+
+#### Configuration Example
+
+```typescript
+interface MCPServerConfig {
+  systemType: SystemType
+  serverPath: string
+  serverArgs: string[]
+  authentication: {
+    type: 'oauth2' | 'api_key' | 'basic'
+    credentials: Record<string, string>
+  }
+  dataMapping: DataMappingConfig
+  syncSchedule?: string
+}
+
+const enterpriseConfigs: MCPServerConfig[] = [
+  {
+    systemType: 'SAP_ERP',
+    serverPath: 'mcp-server-sap',
+    serverArgs: ['--host', process.env.SAP_HOST, '--client', process.env.SAP_CLIENT],
+    authentication: {
+      type: 'basic',
+      credentials: {
+        username: process.env.SAP_USERNAME,
+        password: process.env.SAP_PASSWORD
+      }
+    },
+    dataMapping: {
+      tables: ['VBAK', 'VBAP', 'KNA1', 'MARA'],
+      transformations: ['currency_conversion', 'date_formatting']
+    },
+    syncSchedule: '*/15 * * * *' // Every 15 minutes
+  },
+  {
+    systemType: 'SALESFORCE_CRM',
+    serverPath: 'mcp-server-salesforce',
+    serverArgs: ['--api-version', '58.0'],
+    authentication: {
+      type: 'oauth2',
+      credentials: {
+        client_id: process.env.SFDC_CLIENT_ID,
+        client_secret: process.env.SFDC_CLIENT_SECRET,
+        refresh_token: process.env.SFDC_REFRESH_TOKEN
+      }
+    },
+    dataMapping: {
+      objects: ['Account', 'Opportunity', 'Contact', 'Lead'],
+      relationships: ['Account_to_Opportunity', 'Contact_to_Account']
     }
+  }
+]
+```
+
+#### Real-Time Executive Intelligence
+
+```typescript
+export class MCPExecutiveIntelligence {
+  async generateCrossFunctionalAnalysis(
+    query: ExecutiveQuery
+  ): Promise<ExecutiveIntelligenceResponse> {
+    // Gather real-time data from all enterprise systems via MCP
+    const [
+      erpData,
+      crmData,
+      hrData,
+      financialData
+    ] = await Promise.all([
+      this.mcpIntegration.queryEnterpriseData('ERP', {
+        tables: ['revenue', 'costs', 'inventory'],
+        timeframe: 'current_quarter'
+      }),
+      this.mcpIntegration.queryEnterpriseData('CRM', {
+        objects: ['opportunities', 'accounts'],
+        filters: { stage: 'active', value: { $gt: 100000 }}
+      }),
+      this.mcpIntegration.queryEnterpriseData('HRIS', {
+        data: ['headcount', 'performance', 'retention'],
+        department: 'all'
+      }),
+      this.mcpIntegration.queryEnterpriseData('FINANCIAL', {
+        statements: ['balance_sheet', 'income_statement'],
+        period: 'current_month'
+      })
+    ])
+
+    // Generate coordinated C-suite analysis with real enterprise data
+    return this.coordinateCSuiteAnalysis(query, {
+      erpData,
+      crmData,
+      hrData,
+      financialData
+    })
   }
 }
 ```

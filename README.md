@@ -1,6 +1,6 @@
 # HeadElf - World-Class C-Suite Executive Intelligence System for Claude Code
 
-A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, COO, CLO, and CHRO functions with 24/7 global operations and world-class decision-making intelligence.
+A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, COO, CLO, CHRO, CMSO, and CPO functions with world-class decision-making intelligence.
 
 ## Overview
 
@@ -42,7 +42,7 @@ HeadElf/
 ├── subagents/                  # Executive Subagents (5 specialized agents)
 │   ├── strategic-advisor/      # C-Suite Strategic Intelligence Advisor
 │   ├── executive-orchestrator/ # Cross-Functional Decision Coordination
-│   ├── autonomous-execution/   # 24/7 Executive Operations
+│   ├── autonomous-execution/   # Autonomous Executive Operations
 │   ├── persona-manager/        # Multi-Persona Executive Coordination
 │   └── meeting-proxy/          # Executive Meeting and Communication
 ├── src/                        # TypeScript Intelligence Modules
@@ -202,6 +202,6 @@ Released under the MIT License. See [LICENSE](LICENSE) for details.
 
 **Ready to Transform Your Executive Operations?**
 
-HeadElf provides world-class C-suite executive intelligence across all business functions. Experience autonomous decision-making, global operations excellence, and industry-leading performance.
+HeadElf provides world-class C-suite executive intelligence across all business functions. Experience autonomous decision-making, enterprise operations excellence, and industry-leading performance.
 
 **[Get Started →](https://pauljbernard.github.io/headElf/installation/)**
