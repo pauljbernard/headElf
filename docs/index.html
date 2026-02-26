@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeadElf - C-Suite Executive Intelligence System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8fafc;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .layout {
+            display: flex;
+            min-height: calc(100vh - 200px);
+            max-width: 1400px;
+            margin: 0 auto;
+            gap: 2rem;
+        }
+
+        .sidebar {
+            width: 280px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 1.5rem;
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+            max-height: calc(100vh - 4rem);
+            overflow-y: auto;
+        }
+
+        .sidebar h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 0.5rem;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 0.8rem 1rem;
+            text-decoration: none;
+            color: #666;
+            border-radius: 5px;
+            transition: all 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .sidebar a:hover {
+            background: #f8fafc;
+            color: #3498db;
+            padding-left: 1.2rem;
+        }
+
+        .main-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        main {
+            padding: 3rem 0;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .navigation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .nav-card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #3498db;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .nav-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .nav-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .nav-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .nav-card a {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .nav-card a:hover {
+            background: #2980b9;
+        }
+
+        .quick-start {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .quick-start h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .quick-start-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .cta-primary {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .cta-primary:hover {
+            background: #c0392b;
+        }
+
+        .cta-secondary {
+            background: #34495e;
+            color: white;
+        }
+
+        .cta-secondary:hover {
+            background: #2c3e50;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+        }
+
+        /* Mobile sidebar toggle */
+        .sidebar-toggle {
+            display: none;
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            z-index: 1000;
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 0.8rem;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .sidebar-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .hero-stats { grid-template-columns: 1fr; }
+            .navigation-grid { grid-template-columns: 1fr; }
+            .quick-start-buttons { flex-direction: column; align-items: center; }
+
+            .layout {
+                flex-direction: column;
+                padding: 0 1rem;
+            }
+
+            .sidebar {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 280px;
+                height: 100vh;
+                z-index: 1000;
+                border-radius: 0;
+                overflow-y: auto;
+            }
+
+            .sidebar.open {
+                display: block;
+            }
+
+            .sidebar-toggle {
+                display: block;
+            }
+
+            .sidebar-overlay.open {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>HeadElf</h1>
+            <p class="subtitle">A Comprehensive C-Suite Executive Intelligence System for Claude Code</p>
+            <p>Autonomous executive capabilities across CTO, CIO, CISO, CFO, and COO functions with 24/7 global operations and world-class decision-making intelligence.</p>
+
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <span class="stat-number">75+</span>
+                    <span class="stat-label">Executive Skills</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">18</span>
+                    <span class="stat-label">Business Domains</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">10</span>
+                    <span class="stat-label">Industry Verticals</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Global Operations</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile sidebar toggle -->
+    <button class="sidebar-toggle" onclick="toggleSidebar()">☰ Menu</button>
+    <div class="sidebar-overlay" onclick="closeSidebar()"></div>
+
+    <main>
+        <div class="layout">
+            <!-- Sidebar Navigation -->
+            <nav class="sidebar" id="sidebar">
+                <h3>📚 Getting Started</h3>
+                <ul>
+                    <li><a href="getting-started.html">🚀 Installation Guide</a></li>
+                    <li><a href="user-guide.html">💼 Executive User Guide</a></li>
+                    <li><a href="examples.html">📊 Real-World Examples</a></li>
+                </ul>
+
+                <h3>🏗️ Architecture</h3>
+                <ul>
+                    <li><a href="architecture.html">🏛️ System Architecture</a></li>
+                    <li><a href="technical-specification.html">🔧 Technical Specs</a></li>
+                    <li><a href="api-reference.html">📡 API Reference</a></li>
+                </ul>
+
+                <h3>🔌 Extensibility</h3>
+                <ul>
+                    <li><a href="extensibility-framework.html">🧩 Extension Framework</a></li>
+                    <li><a href="developer-guide.html">🛠️ Developer Guide</a></li>
+                </ul>
+
+                <h3>📋 Governance</h3>
+                <ul>
+                    <li><a href="constitution.html">📜 Project Constitution</a></li>
+                    <li><a href="legal-disclaimer.html">⚖️ Legal Disclaimer</a></li>
+                </ul>
+
+                <h3>🔗 External Links</h3>
+                <ul>
+                    <li><a href="https://github.com/pauljbernard/headElf" target="_blank">📂 GitHub Repository</a></li>
+                    <li><a href="https://claude.ai/code" target="_blank">🤖 Claude Code</a></li>
+                </ul>
+            </nav>
+
+            <!-- Main Content -->
+            <div class="main-content">
+                <div class="warning">
+                    <strong>Important Legal Notice:</strong> HeadElf is a business intelligence and decision support tool. All recommendations require validation by qualified professionals. See our <a href="legal-disclaimer.html">Legal Disclaimer</a> for complete terms and limitations.
+                </div>
+
+            <div class="section">
+                <div class="quick-start">
+                    <h3>Get Started with HeadElf</h3>
+                    <p>Transform your executive decision-making with comprehensive C-suite intelligence</p>
+                    <div class="quick-start-buttons">
+                        <a href="getting-started.html" class="cta-button cta-primary">Get Started</a>
+                        <a href="https://github.com/pauljbernard/headElf" class="cta-button cta-secondary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Documentation Navigation</h2>
+                <div class="navigation-grid">
+                    <div class="nav-card">
+                        <h3>🚀 Getting Started</h3>
+                        <p>Complete installation guide for Claude Code and HeadElf setup with step-by-step instructions for executives and technical teams.</p>
+                        <a href="getting-started.html">Start Here</a>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>💼 Executive User Guide</h3>
+                        <p>Comprehensive guide for C-suite executives with real-world scenarios, ROI analysis, and business impact examples.</p>
+                        <a href="user-guide.html">User Guide</a>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>📊 Executive Examples</h3>
+                        <p>Detailed scenarios including M&A evaluation, crisis management, global expansion, and digital transformation strategies.</p>
+                        <a href="examples.html">View Examples</a>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>🏗️ Architecture Overview</h3>
+                        <p>Technical architecture guide covering the executive intelligence engine, C-suite modules, and enterprise integration.</p>
+                        <a href="architecture.html">Architecture</a>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>📋 Project Constitution</h3>
+                        <p>Governance framework, quality standards, and development principles ensuring world-class executive intelligence.</p>
+                        <a href="constitution.html">Constitution</a>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>🔧 Technical Specification</h3>
+                        <p>Comprehensive technical implementation details, API specifications, and integration requirements.</p>
+                        <a href="technical-specification.html">Technical Specs</a>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>🛠️ Developer Guide</h3>
+                        <p>Complete developer documentation for contributing to HeadElf, creating extensions, and system integration.</p>
+                        <a href="developer-guide.html">Developer Guide</a>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>🔌 Extensibility Framework</h3>
+                        <p>Two-dimensional extension system for industry verticals and enterprise contexts with community contribution guidelines.</p>
+                        <a href="extensibility-framework.html">Extensions</a>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>📡 API Reference</h3>
+                        <p>Complete API documentation with examples, authentication, rate limits, and SDK information for system integration.</p>
+                        <a href="api-reference.html">API Reference</a>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>⚖️ Legal Disclaimer</h3>
+                        <p>Important legal information, terms of use, liability limitations, and professional consultation requirements.</p>
+                        <a href="legal-disclaimer.html">Legal Information</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Executive Intelligence Capabilities</h2>
+                <div class="navigation-grid">
+                    <div class="nav-card">
+                        <h3>🚀 CTO Intelligence</h3>
+                        <p>Venture capital evaluation, M&A technology integration, innovation strategy, and platform architecture decisions.</p>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>💰 CFO Intelligence</h3>
+                        <p>Capital markets excellence, M&A financial execution, ESG integration, and advanced financial modeling capabilities.</p>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>🛡️ CISO Intelligence</h3>
+                        <p>Global regulatory compliance, zero trust architecture, quantum cryptography readiness, and crisis management coordination.</p>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>💼 CIO Intelligence</h3>
+                        <p>Digital transformation leadership, enterprise architecture, IT operations excellence, and business-IT alignment strategies.</p>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>⚙️ COO Intelligence</h3>
+                        <p>Operational excellence frameworks, global supply chain optimization, performance management, and multi-site coordination.</p>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>🤖 AI/ML Intelligence</h3>
+                        <p>Executive reasoning engines, predictive analytics, prescriptive optimization, and continuous learning capabilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.querySelector('.sidebar-overlay');
+            sidebar.classList.add('open');
+            overlay.classList.add('open');
+        }
+
+        function closeSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.querySelector('.sidebar-overlay');
+            sidebar.classList.remove('open');
+            overlay.classList.remove('open');
+        }
+
+        // Close sidebar when clicking on a link (mobile)
+        document.querySelectorAll('.sidebar a').forEach(link => {
+            link.addEventListener('click', closeSidebar);
+        });
+    </script>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HeadElf - C-Suite Executive Intelligence System</p>
+            <p>Built as an extension for <a href="https://claude.ai/code" style="color: #3498db;">Claude Code</a></p>
+        </div>
+    </footer>
+</body>
+</html>
