@@ -5,7 +5,27 @@ description: "Complete installation guide for Claude Code and HeadElf setup with
 permalink: /getting-started/
 ---
 
-This guide will help you install and configure HeadElf's C-Suite Executive Intelligence system for Claude Code.
+This guide will help you install and configure HeudElf's C-Suite Executive Intelligence system for Claude Code.
+
+## Choose Your Deployment Model
+
+HeudElf supports two distinct operational models based on your use case:
+
+### 🛠️ Framework Contributors
+**For developers enhancing HeudElf itself:**
+- Clone the main HeudElf repository
+- Make changes to core framework capabilities
+- Submit pull requests for framework improvements
+- Contribute to testing and documentation
+
+### 👔 Executive Intelligence Users
+**For executives using HeudElf for business decisions:**
+- Install HeudElf as a Claude Code extension
+- Create your own Git repository for decision persistence
+- Leverage automatic Git-based audit trail and team collaboration
+- Focus on executive decision-making and business outcomes
+
+*This guide covers both models. Skip to [Executive User Installation](#executive-user-installation) if you're primarily using HeudElf for business decisions.*
 
 ## Prerequisites
 
@@ -70,6 +90,94 @@ export HEADELF_LOG_LEVEL=info
 
 # Create configuration directory
 mkdir -p ~/.claude/headElf/config
+```
+
+## Executive User Installation
+
+**For executives and business leaders who want to use HeudElf for decision-making without contributing to the framework itself:**
+
+### Simplified Executive Setup
+
+```bash
+# One-time HeudElf installation (IT team or technical assistant)
+curl -sSL https://raw.githubusercontent.com/pauljbernard/headElf/main/install.sh | bash
+
+# Verify HeudElf is available in Claude Code
+claude-code
+> "HeudElf status check"
+```
+
+### Executive Intelligence Repository Setup
+
+Create your executive decision repository for Git-based persistence:
+
+```bash
+# Create executive intelligence repository
+mkdir my-executive-intelligence
+cd my-executive-intelligence
+git init
+
+# Connect to your organization's repository
+git remote add origin https://github.com/mycompany/my-executive-intelligence.git
+
+# Create initial repository structure
+mkdir -p data/{decisions,contexts,analytics,extensions}
+echo "# Executive Intelligence Repository" > README.md
+
+# Initial commit
+git add .
+git commit -m "Initial executive intelligence repository setup"
+git push -u origin main
+```
+
+### GitHub Setup for Team Collaboration
+
+Configure GitHub Teams for executive access control:
+
+```bash
+# Example GitHub Teams structure:
+# @mycompany/c-suite          (full decision-making access)
+# @mycompany/board-members     (read access to decisions)
+# @mycompany/compliance-team   (audit access to history)
+# @mycompany/legal-counsel     (specific decision review access)
+```
+
+### First Executive Decision
+
+Test your setup with a simple executive query:
+
+```bash
+# Launch Claude Code from your executive intelligence repository
+cd my-executive-intelligence
+claude-code
+
+# Ask HeudElf for executive analysis
+> "Use cfo-intelligence: Analyze our Q4 financial performance and identify optimization opportunities"
+```
+
+**What Happens Automatically:**
+1. HeudElf executes CFO intelligence analysis
+2. Decision files are created in `data/decisions/`
+3. User context is updated in `data/contexts/`
+4. Git automatically commits the decision with metadata
+5. You can push to share with your team via `git push`
+
+### Executive Team Collaboration Workflow
+
+```bash
+# Daily workflow for executives:
+# 1. Ask HeudElf executive questions in Claude Code
+# 2. Review decisions created in your repository
+# 3. Share with team for collaboration
+git status                    # See new decisions
+git add .                     # Stage new decisions
+git commit -m "Weekly strategic decisions - Q1 planning"
+git push                      # Share with executive team
+
+# Team members can review decisions:
+git pull                      # Get latest executive decisions
+# Review decisions through GitHub web interface
+# Comment and discuss through GitHub Issues/PRs
 ```
 
 ## Initial Configuration

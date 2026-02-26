@@ -7,6 +7,40 @@ permalink: /
 
 A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, COO, CLO, CHRO, CMSO, and CPO functions with 24/7 global operations and world-class decision-making intelligence.
 
+## 🚀 Revolutionary Git-Based Architecture
+
+HeudElf pioneers a **Git-first operational model** that transforms executive intelligence through proven infrastructure:
+
+<div class="git-architecture-highlights">
+  <div class="git-feature">
+    <h4>🔒 Enterprise Security via GitHub</h4>
+    <p>Leverage GitHub's proven enterprise infrastructure with OAuth, SAML, LDAP integration, and advanced threat protection instead of custom security systems.</p>
+  </div>
+
+  <div class="git-feature">
+    <h4>📝 Immutable Audit Trail</h4>
+    <p>Every executive decision automatically commits to Git with cryptographic integrity, providing complete audit history for compliance and governance.</p>
+  </div>
+
+  <div class="git-feature">
+    <h4>🌐 Zero Infrastructure Overhead</h4>
+    <p>No databases, servers, or complex deployments. HeadElf operates on local files with Git repositories for distributed backup and collaboration.</p>
+  </div>
+
+  <div class="git-feature">
+    <h4>🛍️ GitHub Extension Marketplace</h4>
+    <p>Organic community marketplace through GitHub's repository ecosystem with standardized search, peer review, and distribution workflows.</p>
+  </div>
+</div>
+
+### Two Operational Modalities
+
+**🛠️ Framework Contributors**: Clone HeadElf repository to enhance core capabilities and submit pull requests for framework improvements.
+
+**👔 Executive Intelligence Users**: Install HeadElf as Claude Code extension, create your own Git repository for decision persistence and team collaboration.
+
+[**📖 Complete Git-Based Architecture Guide**](git-based-architecture) - Learn how HeudElf's revolutionary approach solves enterprise challenges through Git workflows.
+
 ## Executive Intelligence Overview
 
 HeadElf transforms Claude Code into a comprehensive C-Suite Executive Intelligence system with deep expertise across all executive functions:
@@ -158,6 +192,12 @@ HeadElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
     <h3>🏗️ Technical Architecture</h3>
     <p>Technical architecture guide covering system components and integration patterns.</p>
     <a href="architecture" class="nav-button">Architecture</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>📖 Git-Based Architecture</h3>
+    <p>Revolutionary Git-first operational model with enterprise security and zero infrastructure.</p>
+    <a href="git-based-architecture" class="nav-button">Git Workflows</a>
   </div>
 
   <div class="nav-card">
@@ -422,5 +462,39 @@ HeadElf provides world-class C-suite executive intelligence that enhances your d
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+}
+
+.git-architecture-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.git-feature {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.git-feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.git-feature h4 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.git-feature p {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+    margin: 0;
 }
 </style>

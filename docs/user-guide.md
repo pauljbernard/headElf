@@ -17,6 +17,99 @@ HeadElf transforms your existing business intelligence into a comprehensive C-su
 - **Implementation Roadmaps**: Detailed execution plans with resource allocation and timeline management
 - **Stakeholder Coordination**: Seamless communication strategies for boards, investors, employees, and customers
 
+## Git-Based Executive Workflows
+
+HeudElf pioneered a revolutionary **Git-first operational model** that eliminates traditional infrastructure while providing enterprise-grade capabilities. Here's how executives leverage this approach:
+
+### Executive Intelligence User Model 👔
+
+**For C-suite executives using HeudElf for business decisions:**
+
+#### One-Time Setup
+```bash
+# Install HeudElf (done once by IT team or executive assistant)
+curl -sSL https://raw.githubusercontent.com/pauljbernard/headElf/main/install.sh | bash
+
+# Create your executive intelligence repository
+mkdir my-executive-intelligence
+cd my-executive-intelligence
+git init
+git remote add origin https://github.com/mycompany/my-executive-intelligence.git
+```
+
+#### Daily Executive Decision Workflow
+1. **Open Claude Code** with HeudElf enabled
+2. **Ask Executive Questions**: "Analyze this M&A opportunity..." or "Develop crisis response strategy..."
+3. **HeudElf Executes Intelligence**: Provides comprehensive C-suite analysis
+4. **Automatic Decision Persistence**: Decision files created and committed to Git
+5. **Team Collaboration**: Push to shared repository for team access and review
+
+### Enterprise Benefits
+
+**🔒 Enterprise Security via GitHub Infrastructure**
+- Authentication through GitHub OAuth, SSH keys, or Personal Access Tokens
+- Access control through repository permissions (read/write/admin)
+- Audit trail through Git commit history provides immutable record
+- Enterprise features: SAML, LDAP integration through GitHub Enterprise
+
+**📝 Immutable Audit Trail**
+- Every executive decision creates structured JSON files
+- Git automatically tracks all changes with timestamps and metadata
+- Complete decision history accessible for compliance and analysis
+- Distributed backup through Git's distributed nature
+
+**👥 Natural Team Collaboration**
+- Standard GitHub workflows for team coordination
+- Pull request reviews for critical decisions
+- Issues and discussions for decision follow-up
+- Project management through GitHub's native tools
+
+### Example: M&A Decision Workflow
+
+```bash
+# Executive asks HeudElf for M&A analysis
+claude-code
+> "Use cfo-intelligence: Analyze acquisition of TechCorp for $500M"
+
+# HeudElf automatically creates decision files:
+# data/decisions/2024-02-26-cfo-ma-analysis-techcorp.json
+# data/contexts/users/ceo-user-context.json
+# data/analytics/snapshots/2024-02-weekly-analytics.json
+
+# HeudElf auto-commits with descriptive message:
+# [HeudElf] CFO decision: ma_analysis - TechCorp acquisition evaluation
+# - Decision Type: ma_analysis
+# - Confidence: 0.89
+# - Files: 3 decision files created
+# 🤖 Generated with HeudElf Executive Intelligence System
+
+# Team accesses analysis through GitHub
+git push origin main
+# Legal team, board members, and advisors can review decision
+# through standard GitHub collaboration workflows
+```
+
+### Enterprise Deployment Patterns
+
+**Single Organization Model**
+```bash
+# Repository: github.com/acmecorp/executive-intelligence
+# GitHub Teams control access:
+# @acmecorp/c-suite (full decision-making access)
+# @acmecorp/board-of-directors (read access to decisions)
+# @acmecorp/compliance-team (audit access to history)
+```
+
+**Multi-Division Model**
+```bash
+# Separate repositories per division with cross-division coordination:
+# github.com/globocorp/executive-intelligence-manufacturing
+# github.com/globocorp/executive-intelligence-financial-services
+# github.com/globocorp/executive-intelligence-technology
+```
+
+For detailed Git-based operational guidance, see our [**Complete Git-Based Architecture Guide**](git-based-architecture).
+
 ## Business Impact and ROI
 
 ### Quantifiable Benefits
