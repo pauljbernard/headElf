@@ -1,0 +1,92 @@
+# HeadElf Documentation Site Configuration
+
+# Site settings
+title: "HeadElf"
+description: "C-Suite Executive Intelligence System for Claude Code"
+url: "https://pauljbernard.github.io"
+baseurl: "/headElf"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Navigation
+header_pages:
+  - index.md
+  - getting-started.md
+  - architecture.md
+  - constitution.md
+  - technical-specification.md
+  - user-guide.md
+  - developer-guide.md
+  - examples.md
+  - extensibility-framework.md
+  - api-reference.md
+  - legal-disclaimer.md
+
+# Plugin configuration
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO and social
+author: "Paul J. Bernard"
+twitter:
+  username: pauljbernard
+  card: summary
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  examples:
+    output: true
+    permalink: /:collection/:name/
+  csuite:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Paul J. Bernard"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "examples"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "csuite"
+    values:
+      layout: "page"
+
+# Syntax highlighting
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
