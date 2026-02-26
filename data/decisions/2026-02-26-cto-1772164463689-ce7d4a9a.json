@@ -1,0 +1,26 @@
+{
+  "executive_role": "CTO",
+  "decision_type": "technology_strategy",
+  "query": "Evaluate cloud migration strategy for legacy systems",
+  "context": {
+    "organization": "Demo Corp",
+    "industry": "manufacturing",
+    "urgency": "high",
+    "budget": "2M"
+  },
+  "recommendation": {
+    "strategy": "phased_migration",
+    "timeline": "18_months",
+    "risk_level": "medium"
+  },
+  "confidence": 0.87,
+  "user_id": "demo_cto",
+  "session_id": "demo_session_1",
+  "id": "1772164463689-ce7d4a9a",
+  "timestamp": "2026-02-26T22:54:23.689467Z",
+  "persistence_metadata": {
+    "persisted_by": "HeadElf-GitPersistence",
+    "version": "1.0",
+    "schema_version": "1.0"
+  }
+}
