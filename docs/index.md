@@ -83,6 +83,26 @@ HeadElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
   </div>
 
   <div class="capability-card">
+    <h3>📈 Chief Marketing and Sales Officer (CMSO)</h3>
+    <ul>
+      <li>Marketing strategy excellence and brand positioning optimization</li>
+      <li>Sales operations mastery and revenue operations excellence</li>
+      <li>Customer acquisition and retention program development</li>
+      <li>Digital marketing campaigns and omnichannel orchestration</li>
+    </ul>
+  </div>
+
+  <div class="capability-card">
+    <h3>🎯 Chief Product Officer (CPO)</h3>
+    <ul>
+      <li>Product strategy leadership and roadmap optimization</li>
+      <li>User experience excellence and customer journey optimization</li>
+      <li>Innovation management and market opportunity assessment</li>
+      <li>Data-driven optimization and go-to-market strategy</li>
+    </ul>
+  </div>
+
+  <div class="capability-card">
     <h3>🏗️ Chief Software Architect</h3>
     <ul>
       <li>29+ architectural skills across enterprise domains</li>
