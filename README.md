@@ -1,6 +1,6 @@
 # HeadElf - World-Class C-Suite Executive Intelligence System for Claude Code
 
-A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, and COO functions with 24/7 global operations and world-class decision-making intelligence.
+A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, COO, CLO, and CHRO functions with 24/7 global operations and world-class decision-making intelligence.
 
 ## Overview
 
@@ -11,6 +11,8 @@ HeadElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
 - **🛡️ Chief Information Security Officer (CISO)**: Global compliance, zero trust architecture, crisis management
 - **💰 Chief Financial Officer (CFO)**: Capital markets excellence, M&A execution, ESG integration
 - **⚙️ Chief Operating Officer (COO)**: Operational excellence, supply chain optimization, performance management
+- **⚖️ Chief Legal Officer (CLO)**: Corporate legal strategy, multi-jurisdictional compliance, contract excellence, IP strategy, litigation management
+- **👥 Chief People Officer (CHRO)**: Talent strategy, organizational culture, performance management, compensation strategy, leadership development, workforce analytics
 - **🏗️ Software Architecture Excellence**: 29+ architectural skills across enterprise, application, and full-stack domains
 
 ## Executive Intelligence Architecture
@@ -24,7 +26,9 @@ HeadElf/
 │   │   ├── cio-intelligence-module.ts         # Digital transformation
 │   │   ├── ciso-intelligence-module.ts        # Security & compliance
 │   │   ├── cfo-intelligence-module.ts         # Financial strategy
-│   │   └── coo-intelligence-module.ts         # Operations excellence
+│   │   ├── coo-intelligence-module.ts         # Operations excellence
+│   │   ├── clo-intelligence-module.ts         # Legal strategy & compliance
+│   │   └── chro-intelligence-module.ts        # People & culture excellence
 │   ├── advanced/                 # Advanced C-suite capabilities
 │   │   ├── cto-venture-capital-framework.ts   # VC investment evaluation
 │   │   ├── cfo-capital-markets-framework.ts   # M&A and capital markets
@@ -73,6 +77,21 @@ HeadElf/
 - **Performance Management**: Organizational development, multi-site coordination
 - **Business Process Optimization**: Workflow automation, quality management systems
 
+### ⚖️ **Chief Legal Officer (CLO)**
+- **Corporate Legal Strategy**: Multi-jurisdictional regulatory compliance, legal framework development
+- **Contract Excellence**: Complex deal negotiation, M&A legal structuring, vendor agreement optimization
+- **Intellectual Property Strategy**: Patent portfolio management, trade secret protection, IP monetization
+- **Litigation Management**: Dispute resolution, regulatory defense, crisis legal response
+- **Global Compliance**: International law navigation, data privacy compliance, regulatory relationships
+
+### 👥 **Chief People Officer (CHRO)**
+- **Talent Strategy**: Global workforce planning, succession planning, talent acquisition and retention
+- **Organizational Culture**: Culture transformation, employee engagement, diversity & inclusion leadership
+- **Performance Management**: Goal alignment systems, feedback mechanisms, recognition programs
+- **Compensation Strategy**: Total rewards, global pay equity, equity program design, benefits optimization
+- **Leadership Development**: Executive coaching, pipeline development, mentoring networks, skills development
+- **Workforce Analytics**: People insights, predictive analytics, productivity optimization, culture measurement
+
 ### 🤖 **Advanced AI/ML Executive Intelligence**
 - **Executive Reasoning Engines**: Contextual, strategic, and ethical decision-making
 - **Predictive Analytics**: Business forecasting, risk prediction, trend analysis
@@ -117,11 +136,12 @@ claude-code
 
 ### Cross-Functional Decision Making
 HeadElf automatically coordinates across all C-suite functions, providing:
-- **Integrated analysis** from CTO, CIO, CISO, CFO, COO perspectives
-- **Risk assessment** and mitigation strategies
-- **Implementation roadmaps** with resource allocation
-- **Stakeholder communication** plans
-- **Performance measurement** frameworks
+- **Integrated analysis** from CTO, CIO, CISO, CFO, COO, CLO, CHRO perspectives
+- **Legal compliance** validation and risk mitigation strategies
+- **People impact** assessment and organizational change management
+- **Implementation roadmaps** with resource allocation and timeline coordination
+- **Stakeholder communication** plans with legal and cultural considerations
+- **Performance measurement** frameworks with comprehensive success metrics
 
 ## Documentation
 

@@ -5,7 +5,7 @@ description: "Comprehensive Claude Code extension providing autonomous C-suite e
 permalink: /
 ---
 
-A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, and COO functions with 24/7 global operations and world-class decision-making intelligence.
+A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across CTO, CIO, CISO, CFO, COO, CLO, and CHRO functions with 24/7 global operations and world-class decision-making intelligence.
 
 ## Executive Intelligence Overview
 
@@ -59,6 +59,26 @@ HeudElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
       <li>Global supply chain optimization</li>
       <li>Performance management and continuous improvement</li>
       <li>Multi-site coordination with global standardization</li>
+    </ul>
+  </div>
+
+  <div class="capability-card">
+    <h3>⚖️ Chief Legal Officer (CLO)</h3>
+    <ul>
+      <li>Corporate legal strategy and multi-jurisdictional compliance</li>
+      <li>Complex contract negotiation and M&A legal structuring</li>
+      <li>Intellectual property strategy and patent portfolio management</li>
+      <li>Litigation management and regulatory defense</li>
+    </ul>
+  </div>
+
+  <div class="capability-card">
+    <h3>👥 Chief People Officer (CHRO)</h3>
+    <ul>
+      <li>Global talent strategy and succession planning</li>
+      <li>Organizational culture transformation and employee engagement</li>
+      <li>Performance management systems and compensation strategy</li>
+      <li>Leadership development and workforce analytics</li>
     </ul>
   </div>
 
@@ -127,7 +147,7 @@ HeudElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
   </div>
 
   <div class="stat-card">
-    <div class="stat-number">5</div>
+    <div class="stat-number">7</div>
     <div class="stat-label">C-Suite Executive Roles</div>
   </div>
 
