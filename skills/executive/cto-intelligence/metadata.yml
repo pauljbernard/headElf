@@ -1,0 +1,114 @@
+skill_id: "headelf-cto-intelligence"
+name: "CTO Executive Intelligence"
+version: "1.0.0"
+category: "executive"
+domain: "c-suite-leadership"
+description: "World-class Chief Technology Officer capabilities spanning technology strategy, innovation leadership, venture capital frameworks, M&A integration, and platform architecture"
+
+# Claude Code Integration
+claude_code:
+  enabled: true
+  skill_type: "executive"
+  execution_mode: "hybrid" # Uses both skill.md content and TypeScript implementation
+
+# Skill Discovery and Activation
+triggers:
+  keywords:
+    - "cto"
+    - "chief technology officer"
+    - "technology strategy"
+    - "venture capital"
+    - "m&a technology"
+    - "platform architecture"
+    - "innovation strategy"
+    - "r&d management"
+  contexts:
+    - "executive_decision"
+    - "strategic_planning"
+    - "technology_evaluation"
+    - "investment_analysis"
+  patterns:
+    - "technology.*strategy"
+    - "venture.*investment"
+    - "m&a.*integration"
+    - "platform.*architecture"
+
+# Execution Configuration
+execution:
+  priority: 90 # High priority executive skill
+  complexity: "high"
+  estimated_time: "5-30 minutes"
+  resource_requirements: "moderate"
+  parallel_execution: true
+
+# Dependencies and Integrations
+dependencies:
+  skills:
+    - "headelf-cio-intelligence" # For IT operations coordination
+    - "headelf-ciso-intelligence" # For security architecture alignment
+    - "headelf-cfo-intelligence" # For investment financial analysis
+  modules:
+    - "src/core/cto-intelligence-module"
+    - "src/core/executive-intelligence-engine"
+  data_sources:
+    - "market_intelligence"
+    - "technology_trends"
+    - "competitive_analysis"
+    - "financial_data"
+
+# Input/Output Schema
+input_schema:
+  required_fields:
+    - context: "executive_context"
+    - decision_type: "string"
+  optional_fields:
+    - stakeholders: "array"
+    - constraints: "object"
+    - timeline: "string"
+    - budget: "number"
+
+output_schema:
+  fields:
+    - recommendation: "executive_recommendation"
+    - rationale: "string"
+    - implementation_plan: "object"
+    - risk_assessment: "object"
+    - success_metrics: "object"
+  formats:
+    - "markdown_report"
+    - "json_structured"
+    - "executive_summary"
+
+# Performance and Quality
+performance:
+  target_response_time: "< 30 seconds"
+  quality_threshold: 0.85
+  success_rate_target: 0.95
+
+# Monitoring and Analytics
+monitoring:
+  track_usage: true
+  track_performance: true
+  track_outcomes: true
+  feedback_collection: true
+
+# Security and Compliance
+security:
+  classification: "confidential"
+  data_handling: "executive_pii"
+  audit_logging: true
+  access_control: "c_suite_only"
+
+# Integration Points
+integrations:
+  typescript_module: "src/core/cto-intelligence-module.ts"
+  execution_wrapper: "scripts/skill-executors/cto-executor.py"
+  test_suite: "tests/skills/executive/cto-intelligence.test.ts"
+
+# Metadata for Claude Code Discovery
+claude_code_metadata:
+  skill_format_version: "2.0"
+  last_updated: "2024-02-26"
+  author: "HeadElf Executive Intelligence System"
+  license: "MIT"
+  documentation_url: "https://pauljbernard.github.io/headElf/skills/cto-intelligence"

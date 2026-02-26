@@ -1,0 +1,94 @@
+# HeadElf .gitignore
+
+# Dependencies
+node_modules/
+venv/
+*.egg-info/
+
+# Build outputs
+dist/
+build/
+.tsc_output/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Testing
+.pytest_cache/
+coverage/
+.nyc_output/
+
+# Security sensitive files (from security/.gitignore)
+security/*.key
+security/*.pem
+security/*.p12
+security/*.pfx
+security/secrets/
+security/private/
+security/.env*
+security/tokens/
+security/*token*
+security/*credential*
+security/*secret*
+
+# Allow policy and audit files in security
+!security/*.policy.json
+!security/audit/**/*.json
+!security/users/**/*.json
+
+# User data files that may contain sensitive information
+data/**/private/
+data/**/*.secret
+data/**/*.key
+
+# Allow general data structure files
+!data/**/*.json
+!data/**/*.yml
+!data/**/*.yaml
+!data/**/*.md
+
+# Extension marketplace cache
+marketplace/temp/
+marketplace/cache/
+
+# Personal user repositories (when HeadElf is used as extension)
+user-repos/
+my-*/
+
+# Compiled TypeScript
+*.js.map
+*.d.ts
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Git-based persistence system excludes sensitive data by design
+# All decision data and analytics are designed to be committed
+# Personal/sensitive data should use data/**/private/ directories

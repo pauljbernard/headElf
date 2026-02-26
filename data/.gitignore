@@ -1,0 +1,14 @@
+# Sensitive data patterns
+*.key
+*.secret
+**/private/
+**/temp/
+*.tmp
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp

@@ -1,0 +1,41 @@
+# MANIFEST.in for HeadElf Python Package
+# Include additional files in the package distribution
+
+# Core configuration files
+include headelf.yml
+include README.md
+include LICENSE
+include requirements.txt
+include package.json
+include tsconfig.json
+include pytest.ini
+
+# Documentation
+recursive-include docs *.md *.html *.css *.js
+include docs/index.md
+
+# Skills and metadata
+recursive-include skills *.md *.yml *.yaml *.py
+include skills/__init__.py
+
+# Source code
+recursive-include src *.ts *.js
+recursive-include scripts *.py *.js
+
+# Tests
+recursive-include tests *.py
+
+# Exclude development and build artifacts
+exclude .gitignore
+exclude .eslintrc.js
+exclude jest.config.js
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * *.orig
+recursive-exclude * *.rej
+recursive-exclude * .DS_Store
+exclude node_modules
+exclude dist
+exclude .pytest_cache
+exclude build
+exclude *.egg-info

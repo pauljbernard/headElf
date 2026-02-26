@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["ES2022"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@core/*": ["src/core/*"],
+      "@extensions/*": ["src/extensions/*"],
+      "@skills/*": ["skills/*"],
+      "@scripts/*": ["scripts/*"]
+    }
+  },
+
+  "include": [
+    "src/**/*",
+    "skills/**/*.ts",
+    "scripts/**/*.ts"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
+}
