@@ -20,10 +20,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-github-metadata
-
-# GitHub Pages specific settings
-github: [metadata]
 
 # Navigation
 navigation:
