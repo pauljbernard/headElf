@@ -5,8 +5,6 @@ description: "Complete developer documentation for contributing to HeadElf, crea
 permalink: /developer-guide/
 ---
 
-# HeadElf Developer Guide
-
 This comprehensive guide is designed for developers, architects, and technical contributors who want to understand, extend, or contribute to HeadElf's C-Suite Executive Intelligence System.
 
 ## Development Philosophy

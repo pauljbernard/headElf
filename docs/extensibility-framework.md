@@ -5,8 +5,6 @@ description: "Two-dimensional extension system for industry verticals and enterp
 permalink: /extensibility-framework/
 ---
 
-# Two-Dimensional Extensibility Framework
-
 HeadElf's extensibility framework enables community contributions across two critical dimensions: Industry Vertical Extensions and Enterprise Context Extensions. This comprehensive guide explains how to create, validate, and contribute extensions that enhance HeadElf's executive intelligence capabilities.
 
 ## Framework Overview

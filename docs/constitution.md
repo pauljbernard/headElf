@@ -5,8 +5,6 @@ description: "Governance framework, quality standards, and development principle
 permalink: /constitution/
 ---
 
-# HeadElf Project Constitution
-
 This constitution establishes the governance framework, quality standards, and development principles for the HeadElf C-Suite Executive Intelligence System.
 
 ## Preamble

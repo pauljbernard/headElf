@@ -5,8 +5,6 @@ description: "Technical architecture guide covering the executive intelligence e
 permalink: /architecture/
 ---
 
-# HeadElf Architecture Guide
-
 This guide provides a comprehensive overview of HeadElf's technical architecture, design principles, and implementation patterns.
 
 ## System Overview

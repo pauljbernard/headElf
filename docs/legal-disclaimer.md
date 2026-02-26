@@ -5,8 +5,6 @@ description: "Important legal information, terms of use, liability limitations, 
 permalink: /legal-disclaimer/
 ---
 
-# Legal Disclaimer and Terms of Use
-
 **IMPORTANT: PLEASE READ THIS LEGAL DISCLAIMER CAREFULLY BEFORE USING HEADELF**
 
 ## Software Disclaimer

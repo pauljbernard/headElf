@@ -5,8 +5,6 @@ description: "Complete installation guide for Claude Code and HeadElf setup with
 permalink: /getting-started/
 ---
 
-# Getting Started with HeadElf
-
 This guide will help you install and configure HeadElf's C-Suite Executive Intelligence system for Claude Code.
 
 ## Prerequisites

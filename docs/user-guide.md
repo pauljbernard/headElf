@@ -5,8 +5,6 @@ description: "Comprehensive guide for C-suite executives with real-world scenari
 permalink: /user-guide/
 ---
 
-# HeadElf Executive User Guide
-
 This comprehensive guide is designed specifically for C-suite executives and senior business leaders who want to leverage HeadElf's executive intelligence capabilities to enhance their decision-making and operational excellence.
 
 ## Executive Overview

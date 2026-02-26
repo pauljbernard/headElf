@@ -5,8 +5,6 @@ description: "Complete API documentation with examples, authentication, rate lim
 permalink: /api-reference/
 ---
 
-# HeadElf API Reference
-
 Comprehensive API documentation for integrating with HeadElf's C-Suite Executive Intelligence System.
 
 ## Base Information
