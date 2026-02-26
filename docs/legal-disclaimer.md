@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Legal Disclaimer and Terms of Use"
+description: "Important legal information, terms of use, liability limitations, and professional consultation requirements."
 permalink: /legal-disclaimer/
 ---
 

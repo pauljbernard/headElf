@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Developer Guide"
+description: "Complete developer documentation for contributing to HeadElf, creating extensions, and system integration."
 permalink: /developer-guide/
 ---
 

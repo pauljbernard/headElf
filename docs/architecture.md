@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Architecture Guide"
+description: "Technical architecture guide covering the executive intelligence engine, C-suite modules, and enterprise integration."
 permalink: /architecture/
 ---
 

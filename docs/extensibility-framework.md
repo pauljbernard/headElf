@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Two-Dimensional Extensibility Framework"
+description: "Two-dimensional extension system for industry verticals and enterprise contexts with community contribution guidelines."
 permalink: /extensibility-framework/
 ---
 

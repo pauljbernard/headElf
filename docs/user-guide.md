@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Executive User Guide"
+description: "Comprehensive guide for C-suite executives with real-world scenarios, ROI analysis, and business impact examples."
 permalink: /user-guide/
 ---
 

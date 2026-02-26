@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Getting Started with HeadElf"
+description: "Complete installation guide for Claude Code and HeadElf setup with step-by-step instructions for executives and technical teams."
 permalink: /getting-started/
 ---
 

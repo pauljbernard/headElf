@@ -11,19 +11,7 @@ markdown: kramdown
 highlighter: rouge
 theme: minima
 
-# Navigation
-header_pages:
-  - index.md
-  - getting-started.md
-  - architecture.md
-  - constitution.md
-  - technical-specification.md
-  - user-guide.md
-  - developer-guide.md
-  - examples.md
-  - extensibility-framework.md
-  - api-reference.md
-  - legal-disclaimer.md
+# Navigation handled by custom layout
 
 # Plugin configuration
 plugins:

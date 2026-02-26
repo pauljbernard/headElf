@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "API Reference"
+description: "Complete API documentation with examples, authentication, rate limits, and SDK information for system integration."
 permalink: /api-reference/
 ---
 

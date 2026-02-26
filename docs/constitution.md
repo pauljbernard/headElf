@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Project Constitution"
+description: "Governance framework, quality standards, and development principles ensuring world-class executive intelligence."
 permalink: /constitution/
 ---
 

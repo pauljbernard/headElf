@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Executive Scenarios and Examples"
+description: "Detailed scenarios including M&A evaluation, crisis management, global expansion, and digital transformation strategies."
 permalink: /examples/
 ---
 

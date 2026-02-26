@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Technical Specification"
+description: "Comprehensive technical implementation details, API specifications, and integration requirements."
 permalink: /technical-specification/
 ---
 
