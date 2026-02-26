@@ -31,6 +31,8 @@ navigation:
     url: "/usage/"
   - title: "API Reference"
     url: "/api/"
+  - title: "Extension Development"
+    url: "/extension-development/"
   - title: "Contributing"
     url: "/contributing/"
   - title: "Examples"
