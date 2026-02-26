@@ -6,7 +6,7 @@ description: "Complete guide to installing and configuring HeadElf for optimal p
 
 # Installation & Configuration
 
-This comprehensive guide will walk you through installing and configuring HeadElf to transform your Claude Code into a world-class Chief Software Architect.
+This comprehensive guide will walk you through installing and configuring HeadElf to transform your Claude Code into a world-class C-Suite Executive Intelligence System.
 
 ## Prerequisites
 

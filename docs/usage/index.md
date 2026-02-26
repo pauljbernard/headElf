@@ -212,227 +212,246 @@ Cross-Functional Implementation Response:
 - Risk monitoring and success metrics across all functions
 ```
 
-## Skill Domains
+## C-Suite Executive Intelligence Domains
 
-### 1. Enterprise Architecture Skills
+### 1. Chief Technology Officer (CTO) Intelligence
 
-#### Strategic Technology Planning
+#### Venture Capital and Innovation Strategy
 ```
-> "Help me create a technology strategy aligned with our business objectives"
+> "Evaluate emerging AI companies for strategic investment opportunities"
 
-Key Capabilities:
-- TOGAF and Zachman framework application
-- Business-IT alignment strategies
-- Technology portfolio management
-- Investment prioritization frameworks
-- Architecture governance design
-```
-
-#### Integration Patterns
-```
-> "Design integration architecture for connecting our ERP, CRM, and e-commerce systems"
-
-Integration Solutions:
-- API-led connectivity patterns
-- Event-driven architecture design
-- Enterprise service bus implementation
-- Data synchronization strategies
-- Security and compliance integration
+CTO Investment Capabilities:
+- Technology landscape analysis and trend identification
+- Startup technology due diligence and evaluation
+- M&A technology integration and compatibility assessment
+- Innovation ecosystem development and partnership frameworks
+- Intellectual property strategy and competitive positioning
 ```
 
-#### Digital Transformation
+#### Strategic Technology Leadership
 ```
-> "Plan our migration from on-premises data center to cloud-native architecture"
+> "Develop 5-year technology roadmap aligned with business expansion strategy"
 
-Transformation Approach:
-- Current state assessment
-- Cloud readiness evaluation
-- Migration strategy development
-- Risk mitigation planning
-- Change management framework
-```
-
-### 2. Application Architecture Skills
-
-#### Microservices Design
-```
-> "Decompose our monolithic order management system into microservices"
-
-Microservices Strategy:
-- Domain-driven design application
-- Service boundary identification
-- Communication pattern selection
-- Data management strategies
-- Operational considerations
+Technology Leadership Solutions:
+- Enterprise architecture using TOGAF framework
+- Digital transformation strategy and execution
+- Technology portfolio optimization and rationalization
+- Global R&D coordination and resource allocation
+- Platform strategy and ecosystem development
 ```
 
-### 3. Full-Stack Architecture Skills
+### 2. Chief Financial Officer (CFO) Intelligence
 
-#### Frontend Architecture
+#### Capital Markets and M&A Excellence
 ```
-> "Design modern frontend architecture for our customer portal"
+> "Structure optimal financing for our $2B acquisition target"
 
-Frontend Solutions:
-- SPA vs. SSR evaluation
-- Micro-frontend strategies
-- State management patterns
-- Performance optimization
-- Mobile-first design principles
-```
-
-#### Backend Architecture
-```
-> "Design scalable backend architecture for real-time messaging platform"
-
-Backend Design:
-- API architecture patterns
-- Data storage strategies
-- Caching and performance optimization
-- Security implementation
-- Scalability and resilience patterns
+CFO Financial Capabilities:
+- M&A deal structuring and valuation modeling
+- Capital structure optimization and cost of capital analysis
+- ESG financial integration and sustainability metrics
+- Advanced treasury management and global cash optimization
+- Monte Carlo simulation and sophisticated financial modeling
 ```
 
-### 4. Cloud Platform Mastery
-
-#### Multi-Cloud Strategy
+#### Strategic Financial Planning
 ```
-> "Design disaster recovery strategy using both AWS and Azure"
+> "Optimize capital allocation across global operations for maximum ROI"
 
-Multi-Cloud Approach:
-- Cross-cloud architecture patterns
-- Data replication strategies
-- Network connectivity design
-- Cost optimization analysis
-- Vendor risk mitigation
+Financial Strategy Solutions:
+- Investment evaluation and portfolio optimization
+- Risk management and hedging strategies
+- Investor relations and capital markets communication
+- Financial reporting and regulatory compliance
+- Performance measurement and value creation frameworks
 ```
 
-#### Cost Optimization
+### 3. Chief Information Security Officer (CISO) Intelligence
+
+#### Global Compliance and Risk Management
 ```
-> "Optimize our cloud costs while maintaining performance requirements"
+> "Implement zero trust architecture across multi-jurisdictional operations"
 
-Cost Optimization Strategy:
-- Resource utilization analysis
-- Right-sizing recommendations
-- Reserved instance strategies
-- Automation opportunities
-- Monitoring and alerting setup
-```
-
-### 5. Technology-Specific Expertise
-
-#### Database Architecture
-```
-> "Choose optimal database solution for our IoT data analytics platform"
-
-Database Recommendations:
-- Relational vs. NoSQL evaluation
-- Time-series database consideration
-- Distributed database strategies
-- Performance optimization techniques
-- Backup and disaster recovery
+CISO Security Capabilities:
+- Multi-jurisdictional compliance (GDPR, CCPA, SOX, ISO27001)
+- Zero trust architecture design and implementation
+- Quantum cryptography readiness and post-quantum migration
+- Global crisis management and incident response coordination
+- Advanced threat intelligence and adversary profiling
 ```
 
-#### Container Orchestration
+#### Enterprise Security Governance
 ```
-> "Implement Kubernetes for our microservices deployment"
+> "Design comprehensive security framework for global expansion"
 
-Kubernetes Strategy:
-- Cluster architecture design
-- Service mesh implementation
-- Security and networking
-- CI/CD pipeline integration
-- Monitoring and logging setup
-```
-
-## Advanced Usage
-
-### 1. Complex Multi-Domain Scenarios
-
-#### Enterprise Digital Platform Design
-```
-> "Design complete digital platform architecture for Fortune 500 retail company
-   including customer experience, supply chain, analytics, and partner integration"
-
-HeadElf Orchestration:
-1. Strategic Technology Planning (enterprise roadmap)
-2. Integration Patterns (system connectivity)
-3. Cloud Platform Expertise (infrastructure design)
-4. Security Architecture (compliance framework)
-5. Performance Optimization (scale requirements)
-6. Data Architecture (analytics platform)
-7. API Design (partner integration)
+Security Governance Solutions:
+- Regulatory compliance harmonization across jurisdictions
+- Security architecture design and implementation
+- Crisis management and business continuity planning
+- Stakeholder communication and regulatory relationship management
+- Risk assessment and mitigation strategy development
 ```
 
-#### Global Architecture Standardization
+### 4. Chief Information Officer (CIO) Intelligence
+
+#### Digital Transformation Leadership
 ```
-> "Create architecture standards for global development teams across
-   North America, Europe, and Asia-Pacific regions"
+> "Lead enterprise-wide digital transformation across all business units"
 
-Global Coordination Response:
-- Regional architecture variations
-- Cross-timezone coordination strategies
-- Standardization frameworks
-- Local compliance requirements
-- Cultural and technical adaptations
-```
-
-### 2. Crisis Management and Incident Response
-
-#### Production Incident Analysis
-```
-> "Our e-commerce platform experienced a 6-hour outage during Black Friday.
-   Help me understand what went wrong and how to prevent future incidents."
-
-Crisis Analysis Response:
-1. Root cause analysis framework
-2. System failure point identification
-3. Architecture resilience assessment
-4. Preventive measure recommendations
-5. Incident response improvement plan
-6. Business continuity strategies
+CIO Digital Capabilities:
+- Enterprise architecture strategy using TOGAF framework
+- IT service management using ITIL 4 standards
+- Application portfolio optimization and legacy modernization
+- Business-IT alignment and stakeholder relationship management
+- Digital transformation change management and adoption
 ```
 
-#### Performance Crisis Resolution
+#### Technology Operations Excellence
 ```
-> "Our mobile app response times degraded from 500ms to 5 seconds overnight.
-   We need immediate assistance to identify and resolve the issue."
+> "Optimize global IT operations for maximum efficiency and reliability"
 
-Emergency Response Process:
-1. Immediate triage and assessment
-2. Performance bottleneck identification
-3. Quick fix recommendations
-4. Monitoring and alerting setup
-5. Long-term optimization plan
+Technology Operations Solutions:
+- Multi-cloud strategy and vendor management
+- Infrastructure optimization and cost management
+- Service delivery excellence and SLA management
+- Technology governance and risk management
+- Innovation enablement and platform development
 ```
 
-### 3. Vendor Evaluation and Technology Selection
+### 5. Chief Operating Officer (COO) Intelligence
 
-#### Comprehensive Vendor Assessment
+#### Operational Excellence and Process Optimization
 ```
-> "Evaluate cloud data warehouse solutions: Snowflake, BigQuery, and Redshift
-   for our analytics platform serving 10TB of daily data"
+> "Implement Six Sigma methodology across global manufacturing operations"
 
-Vendor Evaluation Framework:
-├── Technical Capabilities Assessment
-│   ├── Performance benchmarking
-│   ├── Scalability analysis
-│   ├── Feature comparison matrix
-│   └── Integration capabilities
-├── Economic Analysis
-│   ├── Total cost of ownership
-│   ├── Pricing model comparison
-│   ├── Hidden cost identification
-│   └── ROI projections
-├── Strategic Fit Evaluation
-│   ├── Technology roadmap alignment
-│   ├── Vendor ecosystem integration
-│   ├── Future capability development
-│   └── Exit strategy considerations
-└── Risk Assessment
-    ├── Vendor stability evaluation
-    ├── Security and compliance review
-    ├── Technology obsolescence risk
-    └── Implementation complexity
+COO Operational Capabilities:
+- Operational excellence with Six Sigma and Lean methodologies
+- Global supply chain optimization and vendor management
+- Quality management systems and continuous improvement
+- Performance management and organizational development
+- Multi-site coordination with global standardization
+```
+
+#### Strategic Operations Management
+```
+> "Design scalable operations framework for 300% business growth"
+
+Operations Management Solutions:
+- Business process optimization and automation
+- Organizational design and capability development
+- Vendor and partner relationship management
+- Risk management and business continuity planning
+- Performance metrics and operational intelligence
+```
+
+### 6. Advanced Executive Intelligence Technologies
+
+#### AI/ML Executive Decision Support
+```
+> "Implement predictive analytics for strategic decision-making"
+
+AI/ML Intelligence Capabilities:
+- Executive reasoning engines with contextual analysis
+- Predictive analytics for business forecasting
+- Prescriptive analytics for optimization recommendations
+- Natural language processing for stakeholder communication
+- Reinforcement learning for continuous strategy improvement
+```
+
+## Advanced Executive Intelligence Usage
+
+### 1. Complex Multi-Domain Executive Scenarios
+
+#### Global Business Expansion Strategy
+```
+> "Design complete global expansion strategy for Fortune 500 fintech company
+   including regulatory compliance, capital allocation, technology infrastructure,
+   security frameworks, and operational setup across EMEA and APAC markets"
+
+HeadElf C-Suite Orchestration:
+1. Market Analysis and Technology Strategy (CTO/CIO)
+2. Financial Planning and Capital Markets Strategy (CFO)
+3. Regulatory Compliance and Security Framework (CISO)
+4. Operational Setup and Process Standardization (COO)
+5. Stakeholder Engagement and Governance (Board Relations)
+6. Risk Management and Crisis Planning (Cross-Functional)
+7. Performance Metrics and Success Measurement (All Functions)
+```
+
+#### Enterprise Transformation and M&A Integration
+```
+> "Execute comprehensive M&A integration for $5B acquisition across
+   technology, finance, operations, compliance, and cultural alignment"
+
+Cross-Functional Executive Response:
+- Technology due diligence and integration roadmap
+- Financial modeling and synergy realization
+- Regulatory approval and compliance harmonization
+- Operational integration and change management
+- Cultural alignment and talent retention strategies
+```
+
+### 2. Executive Crisis Management and Business Continuity
+
+#### Global Supply Chain Disruption Response
+```
+> "Our global supply chain is experiencing 60% capacity reduction due to
+   geopolitical tensions. We need immediate C-suite response coordination
+   across finance, operations, compliance, and stakeholder communication."
+
+Executive Crisis Response:
+1. Crisis severity assessment and business impact analysis (All C-Suite)
+2. Financial impact modeling and cash flow preservation (CFO)
+3. Operational contingency activation and alternative sourcing (COO)
+4. Regulatory compliance and stakeholder notification (CISO)
+5. Technology platform scaling for increased demand (CTO/CIO)
+6. Board and investor communication management (Stakeholder Relations)
+7. Media relations and public communication strategy
+```
+
+#### Regulatory Investigation and Compliance Crisis
+```
+> "We're facing a regulatory investigation regarding data privacy practices
+   across multiple jurisdictions. Need coordinated response across all functions."
+
+Regulatory Crisis Management:
+1. Legal and regulatory response coordination (CISO/CFO)
+2. Data governance and compliance audit (CIO/CISO)
+3. Financial impact assessment and reserve planning (CFO)
+4. Operational process review and remediation (COO)
+5. Technology system audit and security enhancement (CTO)
+6. Stakeholder communication and reputation management
+7. Long-term compliance framework enhancement
+```
+
+### 3. Strategic Partnership and Investment Evaluation
+
+#### Comprehensive Strategic Partnership Assessment
+```
+> "Evaluate potential strategic partnership with Microsoft for our global
+   digital transformation initiative worth $500M over 5 years"
+
+Executive Partnership Evaluation Framework:
+├── Strategic Alignment Assessment (CTO/CIO)
+│   ├── Technology roadmap compatibility
+│   ├── Innovation capability integration
+│   ├── Platform ecosystem alignment
+│   └── Future capability development
+├── Financial Analysis (CFO)
+│   ├── Total economic value assessment
+│   ├── Partnership investment requirements
+│   ├── Revenue synergy potential
+│   └── Risk-adjusted ROI projections
+├── Risk and Compliance Evaluation (CISO)
+│   ├── Vendor security and stability assessment
+│   ├── Regulatory compliance alignment
+│   ├── Data governance and privacy review
+│   └── Exit strategy and dependency analysis
+└── Operational Integration (COO)
+    ├── Implementation complexity assessment
+    ├── Change management requirements
+    ├── Training and capability development
+    └── Performance measurement frameworks
 ```
 
 ## Best Practices

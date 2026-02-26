@@ -1,12 +1,12 @@
 ---
 layout: default
 title: "Contributing Guide"
-description: "How to contribute to HeadElf development and help build the world's best Chief Software Architect extension"
+description: "How to contribute to HeadElf development and help build the world's most advanced C-Suite Executive Intelligence system"
 ---
 
 # Contributing to HeadElf
 
-Thank you for your interest in contributing to HeadElf! This guide provides everything you need to know to contribute effectively to the world's most comprehensive Chief Software Architect extension.
+Thank you for your interest in contributing to HeadElf! This guide provides everything you need to know to contribute effectively to the world's most advanced C-Suite Executive Intelligence system.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
