@@ -1,0 +1,138 @@
+skill_metadata:
+  id: "cro-risk-intelligence"
+  version: "1.0.0"
+  category: "security-executive"
+  name: "CRO Risk Intelligence"
+  description: "Chief Risk Officer world-class enterprise risk management and strategic risk leadership"
+
+  # Dependencies and Integration
+  dependencies:
+    - "cfo-intelligence"
+    - "coo-intelligence"
+    - "ciso-intelligence"
+    - "clo-intelligence"
+
+  integrations:
+    - "financial-risk-framework"
+    - "operational-risk-management"
+    - "cybersecurity-risk-framework"
+    - "regulatory-compliance"
+    - "business-continuity"
+
+  # Skill Characteristics
+  complexity: "high"
+  execution_time: "minutes"
+  resource_requirements: "intensive"
+  authority_level: "executive"
+
+  # Certification and Expertise
+  certifications:
+    - "FRM - Financial Risk Manager"
+    - "PRM - Professional Risk Manager"
+    - "CRISC - Certified in Risk and Information Systems Control"
+    - "ARM - Associate in Risk Management"
+    - "CRMA - Certification in Risk Management Assurance"
+
+  expertise_domains:
+    - "enterprise_risk_management"
+    - "operational_risk"
+    - "financial_risk"
+    - "cyber_risk"
+    - "strategic_risk"
+    - "regulatory_risk"
+    - "crisis_management"
+    - "business_continuity"
+
+  # Triggers and Activation
+  triggers:
+    - "enterprise risk"
+    - "risk management"
+    - "risk assessment"
+    - "crisis management"
+    - "business continuity"
+    - "operational risk"
+    - "financial risk"
+    - "strategic risk"
+    - "regulatory risk"
+    - "third party risk"
+    - "vendor risk"
+    - "supply chain risk"
+
+  # Output Capabilities
+  outputs:
+    - "risk_strategy"
+    - "risk_assessment"
+    - "crisis_management_plan"
+    - "business_continuity_plan"
+    - "risk_framework"
+    - "risk_policies"
+    - "risk_monitoring_system"
+    - "risk_reporting"
+    - "vendor_risk_assessment"
+
+  # Performance Metrics
+  performance_metrics:
+    - "risk_identification_coverage"
+    - "risk_mitigation_effectiveness"
+    - "crisis_response_time"
+    - "business_continuity_readiness"
+    - "regulatory_compliance_score"
+    - "risk_cost_optimization"
+
+  # Quality Standards
+  quality_standards:
+    - "COSO Enterprise Risk Management Framework"
+    - "ISO 31000 Risk Management Standards"
+    - "Basel III risk management principles"
+    - "NIST Cybersecurity Framework integration"
+    - "Sarbanes-Oxley risk management compliance"
+
+  # Security and Privacy
+  security_classification: "confidential"
+  privacy_requirements:
+    - "risk_assessment_confidentiality"
+    - "crisis_management_information_protection"
+    - "vendor_risk_data_classification"
+    - "regulatory_risk_information_security"
+
+  # Operational Parameters
+  priority: 96
+  availability: "24x7"
+  escalation_required: false
+  autonomous_execution: true
+  stakeholder_notification: true
+
+  # Integration Framework
+  c_suite_coordination:
+    - "CFO: Financial risk and capital management integration"
+    - "COO: Operational risk and business process coordination"
+    - "CISO: Cybersecurity risk integration with enterprise risk"
+    - "CLO: Regulatory and legal risk coordination"
+    - "CTO: Technology risk and innovation risk management"
+
+  external_coordination:
+    - "regulatory_body_liaison"
+    - "insurance_provider_coordination"
+    - "risk_consultant_management"
+    - "industry_risk_intelligence_sharing"
+
+  # Risk Categories
+  risk_categories:
+    - "strategic_risk"
+    - "operational_risk"
+    - "financial_risk"
+    - "compliance_risk"
+    - "reputational_risk"
+    - "technology_risk"
+    - "cyber_risk"
+    - "market_risk"
+    - "credit_risk"
+    - "liquidity_risk"
+
+  # Risk Management Frameworks
+  frameworks:
+    - "COSO_ERM - Committee of Sponsoring Organizations Enterprise Risk Management"
+    - "ISO_31000 - International Organization for Standardization Risk Management"
+    - "NIST_RMF - National Institute of Standards and Technology Risk Management Framework"
+    - "Basel_III - Basel Committee on Banking Supervision Risk Framework"
+    - "COBIT - Control Objectives for Information and Related Technologies"

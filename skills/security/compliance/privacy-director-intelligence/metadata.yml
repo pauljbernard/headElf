@@ -1,0 +1,245 @@
+name: "Privacy Director Intelligence"
+version: "1.0.0"
+description: "World-class data protection governance leadership with global privacy compliance, DPIA excellence, cross-border data transfer governance, and privacy-by-design implementation."
+
+# Skill Classification
+category: "security"
+subcategory: "compliance"
+role_type: "compliance_governance_security"
+executive_level: "director"
+
+# Professional Certifications Embodied
+certifications:
+  - name: "CIPP"
+    full_name: "Certified Information Privacy Professional"
+    issuer: "IAPP"
+    domains: ["Introduction to Privacy", "Limits on Private-sector Collection and Use", "Government and Court Access to Private-sector Information", "Workplace Privacy", "State Privacy Laws", "International Considerations"]
+
+  - name: "CIPM"
+    full_name: "Certified Information Privacy Manager"
+    issuer: "IAPP"
+    domains: ["Privacy Program Governance", "Data Assessments", "Policies and Procedures", "Data Subject Rights", "Training and Awareness Programs", "Privacy Program Monitoring"]
+
+  - name: "CIPT"
+    full_name: "Certified Information Privacy Technologist"
+    issuer: "IAPP"
+    domains: ["Privacy Engineering and Privacy by Design", "IT and Engineering Governance", "Data De-identification", "Privacy-Preserving Computation and Analytics", "Cybersecurity and Privacy", "Privacy Assessment and Auditing"]
+
+  - name: "FIP"
+    full_name: "Fellow of Information Privacy"
+    issuer: "IAPP"
+    domains: ["Advanced Privacy Leadership", "Global Privacy Strategy", "Privacy Innovation", "Regulatory Influence", "Privacy Thought Leadership", "Professional Excellence"]
+
+# Core Expertise Domains
+expertise_domains:
+  global_privacy_program:
+    - "Enterprise Privacy Strategy"
+    - "Privacy Governance Framework"
+    - "Privacy Program Management"
+    - "Privacy Maturity Assessment"
+
+  multi_jurisdictional_compliance:
+    - "GDPR Compliance Excellence"
+    - "CCPA and State Privacy Laws"
+    - "International Privacy Laws"
+    - "Sectoral Privacy Compliance"
+
+  data_protection_impact_assessment:
+    - "DPIA Framework Development"
+    - "Automated DPIA Integration"
+    - "High-Risk Processing Assessment"
+    - "DPIA Quality Assurance"
+
+  cross_border_data_governance:
+    - "Adequacy Decision Management"
+    - "Transfer Impact Assessment"
+    - "Data Localization Compliance"
+    - "International Data Sharing"
+
+  privacy_by_design_minimization:
+    - "Privacy-by-Design Implementation"
+    - "Data Minimization Strategy"
+    - "Privacy Engineering"
+    - "Privacy-Preserving Analytics"
+
+  individual_rights_consent:
+    - "Data Subject Rights Implementation"
+    - "Consent Management Platform"
+    - "Rights Automation Framework"
+    - "Consumer Rights Analytics"
+
+# Enterprise Capabilities
+enterprise_capabilities:
+  strategic_privacy_leadership:
+    - "Global Privacy Program Development"
+    - "Multi-Jurisdictional Compliance Strategy"
+    - "Privacy Governance and Organizational Integration"
+    - "Privacy Risk Management and Assessment"
+
+  technical_privacy_implementation:
+    - "Privacy-by-Design System Integration"
+    - "Advanced Privacy Technology Implementation"
+    - "Privacy Engineering and Technical Controls"
+    - "Automated Privacy Assessment and Monitoring"
+
+  operational_privacy_excellence:
+    - "Data Subject Rights and Consent Management"
+    - "Cross-Border Data Transfer Governance"
+    - "Privacy Incident Response and Breach Management"
+    - "Privacy Compliance Monitoring and Reporting"
+
+# Integration Requirements
+integration_points:
+  c_suite_coordination:
+    - "CISO: Cybersecurity and privacy coordination with data protection integration"
+    - "CLO: Legal compliance coordination and regulatory interpretation"
+    - "CTO: Technology privacy integration and privacy-by-design implementation"
+    - "CRO: Enterprise risk management and privacy risk assessment"
+
+  security_operations:
+    - "SOC: Privacy incident detection and security operations integration"
+    - "Incident Response: Privacy breach management and regulatory notification"
+    - "Data Governance: Privacy data governance and security protection"
+    - "Compliance Monitoring: Privacy compliance and risk management integration"
+
+  business_processes:
+    - "Legal and Compliance: Regulatory coordination and contract privacy terms"
+    - "Human Resources: Employee privacy and workplace privacy rights"
+    - "Marketing and Sales: Customer privacy and consent management"
+    - "Product Development: Privacy-by-design and technology implementation"
+
+  technology_data:
+    - "Data Management: Privacy data governance and lifecycle management"
+    - "Application Development: Privacy-by-design system integration"
+    - "Cloud Operations: Cloud privacy and service provider coordination"
+    - "Analytics and AI: Privacy-preserving analytics and algorithmic fairness"
+
+# Performance Metrics
+performance_indicators:
+  privacy_program_effectiveness:
+    - "Privacy Compliance Score"
+    - "Data Subject Rights Response Time"
+    - "Privacy Incident Resolution Rate"
+    - "Privacy Training Completion Rate"
+    - "Privacy Program Maturity Score"
+
+  regulatory_compliance_metrics:
+    - "GDPR Compliance Rating"
+    - "CCPA Compliance Score"
+    - "Cross-Border Transfer Compliance"
+    - "DPIA Completion Rate"
+    - "Regulatory Examination Results"
+
+  privacy_operations_metrics:
+    - "Consent Management Effectiveness"
+    - "Privacy Notice Quality Score"
+    - "Privacy-by-Design Implementation Rate"
+    - "Privacy Technology Adoption"
+    - "Privacy Risk Reduction"
+
+  stakeholder_engagement_metrics:
+    - "Privacy Transparency Index"
+    - "Consumer Privacy Satisfaction"
+    - "Privacy Authority Relationship Quality"
+    - "Privacy Culture Assessment"
+    - "Executive Privacy Communication"
+
+  technology_privacy_metrics:
+    - "Privacy Engineering Implementation"
+    - "Automated Privacy Assessment Coverage"
+    - "Privacy-Preserving Analytics Adoption"
+    - "Privacy Technology ROI"
+    - "Privacy Innovation Index"
+
+# Triggering Scenarios
+triggers:
+  privacy_program_scenarios:
+    - "Global privacy program development"
+    - "Multi-jurisdictional compliance implementation"
+    - "Privacy governance framework establishment"
+    - "Privacy maturity assessment and improvement"
+
+  compliance_scenarios:
+    - "GDPR compliance implementation"
+    - "CCPA and state privacy law compliance"
+    - "Cross-border data transfer assessment"
+    - "Sectoral privacy compliance (HIPAA, FERPA)"
+
+  privacy_operations_scenarios:
+    - "Data protection impact assessment"
+    - "Data subject rights request processing"
+    - "Privacy incident and breach response"
+    - "Consent management implementation"
+
+  technology_scenarios:
+    - "Privacy-by-design system integration"
+    - "Privacy engineering technology implementation"
+    - "Automated privacy assessment deployment"
+    - "Privacy-preserving analytics development"
+
+# Dependencies
+dependencies:
+  privacy_regulations:
+    - "GDPR (General Data Protection Regulation)"
+    - "CCPA (California Consumer Privacy Act)"
+    - "PIPEDA (Personal Information Protection and Electronic Documents Act)"
+    - "LGPD (Lei Geral de Proteção de Dados)"
+    - "PDPA (Personal Data Protection Act)"
+
+  sectoral_privacy_laws:
+    - "HIPAA (Health Insurance Portability and Accountability Act)"
+    - "FERPA (Family Educational Rights and Privacy Act)"
+    - "GLBA (Gramm-Leach-Bliley Act)"
+    - "COPPA (Children's Online Privacy Protection Act)"
+
+  privacy_frameworks:
+    - "ISO/IEC 27001 Privacy Controls"
+    - "NIST Privacy Framework"
+    - "AICPA SOC 2 Privacy Criteria"
+    - "Fair Information Practice Principles"
+
+  privacy_technologies:
+    - "Privacy-by-Design Frameworks"
+    - "Data Protection Impact Assessment Tools"
+    - "Consent Management Platforms"
+    - "Privacy Engineering Technologies"
+
+# Output Formats
+output_types:
+  strategic_deliverables:
+    - "Global Privacy Strategy Framework"
+    - "Multi-Jurisdictional Compliance Program"
+    - "Privacy Governance Structure"
+    - "Privacy Risk Assessment and Management"
+
+  operational_deliverables:
+    - "Data Protection Impact Assessment Framework"
+    - "Data Subject Rights Management System"
+    - "Cross-Border Data Transfer Strategy"
+    - "Privacy Incident Response Procedures"
+
+  technical_deliverables:
+    - "Privacy-by-Design Implementation Guide"
+    - "Privacy Engineering Solutions"
+    - "Automated Privacy Assessment Platform"
+    - "Privacy-Preserving Analytics Framework"
+
+# Quality Assurance
+quality_standards:
+  certification_alignment: "100% alignment with CIPP, CIPM, CIPT, and FIP competency requirements"
+  enterprise_readiness: "Fortune 500 enterprise privacy program standards"
+  regulatory_compliance: "Comprehensive multi-jurisdictional privacy law compliance"
+  performance_benchmarks: "Industry-leading privacy program effectiveness metrics"
+
+# Skill Executor Configuration
+executor:
+  primary_module: "privacy_director_executor.py"
+  typescript_integration: "privacy-director-module.ts"
+  coordination_framework: "compliance-security-coordinator.ts"
+
+# Claude Code Integration
+claude_integration:
+  skill_registration: true
+  subagent_capability: true
+  cross_functional_coordination: true
+  enterprise_system_integration: true

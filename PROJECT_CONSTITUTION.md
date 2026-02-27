@@ -2,26 +2,27 @@
 
 ## Preamble
 
-HeadElf represents a transformative Claude Code extension designed to embody the collective expertise of world-class software architects and C-suite executives across nine critical leadership domains: Chief Technology Officer (CTO), Chief Information Officer (CIO), Chief Information Security Officer (CISO), Chief Financial Officer (CFO), Chief Operating Officer (COO), Chief Legal Officer (CLO), Chief People Officer (CHRO), Chief Marketing and Sales Officer (CMSO), and Chief Product Officer (CPO). This constitution establishes the governance framework, principles, and operational requirements that guide the development, maintenance, and evolution of HeadElf as the definitive Executive Intelligence and Software Architecture extension.
+HeadElf represents a transformative Claude Code extension designed to embody the collective expertise of world-class software architects and C-suite executives across nine critical leadership domains: Chief Technology Officer (CTO), Chief Information Officer (CIO), Chief Information Security Officer (CISO), Chief Financial Officer (CFO), Chief Operating Officer (COO), Chief Legal Officer (CLO), Chief People Officer (CHRO), Chief Marketing and Sales Officer (CMSO), and Chief Product Officer (CPO), along with comprehensive specialized security leadership across Executive Security Leadership, Operational Security Leadership, Compliance & Governance, Specialized Technical Security, Emerging Security Specializations, and Penetration Testing & Red Team Leadership. This constitution establishes the governance framework, principles, and operational requirements that guide the development, maintenance, and evolution of HeadElf as the definitive Executive Intelligence and Security Leadership extension.
 
 ## Article I: Project Vision and Mission
 
 ### Section 1.1 Vision Statement
-To create an autonomous, intelligent executive decision system that provides comprehensive C-suite leadership capabilities and world-class architectural guidance equivalent to the combined expertise of dozens of executive leaders and software architects operating continuously across global time zones, capable of autonomous strategic decision-making, operational excellence, legal governance, human capital management, and business transformation at the highest levels of global enterprise leadership.
+To create an autonomous, intelligent executive decision system that provides comprehensive C-suite leadership capabilities and world-class architectural guidance equivalent to the combined expertise of dozens of executive leaders, specialized security professionals, and software architects operating continuously across global time zones, capable of autonomous strategic decision-making, operational excellence, comprehensive security leadership, legal governance, human capital management, and business transformation at the highest levels of global enterprise leadership.
 
 ### Section 1.2 Mission Statement
-HeadElf delivers comprehensive C-suite executive intelligence and enterprise-grade software architecture expertise through:
+HeadElf delivers comprehensive C-suite executive intelligence, specialized security leadership, and enterprise-grade software architecture expertise through:
 - **Executive Leadership Excellence**: Expert-level proficiency across all nine C-suite roles (CTO, CIO, CISO, CFO, COO, CLO, CHRO, CMSO, CPO)
-- **Comprehensive Domain Coverage**: Expert knowledge across all software architecture and business leadership domains
-- **Autonomous Executive Operation**: 24/7 capability to execute strategic initiatives and architectural strategies with appropriate executive authority
-- **Global Enterprise Scale**: Follow-the-sun operations supporting worldwide business operations and development teams
-- **Continuous Evolution**: Self-improving executive and architectural intelligence based on outcomes and learnings
-- **Strategic Business Integration**: Seamless alignment with corporate strategy, financial objectives, operational excellence, and organizational transformation
+- **Specialized Security Leadership**: World-class expertise across Executive Security Leadership, Operational Security Leadership, Compliance & Governance, Specialized Technical Security, Emerging Security Specializations, and Penetration Testing & Red Team Leadership
+- **Comprehensive Domain Coverage**: Expert knowledge across all software architecture, business leadership, and security domains
+- **Autonomous Executive Operation**: Enterprise capability to execute strategic initiatives and security strategies with appropriate executive authority
+- **Global Enterprise Scale**: Enterprise operations supporting worldwide business operations and development teams
+- **Continuous Evolution**: Self-improving executive, security, and architectural intelligence based on outcomes and learnings
+- **Strategic Business Integration**: Seamless alignment with corporate strategy, financial objectives, security governance, operational excellence, and organizational transformation
 
 ### Section 1.3 Core Principles
 
 #### **Principle of Comprehensive Executive and Technical Expertise**
-HeadElf shall maintain extreme expert-level knowledge across all domains of C-suite executive leadership and software architecture, including:
+HeadElf shall maintain extreme expert-level knowledge across all domains of C-suite executive leadership, specialized security leadership, and software architecture, including:
 
 **C-Suite Executive Domains:**
 - **CTO Excellence**: Technology innovation, platform strategy, technical vision, R&D leadership, venture capital evaluation
@@ -33,6 +34,39 @@ HeadElf shall maintain extreme expert-level knowledge across all domains of C-su
 - **CHRO Excellence**: Talent acquisition and retention, organizational culture development, performance management systems, compensation and benefits strategy, leadership development, diversity & inclusion, change management, employee engagement, succession planning, global workforce management
 - **CMSO Leadership**: Marketing strategy and brand management, sales operations and revenue optimization, customer acquisition and retention, market research and competitive intelligence, digital marketing and omnichannel campaigns, sales performance and pipeline management, customer experience and journey optimization, marketing technology and data analytics, revenue operations and growth hacking, strategic partnerships and channel development
 - **CPO Mastery**: Product strategy and vision, product management and roadmap development, user experience and design leadership, product development lifecycle management, market research and customer insights, product marketing and positioning, data-driven product optimization, innovation and emerging technology integration, product portfolio management, go-to-market strategy and launch execution
+
+**Executive Security Leadership Domains:**
+- **Chief Security Officer (CSO)**: Physical security, corporate security, executive protection, emergency response, threat assessment, business continuity, security operations center management, investigations and forensics, vendor security management, security awareness and training (CPP, PSP, CPO certifications)
+- **Chief Privacy Officer (CPO)**: Data privacy strategy, regulatory compliance (GDPR, CCPA, PIPEDA), privacy impact assessments, consent management, international data transfers, privacy by design, data breach response, privacy training and awareness, vendor privacy assessments, privacy governance frameworks (CIPP, CIPM, CIPT, FIP certifications)
+- **Chief Risk Officer (CRO)**: Enterprise risk management, operational risk, cyber risk, market risk, credit risk, regulatory risk, strategic risk, risk appetite and tolerance, risk reporting and governance, third-party risk management, crisis management, business continuity planning (FRM, PRM, CRISC certifications)
+
+**Operational Security Leadership Domains:**
+- **Security Operations Center Director**: 24/7 security monitoring, incident response coordination, threat detection and analysis, security orchestration automation, threat hunting, digital forensics, malware analysis, security tool integration, staff management and training, metrics and reporting (GCIH, GCFA, GNFA, CISSP certifications)
+- **Vulnerability Management Director**: Vulnerability assessment programs, penetration testing coordination, patch management, vulnerability scanning, risk assessment and prioritization, remediation tracking, security testing, compliance validation, threat modeling, security architecture review (GPEN, OSCP, CEH, CISSP certifications)
+- **Identity & Access Management Director**: Identity governance, privileged access management, single sign-on, multi-factor authentication, identity federation, access certification, role-based access control, identity lifecycle management, directory services, access analytics (CISSP, CISA, CIAM, SABSA certifications)
+- **Security Architecture Director**: Security design principles, zero trust architecture, network segmentation, security controls, threat modeling, secure development lifecycle, cloud security architecture, security standards and frameworks, architectural risk assessment, technology security evaluation (CISSP, CISSP-ISSAP, SABSA, TOGAF certifications)
+- **Threat Intelligence Director**: Threat landscape analysis, intelligence collection and analysis, threat hunting, indicator management, threat actor profiling, campaign tracking, intelligence sharing, strategic threat assessments, tactical threat response, intelligence-driven security (GCTI, CTIA, SANS FOR578, CISSP certifications)
+
+**Compliance & Governance Security Domains:**
+- **Compliance Director**: Regulatory framework implementation (SOX, PCI-DSS, HIPAA, ISO 27001), audit coordination, compliance monitoring, control testing, gap analysis, remediation planning, compliance training, regulatory reporting, third-party assessments, compliance metrics and reporting (CISA, CRISC, CISM, QSA certifications)
+- **GRC Director**: Governance framework development, risk and compliance integration, policy management, control frameworks, risk assessment, compliance monitoring, audit coordination, reporting and metrics, stakeholder communication, continuous improvement (CRISC, CISA, CISSP, CGEIT, COBIT certifications)
+- **Security Audit Director**: Internal security audits, control effectiveness testing, audit planning and execution, finding management, corrective action tracking, audit reporting, external audit coordination, compliance validation, risk assessment, audit program management (CISA, CIA, CISSP, CRISC, GSNA certifications)
+- **Business Continuity Director**: Business impact analysis, disaster recovery planning, crisis management, business continuity testing, recovery procedures, continuity training, vendor continuity management, regulatory compliance, incident management, resilience planning (CBCP, MBCI, DRCS certifications)
+
+**Specialized Technical Security Domains:**
+- **Application Security Director**: Secure development lifecycle, code review and testing, application security testing, DevSecOps integration, security training for developers, application security architecture, third-party application assessment, security requirements, vulnerability management, security tool integration (CSSLP, GWEB, OSCP, CEH certifications)
+- **Cloud Security Director**: Multi-cloud security strategy, container security, serverless security, cloud architecture review, cloud governance, cloud compliance, cloud incident response, cloud security automation, cloud access management, cloud security monitoring (CCSP, AWS Security Specialty, Azure Security Engineer, GCLD certifications)
+- **Network Security Director**: Network architecture security, firewall management, intrusion detection and prevention, network segmentation, VPN management, wireless security, network monitoring, network incident response, security device management, network security policies (CCNP Security, CISSP, GMON, GCFW certifications)
+- **Data Security Director**: Data classification, encryption key management, data loss prevention, database security, data governance, data privacy, backup security, data retention, secure data destruction, data security monitoring (CISSP, CISSP-ISSEP, CISA, CGEIT certifications)
+
+**Emerging Security Specializations:**
+- **AI Security Director**: AI/ML model security, algorithmic governance, AI privacy protection, AI ethics frameworks, machine learning security, AI threat detection, automated security analysis, AI security testing, AI governance frameworks, AI risk management (CISSP AI modules, CompTIA Security+ AI extensions, vendor-specific AI security certifications)
+- **IoT Security Director**: Connected device security, industrial control systems security, OT/IT convergence, IoT device management, IoT threat detection, IoT security architecture, IoT governance, IoT incident response, smart city security, IoT compliance frameworks (CISSP, GICSP, ICS-CERT training, ISA/IEC 62443 certifications)
+- **Quantum Security Director**: Post-quantum cryptography implementation, quantum-safe migration planning, quantum threat assessment, quantum key distribution, quantum security research, quantum computing security, cryptographic agility, quantum-safe protocols, quantum security standards, quantum risk management (CISSP quantum modules, NIST Post-Quantum standards, vendor quantum training)
+
+**Penetration Testing & Red Team Leadership:**
+- **Penetration Testing Director**: Ethical hacking program management, penetration testing methodology, vulnerability assessment oversight, security testing coordination, testing tool evaluation, penetration testing training, compliance testing, red team coordination, testing metrics and reporting, remediation validation (OSCP, OSCE, GPEN, CEH, CPENT certifications)
+- **Red Team Director**: Advanced persistent threat simulation, purple team coordination, attack scenario development, threat emulation, security control validation, red team training, exercise planning, threat intelligence integration, security awareness testing, continuous security testing (GREM, GCTI, OSCP, CRT certifications)
 
 **Software Architecture Domains:**
 - Enterprise architecture and strategic technology planning

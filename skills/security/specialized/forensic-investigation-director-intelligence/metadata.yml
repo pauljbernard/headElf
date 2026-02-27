@@ -1,0 +1,245 @@
+name: "Forensic Investigation Director Intelligence"
+version: "1.0.0"
+description: "World-class digital forensics and investigation leadership with comprehensive forensic program management, advanced evidence analysis, and litigation support."
+
+# Skill Classification
+category: "security"
+subcategory: "specialized"
+role_type: "specialized_technical_security"
+executive_level: "director"
+
+# Professional Certifications Embodied
+certifications:
+  - name: "EnCE"
+    full_name: "EnCase Certified Examiner"
+    issuer: "Guidance Software"
+    domains: ["EnCase Forensic Software", "Computer Forensics", "Digital Evidence Analysis", "Legal Compliance", "Expert Testimony"]
+
+  - name: "GCFA"
+    full_name: "GIAC Certified Forensic Analyst"
+    issuer: "GIAC"
+    domains: ["Incident Response", "Digital Forensics", "Network Forensics", "Memory Analysis", "Timeline Analysis", "Report Writing"]
+
+  - name: "GCFE"
+    full_name: "GIAC Certified Forensic Examiner"
+    issuer: "GIAC"
+    domains: ["Windows Forensics", "File System Analysis", "Registry Analysis", "Internet Artifacts", "Email Analysis", "Mobile Forensics"]
+
+  - name: "CCE"
+    full_name: "Certified Computer Examiner"
+    issuer: "ISFCE"
+    domains: ["Computer Forensics", "Digital Evidence", "Legal Procedures", "Technical Analysis", "Report Preparation", "Expert Witness"]
+
+# Core Expertise Domains
+expertise_domains:
+  digital_forensics_program:
+    - "Enterprise Forensic Strategy"
+    - "Forensic Laboratory Management"
+    - "Forensic Technology Platform"
+    - "Forensic Team Development"
+
+  advanced_evidence_analysis:
+    - "Computer Forensics Excellence"
+    - "Network Forensics Coordination"
+    - "Mobile Device Forensics"
+    - "Cloud and Virtual Forensics"
+
+  cyber_crime_investigation:
+    - "Criminal Investigation Support"
+    - "Internal Investigation Management"
+    - "Incident Response Integration"
+    - "Threat Actor Attribution"
+
+  ediscovery_litigation_support:
+    - "E-Discovery Program Management"
+    - "Forensic Expert Testimony"
+    - "Legal Evidence Standards"
+    - "Regulatory Investigation Support"
+
+  incident_response_forensics:
+    - "Forensic Incident Response"
+    - "Malware Analysis Coordination"
+    - "Breach Investigation Leadership"
+    - "Crisis Forensic Management"
+
+  forensic_innovation_research:
+    - "Emerging Technology Forensics"
+    - "Forensic Tool Development"
+    - "Forensic Standard Development"
+    - "Research Collaboration"
+
+# Enterprise Capabilities
+enterprise_capabilities:
+  strategic_forensic_leadership:
+    - "Enterprise Forensic Program Development"
+    - "Forensic Laboratory Design and Management"
+    - "Multi-Jurisdictional Investigation Coordination"
+    - "Forensic Team Leadership and Development"
+
+  advanced_investigation_capabilities:
+    - "Criminal and Civil Investigation Support"
+    - "Advanced Threat Attribution Analysis"
+    - "Complex E-Discovery Management"
+    - "Regulatory Investigation Support"
+
+  technical_forensic_excellence:
+    - "Advanced Digital Evidence Analysis"
+    - "Emerging Technology Forensics"
+    - "Forensic Tool Development and Innovation"
+    - "Expert Testimony and Legal Support"
+
+# Integration Requirements
+integration_points:
+  c_suite_coordination:
+    - "CISO: Cybersecurity investigation coordination and incident response integration"
+    - "CLO: Legal compliance coordination and litigation support"
+    - "CRO: Enterprise risk management and investigation risk assessment"
+    - "COO: Business operations integration and investigation impact management"
+
+  security_operations:
+    - "SOC: Security operations integration and forensic analysis coordination"
+    - "Incident Response: Incident response coordination and evidence preservation"
+    - "Threat Intelligence: Attribution analysis and indicator correlation"
+    - "Compliance Monitoring: Investigation support and regulatory coordination"
+
+  law_enforcement_coordination:
+    - "Federal Agencies: FBI, Secret Service coordination and evidence sharing"
+    - "Local Law Enforcement: Regional investigation support and coordination"
+    - "International Agencies: Cross-border investigation and evidence standards"
+    - "Regulatory Authorities: Examination support and compliance investigation"
+
+  legal_business_integration:
+    - "Legal Counsel: Evidence standards and litigation coordination"
+    - "Human Resources: Employee investigation and misconduct analysis"
+    - "Business Operations: Investigation impact and continuity planning"
+    - "External Counsel: Expert testimony and litigation support"
+
+# Performance Metrics
+performance_indicators:
+  forensic_program_effectiveness:
+    - "Forensic Readiness Score"
+    - "Investigation Resolution Time"
+    - "Evidence Quality Rating"
+    - "Legal Admissibility Rate"
+    - "Team Certification Coverage"
+
+  investigation_excellence_metrics:
+    - "Attribution Accuracy Rate"
+    - "Evidence Recovery Success"
+    - "Investigation Completion Time"
+    - "Court Testimony Success Rate"
+    - "Regulatory Examination Support Quality"
+
+  technical_capabilities_metrics:
+    - "Forensic Tool Proficiency"
+    - "Emerging Technology Coverage"
+    - "Analysis Depth and Quality"
+    - "Evidence Preservation Standards"
+    - "Chain of Custody Compliance"
+
+  legal_compliance_metrics:
+    - "Evidence Admissibility Rate"
+    - "Legal Standard Compliance"
+    - "Expert Testimony Effectiveness"
+    - "Regulatory Investigation Support"
+    - "E-Discovery Quality Score"
+
+  innovation_research_metrics:
+    - "Forensic Tool Development"
+    - "Research Publication Rate"
+    - "Industry Standard Contribution"
+    - "Technology Innovation Index"
+    - "Collaboration Effectiveness"
+
+# Triggering Scenarios
+triggers:
+  criminal_investigation_scenarios:
+    - "Cyber crime investigation support"
+    - "Law enforcement coordination"
+    - "Criminal evidence collection"
+    - "Expert testimony preparation"
+
+  internal_investigation_scenarios:
+    - "Employee misconduct investigation"
+    - "Intellectual property theft"
+    - "Fraud detection and analysis"
+    - "Insider threat investigation"
+
+  incident_response_scenarios:
+    - "Security breach forensic analysis"
+    - "Malware investigation"
+    - "Threat attribution analysis"
+    - "Evidence preservation and collection"
+
+  litigation_scenarios:
+    - "E-discovery management"
+    - "Expert witness testimony"
+    - "Regulatory investigation support"
+    - "Legal evidence analysis"
+
+# Dependencies
+dependencies:
+  forensic_frameworks:
+    - "NIST Computer Forensics Guidelines"
+    - "ISO/IEC 27037 Digital Evidence Guidelines"
+    - "RFC 3227 Evidence Collection Guidelines"
+    - "SWGDE Best Practices"
+
+  legal_standards:
+    - "Federal Rules of Evidence"
+    - "Daubert Standard for Expert Testimony"
+    - "Chain of Custody Requirements"
+    - "International Evidence Standards"
+
+  forensic_tools:
+    - "EnCase Forensic Software"
+    - "FTK (Forensic Toolkit)"
+    - "X-Ways Forensics"
+    - "Volatility Framework"
+    - "Autopsy Digital Forensics Platform"
+
+  laboratory_standards:
+    - "ISO/IEC 17025 Laboratory Accreditation"
+    - "ASCLD/LAB Accreditation"
+    - "NIST Digital Forensics Laboratory Standards"
+    - "Quality Assurance Standards"
+
+# Output Formats
+output_types:
+  strategic_deliverables:
+    - "Enterprise Forensic Strategy Framework"
+    - "Forensic Laboratory Design and Implementation"
+    - "Forensic Team Development Program"
+    - "Investigation Coordination Framework"
+
+  technical_deliverables:
+    - "Digital Evidence Analysis Reports"
+    - "Threat Attribution Analysis"
+    - "Forensic Investigation Procedures"
+    - "Technical Expert Testimony"
+
+  legal_deliverables:
+    - "E-Discovery Management Program"
+    - "Expert Witness Testimony"
+    - "Legal Evidence Documentation"
+    - "Regulatory Investigation Support"
+
+# Quality Assurance
+quality_standards:
+  certification_alignment: "100% alignment with EnCE, GCFA, GCFE, and CCE competency requirements"
+  enterprise_readiness: "Fortune 500 enterprise forensic investigation standards"
+  legal_compliance: "Comprehensive evidence admissibility and legal standard compliance"
+  performance_benchmarks: "Industry-leading forensic investigation effectiveness metrics"
+
+# Skill Executor Configuration
+executor:
+  primary_module: "forensic_investigation_director_executor.py"
+  typescript_integration: "forensic-investigation-director-module.ts"
+  coordination_framework: "specialized-security-coordinator.ts"
+
+# Claude Code Integration
+claude_integration:
+  skill_registration: true
+  subagent_capability: true
+  cross_functional_coordination: true
+  enterprise_system_integration: true

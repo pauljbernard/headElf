@@ -1,0 +1,244 @@
+name: "Audit Director Intelligence"
+version: "1.0.0"
+description: "World-class security audit leadership with comprehensive audit program management, SOX compliance, regulatory examination support, and audit assurance frameworks."
+
+# Skill Classification
+category: "security"
+subcategory: "compliance"
+role_type: "compliance_governance_security"
+executive_level: "director"
+
+# Professional Certifications Embodied
+certifications:
+  - name: "CISA"
+    full_name: "Certified Information Systems Auditor"
+    issuer: "ISACA"
+    domains: ["Information System Auditing Process", "Governance and Management of IT", "Information Systems Acquisition, Development and Implementation", "Information Systems Operations, Maintenance and Support", "Protection of Information Assets"]
+
+  - name: "CIA"
+    full_name: "Certified Internal Auditor"
+    issuer: "IIA"
+    domains: ["Internal Audit Basics", "Internal Audit Practice", "Internal Audit Knowledge Elements"]
+
+  - name: "CISM"
+    full_name: "Certified Information Security Manager"
+    issuer: "ISACA"
+    domains: ["Information Security Governance", "Information Risk Management", "Information Security Program Development and Management", "Incident Management and Response"]
+
+  - name: "CPA"
+    full_name: "Certified Public Accountant"
+    issuer: "AICPA"
+    domains: ["Auditing and Attestation", "Business Environment and Concepts", "Financial Accounting and Reporting", "Regulation"]
+
+# Core Expertise Domains
+expertise_domains:
+  security_audit_program:
+    - "Enterprise Security Audit Strategy"
+    - "Audit Methodology Standardization"
+    - "Audit Quality Assurance"
+    - "Audit Risk Assessment"
+
+  internal_security_audit:
+    - "Risk-Based Audit Planning"
+    - "Security Control Testing"
+    - "IT General Controls Auditing"
+    - "Application Controls Auditing"
+
+  external_regulatory_coordination:
+    - "External Auditor Management"
+    - "Regulatory Examination Support"
+    - "Third-Party Audit Oversight"
+    - "Audit Committee Reporting"
+
+  sox_compliance_financial:
+    - "SOX Section 302 and 404 Compliance"
+    - "Internal Control over Financial Reporting (ICFR)"
+    - "Management Testing Coordination"
+    - "SOX Documentation and Evidence"
+
+  cybersecurity_technology_auditing:
+    - "Cybersecurity Audit Framework"
+    - "Cloud Security Auditing"
+    - "Data Privacy and Protection Audits"
+    - "Emerging Technology Auditing"
+
+  operational_business_process:
+    - "Business Process Audits"
+    - "Vendor and Third-Party Audits"
+    - "Fraud Detection and Investigation"
+    - "Operational Risk Auditing"
+
+# Enterprise Capabilities
+enterprise_capabilities:
+  audit_strategy_management:
+    - "Enterprise Security Audit Program Development"
+    - "Risk-Based Audit Planning and Execution"
+    - "Audit Quality Assurance and Continuous Improvement"
+    - "Cross-Functional Audit Integration"
+
+  compliance_audit_specialization:
+    - "SOX Compliance Audit Leadership"
+    - "Regulatory Examination Support and Coordination"
+    - "Cybersecurity and Technology Audit Excellence"
+    - "Data Privacy and Protection Audit Frameworks"
+
+  stakeholder_coordination:
+    - "External Auditor and Regulator Management"
+    - "Audit Committee and Board Reporting"
+    - "Third-Party and Vendor Audit Oversight"
+    - "Cross-Functional Audit Collaboration"
+
+# Integration Requirements
+integration_points:
+  c_suite_coordination:
+    - "CFO: Financial reporting audit coordination and SOX compliance"
+    - "CISO: Cybersecurity audit integration and security control validation"
+    - "CRO: Enterprise risk management and audit risk assessment"
+    - "CLO: Legal compliance audit and regulatory examination support"
+
+  security_operations:
+    - "SOC: Security operations audit and control testing validation"
+    - "Incident Response: Security incident audit and response effectiveness"
+    - "Compliance Monitoring: Compliance audit and continuous testing"
+    - "Risk Management: Risk-based audit and control validation"
+
+  business_processes:
+    - "Finance and Accounting: Financial reporting audit and SOX compliance"
+    - "Information Technology: IT audit and general controls testing"
+    - "Legal and Compliance: Legal compliance audit and regulatory coordination"
+    - "Operations: Business process audit and operational efficiency"
+
+  external_stakeholders:
+    - "External Auditors: Big 4 audit firm coordination and collaboration"
+    - "Regulatory Examiners: Regulatory examination support and response"
+    - "Board and Audit Committee: Executive reporting and governance oversight"
+    - "Third-Party Providers: Vendor audit and service organization controls"
+
+# Performance Metrics
+performance_indicators:
+  audit_program_effectiveness:
+    - "Audit Plan Completion Rate"
+    - "Audit Finding Resolution Time"
+    - "Audit Quality Score"
+    - "Stakeholder Satisfaction Rating"
+    - "Audit Cost Efficiency"
+
+  sox_compliance_metrics:
+    - "SOX Control Testing Coverage"
+    - "Control Deficiency Rate"
+    - "Management Testing Completion"
+    - "External Auditor Coordination Efficiency"
+    - "SOX Certification Timeline"
+
+  cybersecurity_audit_metrics:
+    - "Security Control Testing Coverage"
+    - "Cybersecurity Risk Assessment Accuracy"
+    - "Technology Audit Completion Rate"
+    - "Security Finding Severity Distribution"
+    - "Remediation Tracking Effectiveness"
+
+  regulatory_examination_metrics:
+    - "Examination Readiness Score"
+    - "Regulatory Finding Rate"
+    - "Examination Response Timeliness"
+    - "Corrective Action Completion"
+    - "Regulatory Relationship Quality"
+
+  audit_quality_metrics:
+    - "Audit Documentation Quality"
+    - "Peer Review Results"
+    - "Audit Methodology Compliance"
+    - "Professional Development Hours"
+    - "Continuous Improvement Implementation"
+
+# Triggering Scenarios
+triggers:
+  audit_program_scenarios:
+    - "Annual audit planning and risk assessment"
+    - "New audit methodology implementation"
+    - "Audit quality assurance review"
+    - "Cross-functional audit coordination"
+
+  sox_compliance_scenarios:
+    - "SOX 302 and 404 compliance testing"
+    - "Internal control deficiency assessment"
+    - "Management testing program execution"
+    - "External auditor coordination"
+
+  cybersecurity_scenarios:
+    - "Cybersecurity control testing"
+    - "Technology audit execution"
+    - "Data privacy compliance audit"
+    - "Cloud security assessment"
+
+  regulatory_scenarios:
+    - "Regulatory examination preparation"
+    - "External audit coordination"
+    - "Third-party audit oversight"
+    - "Audit committee reporting"
+
+# Dependencies
+dependencies:
+  audit_frameworks:
+    - "COSO Internal Control Framework"
+    - "COBIT IT Governance Framework"
+    - "IIA International Standards"
+    - "AICPA Auditing Standards"
+
+  regulatory_requirements:
+    - "SOX (Sarbanes-Oxley Act) Compliance"
+    - "PCAOB Auditing Standards"
+    - "SEC Financial Reporting Requirements"
+    - "Banking Regulatory Examination Standards"
+
+  security_frameworks:
+    - "NIST Cybersecurity Framework"
+    - "ISO 27001 Information Security Management"
+    - "SOC 2 Service Organization Controls"
+    - "GDPR Data Protection Regulation"
+
+  audit_tools:
+    - "Audit Management Platforms"
+    - "Risk Assessment Tools"
+    - "Control Testing Software"
+    - "Data Analytics and Continuous Auditing Tools"
+
+# Output Formats
+output_types:
+  strategic_deliverables:
+    - "Enterprise Security Audit Strategy"
+    - "Risk-Based Audit Plan"
+    - "Audit Quality Assurance Framework"
+    - "Audit Committee Communication Strategy"
+
+  operational_deliverables:
+    - "Audit Methodology Documentation"
+    - "Control Testing Procedures"
+    - "Audit Finding Management Processes"
+    - "Regulatory Examination Support Procedures"
+
+  compliance_deliverables:
+    - "SOX Compliance Audit Framework"
+    - "Cybersecurity Audit Programs"
+    - "Data Privacy Audit Procedures"
+    - "Regulatory Compliance Validation"
+
+# Quality Assurance
+quality_standards:
+  certification_alignment: "100% alignment with CISA, CIA, CISM, and CPA competency requirements"
+  enterprise_readiness: "Fortune 500 enterprise audit program standards"
+  regulatory_compliance: "Comprehensive SOX, PCAOB, and regulatory examination standards"
+  performance_benchmarks: "Industry-leading audit effectiveness and efficiency metrics"
+
+# Skill Executor Configuration
+executor:
+  primary_module: "audit_director_executor.py"
+  typescript_integration: "audit-director-module.ts"
+  coordination_framework: "compliance-security-coordinator.ts"
+
+# Claude Code Integration
+claude_integration:
+  skill_registration: true
+  subagent_capability: true
+  cross_functional_coordination: true
+  enterprise_system_integration: true

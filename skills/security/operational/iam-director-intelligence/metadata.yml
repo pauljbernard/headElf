@@ -1,0 +1,239 @@
+name: "IAM Director Intelligence"
+version: "1.0.0"
+description: "World-class Identity and Access Management leadership with zero trust architecture design, privileged access management, and comprehensive identity governance."
+
+# Skill Classification
+category: "security"
+subcategory: "operational"
+role_type: "operational_security_leadership"
+executive_level: "director"
+
+# Professional Certifications Embodied
+certifications:
+  - name: "CISSP"
+    full_name: "Certified Information Systems Security Professional"
+    issuer: "(ISC)²"
+    domains: ["Security and Risk Management", "Asset Security", "Security Architecture", "Communication and Network Security", "Identity and Access Management", "Security Assessment and Testing", "Security Operations", "Software Development Security"]
+
+  - name: "CISA"
+    full_name: "Certified Information Systems Auditor"
+    issuer: "ISACA"
+    domains: ["Information System Auditing Process", "Governance and Management of IT", "Information Systems Acquisition, Development and Implementation", "Information Systems Operations, Maintenance and Support", "Protection of Information Assets"]
+
+  - name: "CISM"
+    full_name: "Certified Information Security Manager"
+    issuer: "ISACA"
+    domains: ["Information Security Governance", "Information Risk Management", "Information Security Program Development and Management", "Incident Management and Response"]
+
+  - name: "CISMP"
+    full_name: "Certificate in Identity and Access Management Professional"
+    issuer: "BCS"
+    domains: ["Identity Management Fundamentals", "Access Management", "Identity Governance", "Privileged Access Management", "Identity Federation and Integration"]
+
+# Core Expertise Domains
+expertise_domains:
+  identity_governance:
+    - "Enterprise Identity Strategy"
+    - "Identity and Access Governance (IAG)"
+    - "Role Engineering and Management"
+    - "Identity Analytics and Intelligence"
+
+  zero_trust_architecture:
+    - "Zero Trust Strategy Design"
+    - "Network Access Control"
+    - "Application Access Control"
+    - "Device and Endpoint Security"
+
+  privileged_access_management:
+    - "Privileged Account Management"
+    - "Just-In-Time Access"
+    - "Privileged Session Management"
+    - "Secrets Management"
+
+  authentication_sso:
+    - "Multi-Factor Authentication (MFA)"
+    - "Single Sign-On (SSO) Architecture"
+    - "Identity Federation"
+    - "Passwordless Authentication"
+
+  access_control_authorization:
+    - "Attribute-Based Access Control (ABAC)"
+    - "Fine-Grained Authorization"
+    - "API Security and Access Control"
+    - "Cloud Identity and Access Management"
+
+  compliance_risk:
+    - "Identity Compliance Framework"
+    - "Access Risk Assessment"
+    - "Identity Audit and Reporting"
+    - "Privacy and Data Protection"
+
+# Enterprise Capabilities
+enterprise_capabilities:
+  strategic_leadership:
+    - "Enterprise Identity Strategy Development"
+    - "Zero Trust Architecture Design"
+    - "Multi-Cloud Identity Integration"
+    - "Identity Risk Management"
+
+  operational_excellence:
+    - "Identity Lifecycle Management"
+    - "Privileged Access Operations"
+    - "Authentication Infrastructure"
+    - "Identity Analytics and Monitoring"
+
+  governance_compliance:
+    - "Identity Governance Frameworks"
+    - "Regulatory Compliance Management"
+    - "Access Risk Assessment"
+    - "Privacy and Data Protection"
+
+# Integration Requirements
+integration_points:
+  c_suite_coordination:
+    - "CISO: Cybersecurity strategy alignment and zero trust architecture"
+    - "CRO: Enterprise risk management and identity risk assessment"
+    - "CTO: Technology architecture and identity infrastructure integration"
+    - "COO: Business operations and identity process optimization"
+
+  security_operations:
+    - "SOC: Identity analytics and threat detection integration"
+    - "Incident Response: Identity forensics and breach investigation"
+    - "Threat Intelligence: Identity threat correlation and attack analysis"
+    - "Security Architecture: Identity controls and policy enforcement"
+
+  it_operations:
+    - "Directory Services: Enterprise directory integration and management"
+    - "Application Teams: Identity services and authentication frameworks"
+    - "Cloud Operations: Multi-cloud identity and hybrid services"
+    - "Network Operations: Network access control and micro-segmentation"
+
+  business_processes:
+    - "Human Resources: Identity lifecycle and joiner/mover/leaver processes"
+    - "Compliance and Audit: Identity audit and regulatory requirements"
+    - "Legal and Privacy: Privacy regulations and data protection"
+    - "Business Units: Role-based access and application requirements"
+
+# Performance Metrics
+performance_indicators:
+  identity_governance_metrics:
+    - "Identity Lifecycle Efficiency"
+    - "Role Management Effectiveness"
+    - "Access Certification Completion Rate"
+    - "Identity Analytics Accuracy"
+    - "Governance Process Maturity"
+
+  zero_trust_metrics:
+    - "Zero Trust Implementation Coverage"
+    - "Policy Enforcement Effectiveness"
+    - "Continuous Verification Success Rate"
+    - "Micro-Segmentation Effectiveness"
+    - "Identity Trust Score"
+
+  access_management_metrics:
+    - "Privileged Access Coverage"
+    - "Just-In-Time Access Utilization"
+    - "Session Monitoring Effectiveness"
+    - "Secrets Management Coverage"
+    - "Access Risk Reduction"
+
+  authentication_metrics:
+    - "Multi-Factor Authentication Adoption"
+    - "Single Sign-On Coverage"
+    - "Passwordless Authentication Adoption"
+    - "Federation Success Rate"
+    - "Authentication User Experience"
+
+  compliance_metrics:
+    - "Regulatory Compliance Score"
+    - "Access Risk Assessment Coverage"
+    - "Audit Readiness Score"
+    - "Privacy Compliance Rating"
+    - "Identity Incident Rate"
+
+# Triggering Scenarios
+triggers:
+  identity_strategy_scenarios:
+    - "Enterprise identity transformation"
+    - "Zero trust architecture implementation"
+    - "Multi-cloud identity integration"
+    - "Identity modernization projects"
+
+  access_management_scenarios:
+    - "Privileged access security incidents"
+    - "Insider threat investigations"
+    - "Compliance audit preparations"
+    - "Access risk assessments"
+
+  authentication_scenarios:
+    - "Authentication modernization"
+    - "Single sign-on implementations"
+    - "Passwordless authentication adoption"
+    - "Identity federation projects"
+
+# Dependencies
+dependencies:
+  identity_frameworks:
+    - "NIST Cybersecurity Framework"
+    - "Zero Trust Architecture (NIST SP 800-207)"
+    - "ISO/IEC 27001 Identity Management"
+    - "SAML 2.0, OAuth 2.0, OpenID Connect"
+
+  tools_platforms:
+    - "Identity Governance and Administration (IGA)"
+    - "Privileged Access Management (PAM)"
+    - "Single Sign-On (SSO) Platforms"
+    - "Multi-Factor Authentication (MFA) Systems"
+    - "Identity Analytics and UEBA Platforms"
+
+  cloud_platforms:
+    - "AWS Identity and Access Management (IAM)"
+    - "Microsoft Azure Active Directory"
+    - "Google Cloud Identity and Access Management"
+    - "Hybrid and Multi-Cloud Identity Solutions"
+
+  compliance_standards:
+    - "SOX Identity and Access Controls"
+    - "PCI-DSS Access Control Requirements"
+    - "HIPAA Identity and Access Management"
+    - "GDPR Privacy and Data Protection"
+
+# Output Formats
+output_types:
+  strategic_deliverables:
+    - "Enterprise Identity Strategy Framework"
+    - "Zero Trust Architecture Design"
+    - "Identity Integration Roadmap"
+    - "Identity Risk Management Strategy"
+
+  operational_deliverables:
+    - "Identity Governance Procedures"
+    - "Privileged Access Management Procedures"
+    - "Authentication and SSO Implementation"
+    - "Identity Monitoring and Analytics"
+
+  compliance_deliverables:
+    - "Identity Compliance Framework"
+    - "Access Risk Assessment Reports"
+    - "Identity Audit Documentation"
+    - "Privacy and Data Protection Procedures"
+
+# Quality Assurance
+quality_standards:
+  certification_alignment: "100% alignment with CISSP, CISA, CISM, and CISMP competency requirements"
+  enterprise_readiness: "Fortune 500 enterprise identity and access management standards"
+  compliance_coverage: "Comprehensive regulatory compliance integration"
+  performance_benchmarks: "Industry-leading identity and access management metrics"
+
+# Skill Executor Configuration
+executor:
+  primary_module: "iam_director_executor.py"
+  typescript_integration: "iam-director-module.ts"
+  coordination_framework: "operational-security-coordinator.ts"
+
+# Claude Code Integration
+claude_integration:
+  skill_registration: true
+  subagent_capability: true
+  cross_functional_coordination: true
+  enterprise_system_integration: true

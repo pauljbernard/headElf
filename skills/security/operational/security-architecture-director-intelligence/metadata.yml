@@ -1,0 +1,239 @@
+name: "Security Architecture Director Intelligence"
+version: "1.0.0"
+description: "World-class enterprise security architecture leadership with comprehensive security design, cloud security architecture, and cyber resilience planning."
+
+# Skill Classification
+category: "security"
+subcategory: "operational"
+role_type: "operational_security_leadership"
+executive_level: "director"
+
+# Professional Certifications Embodied
+certifications:
+  - name: "CISSP"
+    full_name: "Certified Information Systems Security Professional"
+    issuer: "(ISC)²"
+    domains: ["Security and Risk Management", "Asset Security", "Security Architecture and Engineering", "Communication and Network Security", "Identity and Access Management", "Security Assessment and Testing", "Security Operations", "Software Development Security"]
+
+  - name: "SABSA"
+    full_name: "Sherwood Applied Business Security Architecture"
+    issuer: "SABSA Institute"
+    domains: ["Business Requirements", "Conceptual Architecture", "Logical Architecture", "Physical Architecture", "Component Architecture", "Operational Architecture"]
+
+  - name: "TOGAF"
+    full_name: "The Open Group Architecture Framework"
+    issuer: "The Open Group"
+    domains: ["Architecture Development Method", "Enterprise Continuum", "TOGAF Reference Models", "Architecture Capability Framework"]
+
+  - name: "CCSP"
+    full_name: "Certified Cloud Security Professional"
+    issuer: "(ISC)²"
+    domains: ["Cloud Concepts, Architecture and Design", "Cloud Data Security", "Cloud Platform and Infrastructure Security", "Cloud Application Security", "Cloud Security Operations", "Legal, Risk and Compliance"]
+
+# Core Expertise Domains
+expertise_domains:
+  enterprise_security_architecture:
+    - "Security Architecture Strategy"
+    - "Security Design Principles"
+    - "Architecture Governance"
+    - "Security Reference Architectures"
+
+  cloud_security_architecture:
+    - "Multi-Cloud Security Design"
+    - "Cloud-Native Security"
+    - "Cloud Security Controls"
+    - "Cloud Risk Assessment"
+
+  security_technology_integration:
+    - "Security Tool Architecture"
+    - "API Security and Integration"
+    - "Legacy System Security"
+    - "Emerging Technology Security"
+
+  cyber_resilience_continuity:
+    - "Cyber Resilience Framework"
+    - "Security Monitoring Architecture"
+    - "Crisis Management Integration"
+    - "Recovery and Restoration"
+
+  compliance_architecture:
+    - "Compliance Framework Integration"
+    - "Security Control Frameworks"
+    - "Audit and Assessment Architecture"
+    - "Privacy Engineering"
+
+  security_innovation_research:
+    - "Emerging Threat Analysis"
+    - "Security Technology Research"
+    - "Security Standards Development"
+    - "Innovation Framework"
+
+# Enterprise Capabilities
+enterprise_capabilities:
+  strategic_architecture:
+    - "Enterprise Security Architecture Strategy"
+    - "Multi-Cloud Security Framework Design"
+    - "Zero Trust Architecture Implementation"
+    - "Cyber Resilience Planning"
+
+  technology_integration:
+    - "Security Tool Ecosystem Design"
+    - "Legacy System Security Integration"
+    - "Cloud Security Architecture"
+    - "DevSecOps Framework Implementation"
+
+  governance_compliance:
+    - "Security Architecture Governance"
+    - "Multi-Regulatory Compliance Architecture"
+    - "Risk-Based Security Design"
+    - "Privacy by Design Implementation"
+
+# Integration Requirements
+integration_points:
+  c_suite_coordination:
+    - "CISO: Cybersecurity strategy alignment and technology integration"
+    - "CTO: Technology architecture coordination and infrastructure integration"
+    - "CRO: Enterprise risk management and security risk assessment"
+    - "COO: Business operations integration and operational resilience"
+
+  security_operations:
+    - "SOC: Security operations integration and architecture monitoring"
+    - "Incident Response: Architecture design and recovery procedures"
+    - "Vulnerability Management: Architecture assessment and remediation"
+    - "Threat Intelligence: Architecture design and threat modeling"
+
+  technology_development:
+    - "Enterprise Architecture: Security design and technology coordination"
+    - "Development Teams: DevSecOps integration and secure development"
+    - "Infrastructure Teams: Security controls and monitoring implementation"
+    - "Cloud Operations: Cloud security architecture and compliance"
+
+  business_processes:
+    - "Risk Management: Security architecture and assessment integration"
+    - "Compliance and Audit: Architecture design and regulatory requirements"
+    - "Business Continuity: Cyber resilience and recovery planning"
+    - "Vendor Management: Third-party security architecture assessment"
+
+# Performance Metrics
+performance_indicators:
+  architecture_effectiveness:
+    - "Security Architecture Maturity Score"
+    - "Security Control Coverage"
+    - "Architecture Compliance Rate"
+    - "Design Review Efficiency"
+    - "Architecture Standard Adoption"
+
+  technology_integration:
+    - "Security Tool Integration Success Rate"
+    - "Cloud Security Posture Score"
+    - "Legacy System Security Coverage"
+    - "Emerging Technology Security Readiness"
+    - "DevSecOps Pipeline Security"
+
+  resilience_continuity:
+    - "Cyber Resilience Maturity"
+    - "Security Monitoring Coverage"
+    - "Incident Response Effectiveness"
+    - "Business Continuity Integration"
+    - "Recovery Time Objectives"
+
+  compliance_governance:
+    - "Regulatory Compliance Score"
+    - "Security Framework Alignment"
+    - "Audit Readiness Rating"
+    - "Privacy by Design Implementation"
+    - "Governance Process Maturity"
+
+  innovation_research:
+    - "Emerging Technology Security Assessment"
+    - "Security Innovation Pipeline"
+    - "Technology Adoption Rate"
+    - "Research Collaboration Index"
+    - "Standards Contribution Level"
+
+# Triggering Scenarios
+triggers:
+  architecture_scenarios:
+    - "Enterprise security transformation"
+    - "Cloud security architecture design"
+    - "Zero trust implementation"
+    - "Security architecture modernization"
+
+  technology_scenarios:
+    - "Multi-cloud security integration"
+    - "Legacy system security assessment"
+    - "Emerging technology security evaluation"
+    - "DevSecOps implementation"
+
+  resilience_scenarios:
+    - "Cyber resilience planning"
+    - "Business continuity integration"
+    - "Crisis management coordination"
+    - "Security incident architecture review"
+
+# Dependencies
+dependencies:
+  security_frameworks:
+    - "NIST Cybersecurity Framework"
+    - "ISO/IEC 27001 Security Management"
+    - "SABSA Security Architecture"
+    - "TOGAF Enterprise Architecture"
+    - "Zero Trust Architecture (NIST SP 800-207)"
+
+  cloud_platforms:
+    - "Amazon Web Services (AWS) Security"
+    - "Microsoft Azure Security"
+    - "Google Cloud Platform (GCP) Security"
+    - "Hybrid and Multi-Cloud Security"
+
+  security_tools:
+    - "Security Information and Event Management (SIEM)"
+    - "Security Orchestration, Automation and Response (SOAR)"
+    - "Cloud Security Posture Management (CSPM)"
+    - "Infrastructure as Code (IaC) Security"
+
+  compliance_standards:
+    - "SOX IT Controls and Security"
+    - "PCI-DSS Security Architecture"
+    - "HIPAA Security Rule Architecture"
+    - "GDPR Privacy by Design"
+
+# Output Formats
+output_types:
+  strategic_deliverables:
+    - "Enterprise Security Architecture Framework"
+    - "Multi-Cloud Security Strategy"
+    - "Zero Trust Architecture Design"
+    - "Cyber Resilience Framework"
+
+  technical_deliverables:
+    - "Security Reference Architectures"
+    - "Technology Integration Frameworks"
+    - "Cloud Security Implementation Guides"
+    - "DevSecOps Pipeline Security"
+
+  governance_deliverables:
+    - "Security Architecture Governance Framework"
+    - "Compliance Architecture Documentation"
+    - "Risk-Based Security Design Methodology"
+    - "Security Standards and Guidelines"
+
+# Quality Assurance
+quality_standards:
+  certification_alignment: "100% alignment with CISSP, SABSA, TOGAF, and CCSP competency requirements"
+  enterprise_readiness: "Fortune 500 enterprise security architecture standards"
+  compliance_coverage: "Comprehensive multi-regulatory compliance integration"
+  performance_benchmarks: "Industry-leading security architecture metrics"
+
+# Skill Executor Configuration
+executor:
+  primary_module: "security_architecture_director_executor.py"
+  typescript_integration: "security-architecture-director-module.ts"
+  coordination_framework: "operational-security-coordinator.ts"
+
+# Claude Code Integration
+claude_integration:
+  skill_registration: true
+  subagent_capability: true
+  cross_functional_coordination: true
+  enterprise_system_integration: true

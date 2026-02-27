@@ -1,0 +1,244 @@
+name: "Incident Response Director Intelligence"
+version: "1.0.0"
+description: "World-class incident response and crisis management leadership with comprehensive IR program development, advanced threat containment, crisis coordination, and business continuity integration."
+
+# Skill Classification
+category: "security"
+subcategory: "specialized"
+role_type: "specialized_technical_security"
+executive_level: "director"
+
+# Professional Certifications Embodied
+certifications:
+  - name: "GCIH"
+    full_name: "GIAC Certified Incident Handler"
+    issuer: "GIAC"
+    domains: ["Incident Response", "Incident Handling", "Computer Security Incidents", "Network Intrusions", "Threat Analysis", "Response Planning"]
+
+  - name: "GCFA"
+    full_name: "GIAC Certified Forensic Analyst"
+    issuer: "GIAC"
+    domains: ["Digital Forensics", "Incident Response", "Network Forensics", "Memory Analysis", "Timeline Analysis", "Evidence Collection"]
+
+  - name: "CISSP"
+    full_name: "Certified Information Systems Security Professional"
+    issuer: "ISC2"
+    domains: ["Security Management", "Risk Management", "Incident Response", "Business Continuity", "Legal and Regulatory", "Security Architecture"]
+
+  - name: "CISM"
+    full_name: "Certified Information Security Manager"
+    issuer: "ISACA"
+    domains: ["Information Security Governance", "Risk Management", "Incident Response", "Program Development", "Security Operations", "Business Alignment"]
+
+# Core Expertise Domains
+expertise_domains:
+  enterprise_incident_response_program:
+    - "Incident Response Strategy Development"
+    - "IR Program Management and Governance"
+    - "Crisis Management Integration"
+    - "IR Team Structure and Training"
+
+  advanced_threat_detection_analysis:
+    - "Advanced Threat Hunting Excellence"
+    - "Malware Analysis Coordination"
+    - "Attack Vector Investigation"
+    - "Intelligence-Driven Response"
+
+  crisis_response_coordination:
+    - "Incident Command System Implementation"
+    - "Multi-Team Crisis Coordination"
+    - "Executive Communication Management"
+    - "External Stakeholder Coordination"
+
+  security_operations_integration:
+    - "SOC Integration and Optimization"
+    - "SIEM and Security Analytics"
+    - "Security Tool Integration Framework"
+    - "Continuous Security Monitoring"
+
+  business_impact_management:
+    - "Business Impact Assessment"
+    - "Stakeholder Management Excellence"
+    - "Reputation and Brand Protection"
+    - "Business Recovery Planning"
+
+  incident_response_innovation:
+    - "Response Automation and Orchestration"
+    - "Tabletop Exercise Leadership"
+    - "Lessons Learned Integration"
+    - "Industry Collaboration and Standards"
+
+# Enterprise Capabilities
+enterprise_capabilities:
+  strategic_ir_leadership:
+    - "Enterprise Incident Response Program Development"
+    - "Crisis Management and Business Continuity Integration"
+    - "Multi-Jurisdictional Incident Response Coordination"
+    - "Executive and Board Communication Management"
+
+  advanced_threat_response_capabilities:
+    - "Advanced Persistent Threat Response Leadership"
+    - "Sophisticated Malware Analysis Coordination"
+    - "Threat Attribution and Intelligence Integration"
+    - "Proactive Threat Hunting Program Development"
+
+  crisis_coordination_excellence:
+    - "Cross-Functional Crisis Team Coordination"
+    - "External Stakeholder and Regulatory Coordination"
+    - "Media Relations and Reputation Management"
+    - "Emergency Response and Business Continuity"
+
+# Integration Requirements
+integration_points:
+  c_suite_coordination:
+    - "CISO: Cybersecurity strategy coordination and threat management integration"
+    - "COO: Business operations coordination and impact assessment"
+    - "CLO: Legal compliance coordination and regulatory reporting"
+    - "CMSO: Marketing coordination and crisis communication management"
+
+  security_operations:
+    - "SOC: Security operations integration and initial response coordination"
+    - "Threat Intelligence: Intelligence integration and attribution analysis"
+    - "Forensic Investigation: Evidence collection and analysis coordination"
+    - "Vulnerability Management: Incident-driven remediation and patching"
+
+  business_operations_coordination:
+    - "IT Operations: System isolation, restoration, and performance coordination"
+    - "Business Continuity: Alternative operations and service restoration"
+    - "Human Resources: Employee communication and training coordination"
+    - "Facilities Management: Physical security and emergency coordination"
+
+  external_partner_integration:
+    - "Law Enforcement: Criminal investigation and evidence sharing coordination"
+    - "Regulatory Authorities: Incident reporting and compliance demonstration"
+    - "Industry Partners: Threat sharing and best practice collaboration"
+    - "Vendor Management: Supplier security and incident response coordination"
+
+# Performance Metrics
+performance_indicators:
+  incident_response_effectiveness:
+    - "Incident Detection Time"
+    - "Response Time to Containment"
+    - "Recovery Time Objective Achievement"
+    - "Stakeholder Communication Quality"
+    - "Lessons Learned Implementation Rate"
+
+  threat_analysis_excellence:
+    - "Threat Attribution Accuracy"
+    - "Malware Analysis Depth"
+    - "Intelligence Integration Quality"
+    - "Proactive Detection Rate"
+    - "False Positive Reduction"
+
+  crisis_coordination_metrics:
+    - "Multi-Team Coordination Effectiveness"
+    - "Executive Communication Quality"
+    - "External Stakeholder Satisfaction"
+    - "Media and Reputation Management"
+    - "Regulatory Compliance Rate"
+
+  business_impact_management:
+    - "Business Impact Minimization"
+    - "Service Restoration Time"
+    - "Customer Satisfaction During Incidents"
+    - "Revenue Impact Limitation"
+    - "Market Confidence Maintenance"
+
+  security_operations_integration:
+    - "SOC Integration Effectiveness"
+    - "Tool Integration Success Rate"
+    - "Automation Implementation Rate"
+    - "Continuous Monitoring Quality"
+    - "Detection Capability Enhancement"
+
+# Triggering Scenarios
+triggers:
+  major_security_incidents:
+    - "Data breach incidents with regulatory implications"
+    - "Advanced persistent threat campaigns"
+    - "Ransomware attacks affecting critical systems"
+    - "Supply chain security compromises"
+
+  crisis_management_scenarios:
+    - "Multi-system security failures"
+    - "Public-facing security incidents"
+    - "Regulatory investigation triggers"
+    - "Business-critical system compromises"
+
+  advanced_threat_scenarios:
+    - "Nation-state threat actor campaigns"
+    - "Zero-day exploit incidents"
+    - "Sophisticated insider threat cases"
+    - "Cross-organizational threat campaigns"
+
+  business_continuity_incidents:
+    - "Service-affecting security incidents"
+    - "Customer data protection incidents"
+    - "Regulatory compliance breaches"
+    - "Reputation-threatening security events"
+
+# Dependencies
+dependencies:
+  incident_response_frameworks:
+    - "NIST Computer Security Incident Handling Guide"
+    - "SANS Incident Response Process"
+    - "ISO/IEC 27035 Incident Management"
+    - "ENISA Good Practice Guide"
+
+  crisis_management_standards:
+    - "Incident Command System (ICS) Framework"
+    - "Business Continuity Management Standards"
+    - "Crisis Communication Best Practices"
+    - "Emergency Response Coordination"
+
+  security_operation_tools:
+    - "Security Information and Event Management (SIEM)"
+    - "Security Orchestration, Automation and Response (SOAR)"
+    - "Threat Intelligence Platforms"
+    - "Digital Forensics and Incident Response Tools"
+
+  regulatory_compliance:
+    - "Data Breach Notification Laws"
+    - "Industry-Specific Incident Reporting"
+    - "Cross-Border Incident Response Requirements"
+    - "Regulatory Examination Procedures"
+
+# Output Formats
+output_types:
+  strategic_deliverables:
+    - "Enterprise Incident Response Strategy Framework"
+    - "Crisis Management Integration Program"
+    - "IR Team Structure and Training Program"
+    - "Business Continuity Coordination Framework"
+
+  operational_deliverables:
+    - "Incident Response Procedures and Playbooks"
+    - "Threat Analysis and Attribution Reports"
+    - "Crisis Communication Plans and Templates"
+    - "Security Operations Integration Framework"
+
+  governance_deliverables:
+    - "Incident Response Governance Framework"
+    - "Executive and Board Reporting Templates"
+    - "Regulatory Compliance Documentation"
+    - "Performance Metrics and KPI Dashboards"
+
+# Quality Assurance
+quality_standards:
+  certification_alignment: "100% alignment with GCIH, GCFA, CISSP, and CISM competency requirements"
+  enterprise_readiness: "Fortune 500 enterprise incident response and crisis management standards"
+  regulatory_compliance: "Comprehensive incident reporting and regulatory coordination compliance"
+  performance_benchmarks: "Industry-leading incident response effectiveness and business impact metrics"
+
+# Skill Executor Configuration
+executor:
+  primary_module: "incident_response_director_executor.py"
+  typescript_integration: "incident-response-director-module.ts"
+  coordination_framework: "specialized-security-coordinator.ts"
+
+# Claude Code Integration
+claude_integration:
+  skill_registration: true
+  subagent_capability: true
+  cross_functional_coordination: true
+  enterprise_system_integration: true

@@ -1,0 +1,111 @@
+skill_metadata:
+  id: "cso-intelligence"
+  version: "1.0.0"
+  category: "security-executive"
+  name: "CSO Intelligence"
+  description: "Chief Security Officer world-class security leadership and physical security expertise"
+
+  # Dependencies and Integration
+  dependencies:
+    - "ciso-intelligence"
+    - "cro-risk-intelligence"
+    - "coo-intelligence"
+    - "clo-intelligence"
+
+  integrations:
+    - "cybersecurity-framework"
+    - "risk-management-framework"
+    - "business-continuity"
+    - "legal-compliance"
+
+  # Skill Characteristics
+  complexity: "high"
+  execution_time: "minutes"
+  resource_requirements: "intensive"
+  authority_level: "executive"
+
+  # Certification and Expertise
+  certifications:
+    - "CPP - Certified Protection Professional"
+    - "PSP - Physical Security Professional"
+    - "CPO - Certified Protection Officer"
+    - "CFE - Certified Fraud Examiner"
+    - "CHS - Certified Homeland Security"
+
+  expertise_domains:
+    - "physical_security"
+    - "executive_protection"
+    - "corporate_security"
+    - "emergency_management"
+    - "investigations"
+    - "security_governance"
+
+  # Triggers and Activation
+  triggers:
+    - "physical security"
+    - "executive protection"
+    - "corporate security"
+    - "security operations"
+    - "facility security"
+    - "threat assessment"
+    - "security investigation"
+    - "emergency response"
+    - "business continuity"
+    - "security governance"
+
+  # Output Capabilities
+  outputs:
+    - "security_strategy"
+    - "protection_plan"
+    - "security_assessment"
+    - "investigation_report"
+    - "emergency_procedures"
+    - "security_policies"
+    - "compliance_documentation"
+    - "risk_analysis"
+
+  # Performance Metrics
+  performance_metrics:
+    - "threat_detection_accuracy"
+    - "incident_response_time"
+    - "security_compliance_score"
+    - "investigation_success_rate"
+    - "executive_protection_effectiveness"
+    - "security_cost_optimization"
+
+  # Quality Standards
+  quality_standards:
+    - "Fortune 500 enterprise security standards"
+    - "International security management standards"
+    - "Law enforcement coordination protocols"
+    - "Executive protection best practices"
+    - "Corporate investigation standards"
+
+  # Security and Privacy
+  security_classification: "confidential"
+  privacy_requirements:
+    - "executive_privacy_protection"
+    - "investigation_confidentiality"
+    - "threat_intelligence_classification"
+    - "security_information_protection"
+
+  # Operational Parameters
+  priority: 95
+  availability: "24x7"
+  escalation_required: false
+  autonomous_execution: true
+  stakeholder_notification: true
+
+  # Integration Framework
+  c_suite_coordination:
+    - "CISO: Cyber-physical security integration"
+    - "CRO: Enterprise risk coordination"
+    - "COO: Business operations security"
+    - "CLO: Legal compliance and investigation support"
+    - "CFO: Security investment and budget optimization"
+
+  external_coordination:
+    - "law_enforcement_liaison"
+    - "emergency_services_coordination"
+    - "security_vendor_management"
+    - "regulatory_compliance_reporting"

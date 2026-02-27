@@ -1,0 +1,126 @@
+skill_metadata:
+  id: "cpo-privacy-intelligence"
+  version: "1.0.0"
+  category: "security-executive"
+  name: "CPO Privacy Intelligence"
+  description: "Chief Privacy Officer world-class privacy leadership and regulatory compliance expertise"
+
+  # Dependencies and Integration
+  dependencies:
+    - "ciso-intelligence"
+    - "cro-risk-intelligence"
+    - "clo-intelligence"
+    - "cto-intelligence"
+
+  integrations:
+    - "data-governance-framework"
+    - "cybersecurity-framework"
+    - "legal-compliance"
+    - "risk-management-framework"
+
+  # Skill Characteristics
+  complexity: "high"
+  execution_time: "minutes"
+  resource_requirements: "intensive"
+  authority_level: "executive"
+
+  # Certification and Expertise
+  certifications:
+    - "CIPP - Certified Information Privacy Professional"
+    - "CIPM - Certified Information Privacy Manager"
+    - "CIPT - Certified Information Privacy Technologist"
+    - "FIP - Fellow of Information Privacy"
+    - "CIPP/E - CIPP/Europe"
+    - "CIPP/US - CIPP/United States"
+
+  expertise_domains:
+    - "data_privacy"
+    - "regulatory_compliance"
+    - "privacy_governance"
+    - "gdpr_compliance"
+    - "ccpa_compliance"
+    - "data_protection"
+    - "privacy_risk_management"
+    - "consent_management"
+
+  # Triggers and Activation
+  triggers:
+    - "data privacy"
+    - "privacy compliance"
+    - "GDPR"
+    - "CCPA"
+    - "data protection"
+    - "privacy assessment"
+    - "data breach"
+    - "consent management"
+    - "privacy governance"
+    - "data subject rights"
+    - "cross-border transfer"
+    - "privacy impact assessment"
+
+  # Output Capabilities
+  outputs:
+    - "privacy_strategy"
+    - "compliance_framework"
+    - "privacy_assessment"
+    - "breach_response_plan"
+    - "consent_management_system"
+    - "privacy_policies"
+    - "compliance_documentation"
+    - "risk_analysis"
+    - "training_programs"
+
+  # Performance Metrics
+  performance_metrics:
+    - "regulatory_compliance_score"
+    - "privacy_incident_response_time"
+    - "data_subject_request_fulfillment_rate"
+    - "privacy_training_completion_rate"
+    - "consent_management_effectiveness"
+    - "privacy_risk_reduction"
+
+  # Quality Standards
+  quality_standards:
+    - "Global privacy regulation compliance"
+    - "Data protection authority standards"
+    - "Privacy by design principles"
+    - "International privacy frameworks"
+    - "Enterprise privacy governance best practices"
+
+  # Security and Privacy
+  security_classification: "highly_confidential"
+  privacy_requirements:
+    - "personal_data_protection"
+    - "regulatory_information_classification"
+    - "privacy_assessment_confidentiality"
+    - "data_subject_information_protection"
+
+  # Operational Parameters
+  priority: 98
+  availability: "24x7"
+  escalation_required: false
+  autonomous_execution: true
+  stakeholder_notification: true
+
+  # Integration Framework
+  c_suite_coordination:
+    - "CISO: Cyber-privacy convergence and data protection"
+    - "CRO: Privacy risk integration with enterprise risk"
+    - "CLO: Legal compliance and regulatory defense"
+    - "CTO: Privacy technology and system integration"
+    - "CFO: Privacy investment and compliance cost optimization"
+
+  external_coordination:
+    - "data_protection_authority_liaison"
+    - "privacy_counsel_coordination"
+    - "regulatory_compliance_reporting"
+    - "privacy_vendor_management"
+
+  # Regulatory Coverage
+  regulatory_frameworks:
+    - "GDPR - General Data Protection Regulation"
+    - "CCPA/CPRA - California Consumer Privacy Act/Rights Act"
+    - "PIPEDA - Personal Information Protection and Electronic Documents Act"
+    - "LGPD - Lei Geral de Proteção de Dados"
+    - "PDPA - Personal Data Protection Act"
+    - "Privacy_Act_1988 - Australian Privacy Act"

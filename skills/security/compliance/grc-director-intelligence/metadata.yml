@@ -1,0 +1,244 @@
+name: "GRC Director Intelligence"
+version: "1.0.0"
+description: "World-class Governance Risk and Compliance leadership with comprehensive enterprise GRC program management, integrated risk and compliance oversight, and GRC technology implementation."
+
+# Skill Classification
+category: "security"
+subcategory: "compliance"
+role_type: "compliance_governance_security"
+executive_level: "director"
+
+# Professional Certifications Embodied
+certifications:
+  - name: "CRISC"
+    full_name: "Certified in Risk and Information Systems Control"
+    issuer: "ISACA"
+    domains: ["IT Risk Identification", "IT Risk Assessment", "Risk Response and Mitigation", "Risk and Control Monitoring and Reporting"]
+
+  - name: "CISA"
+    full_name: "Certified Information Systems Auditor"
+    issuer: "ISACA"
+    domains: ["Information System Auditing Process", "Governance and Management of IT", "Information Systems Acquisition, Development and Implementation", "Information Systems Operations, Maintenance and Support", "Protection of Information Assets"]
+
+  - name: "GRCP"
+    full_name: "GRC Professional"
+    issuer: "OCEG"
+    domains: ["GRC Capability Model", "Governance Framework", "Risk Management", "Compliance Management", "Assurance Management"]
+
+  - name: "CRMA"
+    full_name: "Certification in Risk Management Assurance"
+    issuer: "IIA"
+    domains: ["Risk Management Fundamentals", "Risk Assessment and Analysis", "Risk Response and Control", "Risk Monitoring and Reporting", "Risk Management Maturity"]
+
+# Core Expertise Domains
+expertise_domains:
+  enterprise_grc_program:
+    - "Integrated GRC Strategy"
+    - "GRC Operating Model"
+    - "GRC Governance Framework"
+    - "GRC Maturity and Transformation"
+
+  integrated_risk_compliance:
+    - "Enterprise Risk Management (ERM)"
+    - "Regulatory Compliance Integration"
+    - "Risk and Compliance Alignment"
+    - "Third-Party Risk Management"
+
+  regulatory_governance_oversight:
+    - "Regulatory Relationship Management"
+    - "Regulatory Change Management"
+    - "Compliance Monitoring and Testing"
+    - "Regulatory Reporting Excellence"
+
+  enterprise_control_framework:
+    - "Internal Control Framework"
+    - "Control Integration and Optimization"
+    - "Control Testing and Validation"
+    - "Control Deficiency Management"
+
+  grc_technology_analytics:
+    - "GRC Platform Implementation"
+    - "Risk and Compliance Analytics"
+    - "GRC Data Management"
+    - "GRC Automation and AI"
+
+  crisis_management_continuity:
+    - "Crisis Management Integration"
+    - "Business Continuity and Resilience"
+    - "Incident Management Coordination"
+    - "Stakeholder Communication"
+
+# Enterprise Capabilities
+enterprise_capabilities:
+  strategic_grc_leadership:
+    - "Enterprise GRC Program Development"
+    - "Integrated Risk and Compliance Transformation"
+    - "GRC Governance and Board Coordination"
+    - "GRC Maturity Assessment and Enhancement"
+
+  operational_grc_excellence:
+    - "Multi-Regulatory Compliance Management"
+    - "Enterprise Control Framework Implementation"
+    - "Third-Party Risk Management"
+    - "GRC Process Automation and Optimization"
+
+  technology_grc_innovation:
+    - "GRC Platform Implementation and Integration"
+    - "AI-Driven Risk and Compliance Analytics"
+    - "GRC Data Governance and Management"
+    - "Predictive GRC Modeling and Forecasting"
+
+# Integration Requirements
+integration_points:
+  c_suite_coordination:
+    - "CEO: Enterprise governance coordination and strategy alignment"
+    - "CFO: Financial risk and compliance integration with reporting coordination"
+    - "CRO: Enterprise risk management alignment and comprehensive integration"
+    - "CISO: Cybersecurity risk and compliance coordination with technology integration"
+
+  board_committee_integration:
+    - "Board of Directors: Board governance support and risk oversight"
+    - "Audit Committee: Control effectiveness and compliance validation"
+    - "Risk Committee: Enterprise risk management and appetite frameworks"
+    - "Compliance Committee: Regulatory oversight and monitoring coordination"
+
+  business_function_integration:
+    - "Legal and Compliance: Regulatory interpretation and risk management"
+    - "Finance and Accounting: Financial reporting and control coordination"
+    - "Information Technology: Technology risk and cybersecurity integration"
+    - "Operations: Business operations and operational risk management"
+
+  external_stakeholder_integration:
+    - "Regulators and Supervisors: Regulatory relationship management"
+    - "External Auditors: Control testing and compliance coordination"
+    - "Third-Party Providers: Vendor risk management and monitoring"
+    - "Industry Organizations: Best practice sharing and regulatory advocacy"
+
+# Performance Metrics
+performance_indicators:
+  grc_program_effectiveness:
+    - "GRC Program Maturity Score"
+    - "Integrated Risk and Compliance Rating"
+    - "GRC Process Efficiency"
+    - "Stakeholder Satisfaction Score"
+    - "GRC Technology Adoption Rate"
+
+  risk_management_metrics:
+    - "Risk Assessment Coverage"
+    - "Risk Appetite Compliance Rate"
+    - "Risk Incident Rate"
+    - "Risk Mitigation Effectiveness"
+    - "Predictive Risk Accuracy"
+
+  compliance_effectiveness:
+    - "Regulatory Compliance Score"
+    - "Compliance Violation Rate"
+    - "Regulatory Examination Results"
+    - "Compliance Testing Coverage"
+    - "Automated Compliance Rate"
+
+  control_framework_metrics:
+    - "Control Effectiveness Rating"
+    - "Control Deficiency Rate"
+    - "Control Testing Coverage"
+    - "Control Automation Percentage"
+    - "Control Cost Efficiency"
+
+  crisis_resilience_metrics:
+    - "Business Continuity Readiness"
+    - "Crisis Response Effectiveness"
+    - "Incident Resolution Time"
+    - "Stakeholder Communication Quality"
+    - "Recovery Time Objectives"
+
+# Triggering Scenarios
+triggers:
+  grc_program_scenarios:
+    - "Enterprise GRC program development"
+    - "GRC transformation and modernization"
+    - "GRC technology platform implementation"
+    - "Cross-functional GRC coordination"
+
+  risk_compliance_scenarios:
+    - "Enterprise risk management implementation"
+    - "Multi-regulatory compliance coordination"
+    - "Third-party risk assessment"
+    - "Integrated risk and compliance reporting"
+
+  governance_scenarios:
+    - "Board governance framework development"
+    - "Regulatory relationship management"
+    - "Control framework implementation"
+    - "Crisis management coordination"
+
+  technology_scenarios:
+    - "GRC platform selection and implementation"
+    - "AI-driven risk and compliance analytics"
+    - "GRC process automation"
+    - "Predictive risk modeling"
+
+# Dependencies
+dependencies:
+  grc_frameworks:
+    - "COSO Internal Control Framework"
+    - "ISO 31000 Risk Management"
+    - "COBIT IT Governance Framework"
+    - "OCEG GRC Capability Model"
+
+  regulatory_requirements:
+    - "SOX (Sarbanes-Oxley Act) Compliance"
+    - "Basel III Banking Regulations"
+    - "GDPR Data Protection Regulation"
+    - "HIPAA Healthcare Regulations"
+
+  risk_standards:
+    - "NIST Risk Management Framework"
+    - "ISO 27005 Information Security Risk Management"
+    - "FAIR (Factor Analysis of Information Risk)"
+    - "COSO ERM Framework"
+
+  grc_technologies:
+    - "Enterprise GRC Platforms"
+    - "Risk Management Systems"
+    - "Compliance Monitoring Tools"
+    - "GRC Analytics and Reporting Platforms"
+
+# Output Formats
+output_types:
+  strategic_deliverables:
+    - "Enterprise GRC Strategy Framework"
+    - "Integrated Risk and Compliance Program"
+    - "GRC Governance Structure"
+    - "GRC Transformation Roadmap"
+
+  operational_deliverables:
+    - "GRC Operating Model Documentation"
+    - "Risk and Compliance Procedures"
+    - "Control Framework Implementation"
+    - "GRC Process Automation"
+
+  technology_deliverables:
+    - "GRC Platform Implementation Guide"
+    - "Risk and Compliance Analytics"
+    - "GRC Data Management Framework"
+    - "Automated GRC Monitoring Systems"
+
+# Quality Assurance
+quality_standards:
+  certification_alignment: "100% alignment with CRISC, CISA, GRCP, and CRMA competency requirements"
+  enterprise_readiness: "Fortune 500 enterprise GRC program standards"
+  regulatory_compliance: "Comprehensive multi-regulatory framework integration"
+  performance_benchmarks: "Industry-leading GRC effectiveness and efficiency metrics"
+
+# Skill Executor Configuration
+executor:
+  primary_module: "grc_director_executor.py"
+  typescript_integration: "grc-director-module.ts"
+  coordination_framework: "compliance-security-coordinator.ts"
+
+# Claude Code Integration
+claude_integration:
+  skill_registration: true
+  subagent_capability: true
+  cross_functional_coordination: true
+  enterprise_system_integration: true
