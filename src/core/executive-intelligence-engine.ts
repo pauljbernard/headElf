@@ -9,6 +9,8 @@
  * Technical Complexity: 8/10 - Advanced AI reasoning and orchestration
  */
 
+import { WorldClassExecutivePipeline } from './world-class-executive-pipeline';
+
 // Core Types and Interfaces
 export interface ExecutiveContext {
   organizationalContext: OrganizationalContext;
@@ -123,6 +125,7 @@ export class ExecutiveIntelligenceEngine {
   private decisionOrchestrator: DecisionOrchestrator;
   private performanceTracker: PerformanceTracker;
   private learningEngine: LearningEngine;
+  private worldClassPipeline: WorldClassExecutivePipeline;
 
   // C-Suite Executive Modules
   private ctoModule: CTOIntelligenceModule;
@@ -141,7 +144,34 @@ export class ExecutiveIntelligenceEngine {
   }
 
   /**
-   * Primary executive decision-making interface
+   * World-class executive decision-making interface
+   * Uses enhanced diagnostic depth, conviction-based decisions, and comprehensive analysis
+   */
+  async makeWorldClassExecutiveDecision(
+    query: ExecutiveQuery,
+    context: ExecutiveContext,
+    role?: CsuiteRole
+  ): Promise<ExecutiveDecision> {
+    try {
+      // Use the world-class executive pipeline for enhanced decision-making
+      const worldClassResult = await this.worldClassPipeline.processExecutiveQuery({
+        query,
+        context,
+        requestedRole: role,
+        timestamp: new Date(),
+        priority: 'high'
+      });
+
+      // Convert world-class result to executive decision format
+      return this.convertWorldClassResultToDecision(worldClassResult, context, role || worldClassResult.primaryRole);
+
+    } catch (error) {
+      throw new ExecutiveDecisionError(`Failed to make world-class executive decision: ${error.message}`, error);
+    }
+  }
+
+  /**
+   * Primary executive decision-making interface (legacy)
    * Analyzes context, generates options, recommends decisions, and tracks outcomes
    */
   async makeExecutiveDecision(
@@ -304,12 +334,62 @@ export class ExecutiveIntelligenceEngine {
   }
 
   // Private implementation methods
+  private async convertWorldClassResultToDecision(
+    worldClassResult: any,
+    context: ExecutiveContext,
+    primaryRole: CsuiteRole
+  ): Promise<ExecutiveDecision> {
+    // Convert world-class pipeline result to executive decision format
+    return {
+      id: this.generateDecisionId(),
+      type: this.classifyDecisionType(worldClassResult.query, worldClassResult.recommendation),
+      scope: worldClassResult.recommendation.scope || 'STRATEGIC',
+      authorityLevel: worldClassResult.recommendation.authorityLevel || 'EXECUTIVE',
+      context,
+      options: worldClassResult.alternativeOptions || [],
+      recommendation: {
+        option: worldClassResult.recommendation,
+        confidence: worldClassResult.convictionLevel / 100,
+        executiveRole: primaryRole,
+        rationale: worldClassResult.rationale,
+        expectedOutcomes: worldClassResult.expectedOutcomes,
+        implementationComplexity: worldClassResult.implementationComplexity,
+        timeframe: worldClassResult.timeframe,
+        resourceRequirements: worldClassResult.resourceRequirements,
+        successProbability: worldClassResult.successProbability / 100,
+        alternativeOptions: worldClassResult.alternativeOptions || []
+      },
+      rationale: worldClassResult.diagnosticInsights,
+      riskAssessment: {
+        overallRisk: worldClassResult.riskAssessment?.overallRisk || 'MEDIUM',
+        riskFactors: worldClassResult.riskAssessment?.identifiedRisks || [],
+        mitigationStrategies: worldClassResult.riskAssessment?.mitigationStrategies || []
+      },
+      stakeholderImpact: worldClassResult.stakeholderAnalysis,
+      implementationPlan: {
+        phases: worldClassResult.implementationPlan?.phases || [],
+        timeline: worldClassResult.timeframe,
+        resources: worldClassResult.resourceRequirements,
+        milestones: worldClassResult.implementationPlan?.milestones || [],
+        risks: worldClassResult.riskAssessment?.implementationRisks || []
+      },
+      successMetrics: worldClassResult.successMetrics || {
+        primaryMetrics: [],
+        secondaryMetrics: [],
+        timeframe: worldClassResult.timeframe
+      },
+      timestamp: new Date(),
+      executiveRole: primaryRole
+    };
+  }
+
   private async initializeComponents(config: EngineConfiguration): Promise<void> {
     this.contextAnalyzer = new ExecutiveContextAnalyzer(config.contextConfig);
     this.reasoningEngine = new ExecutiveReasoningEngine(config.reasoningConfig);
     this.decisionOrchestrator = new DecisionOrchestrator(config.orchestrationConfig);
     this.performanceTracker = new PerformanceTracker(config.performanceConfig);
     this.learningEngine = new LearningEngine(config.learningConfig);
+    this.worldClassPipeline = new WorldClassExecutivePipeline(config.worldClassConfig);
   }
 
   private async initializeExecutiveModules(config: EngineConfiguration): Promise<void> {

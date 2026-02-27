@@ -103,7 +103,13 @@ class HeadElfSkillRegistry:
             "formal-proof-construction",
             "system-builder-experience",
             "intellectual-honesty-enforcement",
-            "risk-managed-analysis"
+            "risk-managed-analysis",
+            "executive-diagnostic-depth",
+            "conviction-based-decision-making",
+            "financial-fluency-and-modeling",
+            "political-dynamics-analysis",
+            "regulatory-and-compliance-fluency",
+            "premise-challenging-analysis"
         ]
 
         for skill_name in advanced_skill_names:
