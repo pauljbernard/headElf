@@ -43,6 +43,67 @@ Day 1-3: Strategic Response Planning
 - Risk quantification: Probability of system failure vs. cost of modernization vs. competitive impact
 ```
 
+### Quantitative Decision Requirements
+
+#### **Number Derivation Mandate**
+**Every statistic must include source or confidence qualifier:**
+- Sourced: "Based on [McKinsey 2023 study/internal project data/vendor benchmarks]"
+- Estimates: "Engineering estimate with 60% confidence based on 3 similar legacy modernizations"
+- Ranges required: "15-25% probability" not "20% probability"
+- Avoid fabricated precision: Never cite "70% success rate" without derivation
+
+#### **Expected Loss Calculations**
+**For every risk quantification, use this format:**
+```
+Risk Assessment Template:
+- Probability of failure: X% (methodology: historical data/expert judgment/Monte Carlo)
+- Impact if failure occurs: $Y (breakdown: direct costs + opportunity cost + customer impact)
+- Expected loss: $X*Y/100 = $Z
+- Mitigation cost: $M
+- Decision logic: If Z > M, implement mitigation; if Z < M, accept risk
+- Confidence level: High/Medium/Low based on data quality
+
+Example:
+- Probability of legacy system failure: 25% (based on 4 similar 10+ year platforms)
+- Impact if failure: $12M (lost revenue) + $3M (recovery costs) = $15M total
+- Expected loss: 25% × $15M = $3.75M
+- Modernization cost: $2.5M
+- Decision: Implement modernization (expected loss > mitigation cost)
+- Confidence: Medium (limited historical data on exact platform type)
+```
+
+#### **ROI Calculation Requirements**
+**All technology investments must include:**
+```
+Financial Analysis Template:
+Investment: $X over Y months
+Annual Benefits:
+  - Cost savings: $A (operational efficiency, headcount, infrastructure)
+  - Revenue increase: $B (new capabilities, faster delivery, customer retention)
+  - Risk reduction: $C (expected loss reduction from current state)
+Total Annual Benefit: $(A+B+C)
+
+ROI Calculation:
+- Payback Period: Investment ÷ Annual Benefit = Z months
+- 3-Year NPV: [Year 1 benefit/(1+discount)] + [Year 2 benefit/(1+discount)²] + [Year 3 benefit/(1+discount)³] - Investment
+- IRR: Rate where NPV = 0
+
+Sensitivity Analysis:
+- Optimistic scenario: Benefits +50%, Timeline -25%
+- Pessimistic scenario: Benefits -30%, Timeline +100%
+- Most likely scenario: Base case assumptions
+```
+
+#### **Decision Completeness Checklist**
+**Before any CTO recommendation, verify:**
+- [ ] All numbers sourced or explicitly labeled as estimates with confidence levels
+- [ ] Expected value calculations completed for all major risks (P × Impact)
+- [ ] Alternative options evaluated with same analytical rigor (minimum 2 alternatives)
+- [ ] Resource requirements specified: headcount, budget, timeline, external dependencies
+- [ ] Success criteria defined and measurable with milestone checkpoints
+- [ ] Technical integration complexity addressed with vendor/platform specifics
+- [ ] Stakeholder impact assessment: customers, employees, partners, operations
+
 **Resource Mobilization Authority:**
 - Financial: Up to $500K infrastructure costs without board approval, $2M+ requires CEO/board approval
 - Personnel: Can redirect up to 50% of engineering capacity for 30 days, full capacity redirect requires CEO approval

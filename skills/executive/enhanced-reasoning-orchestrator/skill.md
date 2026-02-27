@@ -108,6 +108,54 @@ Orchestrates advanced reasoning skills to prevent shallow analysis and ensure ri
 - Synthesis coherence ≥ 90% (blocks inconsistent integration)
 - Recommendation specificity ≥ 85% (blocks vague final recommendations)
 
+### Stage 8: Executive Decision Finalization
+**Purpose**: Transform analysis into executable decisions with accountability and ownership
+**Skills Applied**:
+- Executive Decision Quality Enforcer: Validates against fabricated precision and consultant language
+- Completeness Validator: Ensures all question components addressed with executive depth
+- Executive Accountability Tracker: Assigns ownership, authority, and measurable success criteria
+- Executive Conflict Resolution: Resolves cross-functional resource/priority conflicts
+
+**Quality Gates**:
+- Authority alignment ≥ 95% (blocks decisions exceeding appropriate executive scope)
+- Resource specificity ≥ 90% (blocks vague budget/timeline/headcount requirements)
+- Success criteria measurability ≥ 85% (blocks unmeasurable outcomes or indefinite timelines)
+- Accountability assignment ≥ 100% (every action must have designated owner and success/failure responsibility)
+
+**Executive Decision Format Template**:
+```
+EXECUTIVE DECISION RECORD:
+DECISION: [Specific action with quantified resource allocation and timeline]
+AUTHORITY: [Decision maker level - Individual Executive/CEO Joint/Board Approval]
+FINANCIAL: [Budget: $X ± Y% confidence, funding source, contingency allocation]
+RESOURCES: [People: Z engineers/analysts for W months, skill requirements, external dependencies]
+TIMELINE: [Month-by-month milestones with checkpoint validation and success criteria]
+SUCCESS CRITERIA: [Measurable outcomes with baseline, target, measurement methodology, review schedule]
+RISK ANALYSIS: [Probability × Impact = Expected Loss, mitigation cost, decision logic]
+STAKEHOLDER IMPACT: [Customer/employee/partner/regulatory effects with communication plan]
+ACCOUNTABILITY: [Primary owner with success/failure responsibility, supporting roles, escalation triggers]
+TECHNICAL IMPLEMENTATION: [Vendor/platform choices, integration complexity, operational requirements]
+ALTERNATIVES CONSIDERED: [Minimum 2 options with same analytical rigor, selection rationale]
+FAILURE TRIGGERS: [Conditions requiring plan revision, resource adjustment, or executive escalation]
+```
+
+**Executive Enhancement Patterns**:
+```
+TRANSFORMATION: Framework Analysis → Executable Decision
+BEFORE: "Implement zero trust architecture with phased approach and stakeholder alignment"
+AFTER: "DECISION: Deploy $4.2M zero trust over 24 months, 40K endpoints + 8 manufacturing plants
+        AUTHORITY: CISO autonomous for security controls, CEO approval for >$5M total
+        RESOURCES: 12 security engineers, Okta/Cisco ISE licenses, specialized OT contractor
+        SUCCESS: <1 hour lateral movement containment, 99.5% authentication, zero unmanaged devices"
+
+TRANSFORMATION: Risk Description → Quantified Impact
+BEFORE: "Significant implementation challenges may require additional resources"
+AFTER: "RISK: 40% probability 6-month delay based on 3 similar integrations
+        IMPACT: $2.1M expected overrun (40% × $5.25M total delay cost)
+        MITIGATION: $800K parallel team + 15% contingency budget
+        DECISION: Implement mitigation (expected loss > mitigation cost)"
+```
+
 ## Response Quality Transformation
 
 ### Before Enhancement (Survey-Level Response Pattern)
@@ -165,9 +213,9 @@ Query Complexity → Pipeline Configuration
 │   ├── Standard quality gates
 │   └── Intellectual honesty enforcement
 ├── Complex Queries
-│   ├── Full 7-stage analysis pipeline
+│   ├── Full 8-stage analysis pipeline
 │   ├── Strict quality gates
-│   └── Formal analysis requirements
+│   └── Executive decision finalization requirements
 └── Research-Level Queries
     ├── Enhanced formal analysis stage
     ├── Extended adversarial analysis
@@ -213,9 +261,9 @@ Executive Role Integration:
 │   ├── ROI projections → Implementation grounding
 │   └── Budget planning → Operational complexity assessment
 └── All Executive Roles
-    ├── Strategic proposals → Multi-stage analysis
-    ├── Major decisions → Intellectual honesty enforcement
-    └── Board presentations → Commitment matrix generation
+    ├── Strategic proposals → Full 8-stage analysis pipeline
+    ├── Major decisions → Executive decision finalization (Stage 8)
+    └── Board presentations → Executive accountability tracking with measurable outcomes
 ```
 
 ### Cross-Functional Analysis Orchestration
