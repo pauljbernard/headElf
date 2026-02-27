@@ -108,6 +108,11 @@ Technical Assertion → Required Specificity
 │   ├── Assumptions about attacker capabilities
 │   ├── Formal security definitions if applicable
 │   └── Known limitations and out-of-scope threats
+├── Cost and Resource Claims
+│   ├── SOURCE REQUIRED: Cite specific studies, vendor quotes, or project data
+│   ├── UNCERTAINTY ACKNOWLEDGED: If no reliable data, state "cost unknown"
+│   ├── METHODOLOGY SPECIFIED: How estimates were derived
+│   └── RANGE PROVIDED: Best/worst case scenarios with confidence levels
 ├── Scalability Claims
 │   ├── Specific scaling limits with bottleneck analysis
 │   ├── Resource requirements as function of scale
@@ -118,6 +123,35 @@ Technical Assertion → Required Specificity
     ├── MTBF/MTTR estimates with basis
     ├── Monitoring and alerting requirements
     └── Recovery procedures and human factors
+```
+
+### Fabricated Specificity Detection
+
+#### Cost/Performance Number Validation
+```
+Claim Pattern → Validation Required
+├── "$X million cost" → Source: industry report, vendor quote, project experience?
+├── "Y% improvement" → Methodology: controlled experiment, benchmark, modeling?
+├── "Z-month timeline" → Basis: similar project data, expert estimate, team assessment?
+└── "A% accuracy rate" → Evidence: peer-reviewed study, internal testing, vendor claims?
+
+Enforcement Actions:
+├── No Source → Replace with "cost unknown" or "timeline uncertain"
+├── Weak Source → Acknowledge uncertainty: "estimated based on limited data"
+├── Invalid Source → Remove claim entirely
+└── Strong Source → Include source citation and methodology
+```
+
+#### Example Transformations
+```
+Before: "Multiple AI verification costs $2M setup, 10x development time"
+After: "Multiple AI verification costs unknown - no reliable industry data available for enterprise-scale AI verification systems"
+
+Before: "System achieves 99.9% security improvement"
+After: "System addresses specific attack vectors X, Y, Z but no quantitative security metrics available"
+
+Before: "Implementation requires 6-month timeline"
+After: "Implementation timeline uncertain - depends on team size, complexity, and integration requirements (estimated range: 3-12 months based on similar system complexity)"
 ```
 
 ### Decision Forcing Functions
@@ -322,6 +356,45 @@ Criticism Type → Integration Approach
     ├── Verify proof validity
     ├── Abandon approach if proof is sound
     └── Look for ways to relax problem constraints
+```
+
+## Production Experience Claims Validation
+
+### Experience Claim Categories
+```
+Experience Type → Validation Required
+├── "Production deployment experience"
+│   ├── Specific system names, companies, scales
+│   ├── Time periods and role responsibilities
+│   ├── Quantified outcomes and lessons learned
+│   └── If no direct experience: "based on literature/case studies"
+├── "War stories from building X"
+│   ├── Specific technical details of what broke
+│   ├── Timeline and resolution approach
+│   ├── Team size and organizational context
+│   └── Measurable impact and cost of failure
+├── "In production, Y always happens"
+│   ├── Specific systems where Y was observed
+│   ├── Frequency and conditions of occurrence
+│   ├── Mitigation strategies that were/weren't effective
+│   └── Statistical data if available, anecdotal if not
+└── "Operational reality shows Z"
+    ├── Source: direct experience, team reports, industry surveys
+    ├── Scope: specific technologies, company sizes, use cases
+    ├── Time period: when this observation was valid
+    └── Limitations: what contexts this may not apply to
+```
+
+### Example Experience Claim Corrections
+```
+Before: "Context manipulation happens constantly in production"
+After: "Based on literature review of AI deployment case studies, context manipulation occurs in environments with adversarial users (chatbots, code completion). No direct production experience with AI code generation pipelines available."
+
+Before: "Microservices always create debugging nightmares"
+After: "Based on experience with microservices deployments at [specific company/project], debugging complexity increased ~3x due to distributed tracing requirements. Service count: 25-40, team size: 8 engineers, timeline: 2019-2021."
+
+Before: "Kubernetes operational burden is substantial"
+After: "Operational burden uncertain - no direct Kubernetes production experience. Industry reports suggest 20-40% resource overhead and dedicated platform team requirements, but specific costs vary by organization size and use cases."
 ```
 
 ## Integration with Other Skills

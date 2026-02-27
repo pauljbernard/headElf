@@ -128,6 +128,7 @@ export class MultiStageReasoningPipeline {
   private formalProofConstruction: FormalProofConstructionSkill;
   private systemBuilderExperience: SystemBuilderExperienceSkill;
   private intellectualHonestyEnforcement: IntellectualHonestyEnforcementSkill;
+  private riskManagedAnalysis: RiskManagedAnalysisSkill;
 
   constructor() {
     // Initialize all advanced reasoning skills
@@ -137,6 +138,7 @@ export class MultiStageReasoningPipeline {
     this.formalProofConstruction = new FormalProofConstructionSkill();
     this.systemBuilderExperience = new SystemBuilderExperienceSkill();
     this.intellectualHonestyEnforcement = new IntellectualHonestyEnforcementSkill();
+    this.riskManagedAnalysis = new RiskManagedAnalysisSkill();
   }
 
   /**
@@ -389,15 +391,21 @@ export class MultiStageReasoningPipeline {
   }
 
   /**
-   * Stage 7: Synthesis and Commitment
+   * Stage 7: Risk-Managed Synthesis and Commitment
    */
   private async executeSynthesisAndCommitment(query: TechnicalQuery, allStages: AnalysisStage[]): Promise<AnalysisStage> {
+    // First, apply risk-managed analysis to establish probabilistic trust framework
+    const riskFramework = await this.generateRiskManagedFramework(query, allStages);
+
     const outputs = {
-      integrated_analysis: await this.synthesizeAllAnalyses(allStages),
-      commitment_matrix: await this.generateCommitmentMatrix(allStages),
-      trade_off_analysis: await this.analyzeTradeOffs(allStages),
-      final_recommendations: await this.generateRecommendations(allStages),
-      limitation_acknowledgments: await this.acknowledgeLastLimitations(allStages)
+      risk_framework: riskFramework,
+      integrated_analysis: await this.synthesizeAllAnalyses(allStages, riskFramework),
+      commitment_matrix: await this.generateCommitmentMatrix(allStages, riskFramework),
+      trade_off_analysis: await this.analyzeTradeOffs(allStages, riskFramework),
+      final_recommendations: await this.generateRiskBasedRecommendations(allStages, riskFramework),
+      probabilistic_trust_model: await this.establishProbabilisticTrust(riskFramework),
+      operational_assurance: await this.designOperationalAssurance(riskFramework),
+      limitation_acknowledgments: await this.acknowledgeLastLimitations(allStages, riskFramework)
     };
 
     const quality_gates = [
@@ -410,15 +418,47 @@ export class MultiStageReasoningPipeline {
         criterion: 'recommendation_specificity',
         threshold: 0.85,
         enforcement_action: 'block' as const
+      },
+      {
+        criterion: 'risk_budget_provided',
+        threshold: 0.8,
+        enforcement_action: 'warn' as const
+      },
+      {
+        criterion: 'middle_ground_explored',
+        threshold: 0.75,
+        enforcement_action: 'warn' as const
+      },
+      {
+        criterion: 'defeatism_avoidance',
+        threshold: 0.8,
+        enforcement_action: 'block' as const
       }
     ];
 
     return {
-      name: 'Synthesis and Commitment',
-      purpose: 'Integrate all analyses into coherent, committed recommendations',
-      skills: ['synthesis', 'decision_making', 'commitment_generation'],
+      name: 'Risk-Managed Synthesis and Commitment',
+      purpose: 'Integrate analyses into risk-appropriate recommendations with probabilistic trust models',
+      skills: ['risk_managed_analysis', 'synthesis', 'decision_making', 'commitment_generation', 'probabilistic_trust'],
       outputs,
       quality_gates
+    };
+  }
+
+  /**
+   * Generate risk-managed framework based on business context and technical constraints
+   */
+  private async generateRiskManagedFramework(query: TechnicalQuery, stages: AnalysisStage[]): Promise<any> {
+    // Analyze business context to establish risk budget
+    const businessContext = this.extractBusinessContext(query);
+    const technicalConstraints = this.extractTechnicalConstraints(stages);
+
+    return {
+      risk_budget: this.calculateRiskBudget(businessContext),
+      acceptable_failure_rates: this.establishFailureRates(businessContext),
+      assurance_levels: this.mapAssuranceLevels(businessContext, technicalConstraints),
+      probabilistic_thresholds: this.establishConfidenceThresholds(businessContext),
+      operational_monitoring: this.designMonitoringFramework(businessContext)
     };
   }
 

@@ -45,22 +45,55 @@ To prove Problem A is undecidable:
 #### Specific Example: Functional Equivalence
 **Claim**: Determining if two AI-generated programs are functionally equivalent is undecidable
 
-**Proof Construction**:
+**Proof Construction (Reduction to Halting Problem)**:
 ```
-Let FUNC-EQUIV be the problem of determining if programs P₁ and P₂ are functionally equivalent
+Let FUNC-EQUIV = {⟨P₁, P₂⟩ : P₁ and P₂ are functionally equivalent}
 
-Assume algorithm A solves FUNC-EQUIV
+Reduction: HALTING ≤ₘ FUNC-EQUIV
 
-Construct algorithm B that solves HALTING:
-1. Given program P and input x
-2. Construct program P₁ that simulates P on x, outputs 1 if P halts, otherwise loops
-3. Construct program P₂ that always outputs 1
-4. Use algorithm A to check if P₁ ≡ P₂
-5. If equivalent, P halts on x; if not equivalent, P doesn't halt on x
+Given ⟨P, x⟩ (does program P halt on input x?):
 
-Since HALTING is undecidable, algorithm A cannot exist
-Therefore FUNC-EQUIV is undecidable ∎
+1. Construct program P₁:
+   def P₁(input):
+       simulate P on x
+       if P halts on x:
+           return 1
+       else:
+           loop forever
+
+2. Construct program P₂:
+   def P₂(input):
+       return 1
+
+3. Output ⟨P₁, P₂⟩
+
+Correctness:
+- If P halts on x: P₁(y) = 1 for all y, so P₁ ≡ P₂
+- If P doesn't halt on x: P₁ loops on all inputs, so P₁ ≢ P₂
+
+Since HALTING is undecidable, FUNC-EQUIV is undecidable ∎
 ```
+
+### Rice's Theorem Applications
+
+**Direct Application**: Semantic Properties of AI-Generated Code
+```
+Property P: "Program semantically implements human intent I"
+
+Rice's Theorem Analysis:
+1. P is a property of partial computable functions (✓)
+2. P is non-trivial:
+   - Some programs implement intent I
+   - Some programs don't implement intent I (✓)
+3. P is semantic (depends on program behavior, not syntax) (✓)
+
+By Rice's Theorem: P is undecidable
+
+Therefore: No algorithm can determine if arbitrary AI-generated code
+semantically implements human intent ∎
+```
+
+**No reduction construction needed** - Rice's Theorem applies directly to semantic properties.
 
 ### Diagonalization Techniques
 

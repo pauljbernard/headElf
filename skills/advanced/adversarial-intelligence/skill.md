@@ -72,11 +72,63 @@ System Proposal → Attack Surface Analysis
 ## Specific Attack Patterns
 
 ### AI System Vulnerabilities
+
+#### Adversarial Example Transferability Analysis
+```
+Architecture Pair → Transferability Assessment
+├── Similar Transformers (e.g., GPT-3.5 → GPT-4)
+│   ├── High transferability (70-90% attack success)
+│   ├── Shared attention mechanisms and training methodologies
+│   ├── Common failure modes in tokenization and reasoning
+│   └── Mitigation: Limited architectural diversity benefit
+├── Different Transformer Families (e.g., BERT → GPT)
+│   ├── Moderate transferability (40-70% attack success)
+│   ├── Different training objectives (MLM vs autoregressive)
+│   ├── Architecture differences (encoder vs decoder)
+│   └── Mitigation: Meaningful but incomplete protection
+├── Transformer → Symbolic AI
+│   ├── Low transferability (10-30% attack success)
+│   ├── Fundamentally different processing paradigms
+│   ├── Rule-based vs statistical decision making
+│   └── Mitigation: Strong architectural diversity benefit
+└── Cross-Modal Systems (text → vision → code)
+    ├── Variable transferability (20-60% depending on attack vector)
+    ├── Shared embedding spaces may enable transfer
+    ├── Domain-specific attacks often don't transfer
+    └── Mitigation: Domain boundaries provide meaningful protection
+```
+
+#### Multi-System Attack Patterns
+```
+Attack Strategy → Effectiveness Assessment
+├── Universal Adversarials (fool all architectures)
+│   ├── Rare but possible for simple tasks
+│   ├── Exploit fundamental reasoning limitations
+│   ├── Example: Logic puzzles that confuse pattern matching
+│   └── Limitation: Complex to construct, narrow applicability
+├── Targeted Multi-Architecture
+│   ├── Craft different attacks for each system type
+│   ├── Requires knowledge of target architectures
+│   ├── Higher development cost but more effective
+│   └── Realistic for sophisticated attackers
+├── Adaptive Attacks
+│   ├── Probe systems to identify architecture types
+│   ├── Deploy architecture-specific attack vectors
+│   ├── Most realistic attack pattern for production systems
+│   └── Defeated by architectural obfuscation/rotation
+└── Supply Chain Convergence
+    ├── Attack training data/processes shared across systems
+    ├── High effectiveness when successful
+    ├── Single point of compromise affecting multiple systems
+    └── Primary threat vector for architectural diversity bypass
+```
+
+### Traditional AI Vulnerabilities
 - **Context Poisoning**: Adversarial manipulation of model context
 - **Training Data Poisoning**: Backdoors inserted during model training
 - **Prompt Injection**: Malicious instructions embedded in user input
 - **Model Extraction**: Stealing model parameters through query patterns
-- **Adversarial Examples**: Inputs designed to fool AI systems
+- **Architecture-Specific Adversarial Examples**: Inputs designed to exploit specific model types
 
 ### Cryptographic Trust Chain Breaks
 - **Key Management Failures**: Private key compromise, rotation failures

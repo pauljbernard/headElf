@@ -102,7 +102,8 @@ class HeadElfSkillRegistry:
             "adversarial-intelligence",
             "formal-proof-construction",
             "system-builder-experience",
-            "intellectual-honesty-enforcement"
+            "intellectual-honesty-enforcement",
+            "risk-managed-analysis"
         ]
 
         for skill_name in advanced_skill_names:
