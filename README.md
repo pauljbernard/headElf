@@ -188,6 +188,12 @@ HeadElf automatically coordinates across all C-suite functions, providing:
 - **🏗️ [Technical Specifications](TECHNICAL_SPECIFICATION.md)** - Detailed architecture and implementation
 - **📋 [Project Constitution](PROJECT_CONSTITUTION.md)** - Governance framework and quality standards
 
+## Background and Narrative
+
+Read the full story behind HeadElf's development: **[The Future of C-Suite Intelligence: Building HeadElf for Claude Code](https://medium.com/p/cf7d649b4511?postPublishedType=initial)**
+
+This comprehensive narrative explores the vision, architecture decisions, and implementation journey of creating a world-class C-suite executive intelligence system.
+
 ## Community and Support
 
 - **GitHub**: [Issues](https://github.com/pauljbernard/headElf/issues) | [Discussions](https://github.com/pauljbernard/headElf/discussions)
