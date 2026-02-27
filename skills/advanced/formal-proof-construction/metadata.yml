@@ -1,0 +1,26 @@
+name: "Formal Proof Construction"
+description: "Rigorous mathematical proof construction for technical claims, specializing in undecidability results and security lower bounds"
+version: "1.0.0"
+category: "advanced-reasoning"
+tags:
+  - "formal-proofs"
+  - "undecidability"
+  - "security-bounds"
+  - "mathematical-analysis"
+  - "proof-verification"
+author: "HeadElf Enhanced Reasoning Framework"
+license: "MIT"
+requirements:
+  - "mathematical-logic"
+  - "complexity-theory"
+  - "security-analysis"
+capabilities:
+  - "undecidability_proof_construction"
+  - "security_lower_bounds"
+  - "formal_system_analysis"
+  - "proof_verification_and_critique"
+integration:
+  - "adversarial-intelligence"
+  - "implementation-grounded-cto"
+  - "intellectual-honesty-enforcement"
+complexity: "research-level"

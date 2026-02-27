@@ -1,0 +1,26 @@
+name: "System Builder Experience"
+description: "Hard-earned knowledge from building, deploying, and maintaining complex systems in production environments"
+version: "1.0.0"
+category: "advanced-reasoning"
+tags:
+  - "deployment-reality"
+  - "operational-complexity"
+  - "scaling-bottlenecks"
+  - "maintenance-burden"
+  - "production-experience"
+author: "HeadElf Enhanced Reasoning Framework"
+license: "MIT"
+requirements:
+  - "system-administration"
+  - "devops-experience"
+  - "production-operations"
+capabilities:
+  - "deployment_reality_checks"
+  - "failure_mode_prediction"
+  - "scaling_bottleneck_analysis"
+  - "operational_complexity_assessment"
+integration:
+  - "implementation-grounded-cto"
+  - "adversarial-intelligence"
+  - "intellectual-honesty-enforcement"
+complexity: "complex"

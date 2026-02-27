@@ -1,0 +1,27 @@
+name: "Enhanced Reasoning Orchestrator"
+description: "Orchestrates advanced reasoning skills to prevent shallow analysis and ensure rigorous technical engagement through multi-stage analysis"
+version: "1.0.0"
+category: "executive"
+tags:
+  - "reasoning-orchestration"
+  - "multi-stage-analysis"
+  - "quality-gates"
+  - "intellectual-rigor"
+  - "systematic-analysis"
+author: "HeadElf Enhanced Reasoning Framework"
+license: "MIT"
+requirements:
+  - "adversarial-intelligence"
+  - "formal-proof-construction"
+  - "system-builder-experience"
+  - "intellectual-honesty-enforcement"
+capabilities:
+  - "multi_stage_analysis_pipeline"
+  - "intellectual_rigor_enforcement"
+  - "implementation_reality_integration"
+  - "security_attack_vector_analysis"
+integration:
+  - "all-advanced-reasoning-skills"
+  - "executive-skills"
+  - "security-skills"
+complexity: "research-level"

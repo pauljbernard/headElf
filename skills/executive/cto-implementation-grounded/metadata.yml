@@ -1,0 +1,26 @@
+name: "CTO Implementation Grounded"
+description: "Technology leadership that grounds every architectural decision in concrete implementation reality and operational experience"
+version: "1.0.0"
+category: "executive"
+tags:
+  - "cto-intelligence"
+  - "implementation-reality"
+  - "technical-leadership"
+  - "operational-complexity"
+  - "architecture-grounding"
+author: "HeadElf Enhanced Reasoning Framework"
+license: "MIT"
+requirements:
+  - "system-architecture"
+  - "technology-leadership"
+  - "implementation-experience"
+capabilities:
+  - "implementation_reality_enforcement"
+  - "technical_debt_analysis"
+  - "security_implementation_reality"
+  - "vendor_tool_reality_checks"
+integration:
+  - "adversarial-intelligence"
+  - "system-builder-experience"
+  - "security-skills"
+complexity: "complex"

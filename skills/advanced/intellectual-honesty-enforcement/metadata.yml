@@ -1,0 +1,26 @@
+name: "Intellectual Honesty Enforcement"
+description: "Systematic detection and prevention of intellectual dishonesty patterns including handwaving and commitment avoidance"
+version: "1.0.0"
+category: "advanced-reasoning"
+tags:
+  - "intellectual-honesty"
+  - "handwaving-detection"
+  - "commitment-enforcement"
+  - "counter-argument-generation"
+  - "knowledge-gap-identification"
+author: "HeadElf Enhanced Reasoning Framework"
+license: "MIT"
+requirements:
+  - "critical-thinking"
+  - "logical-analysis"
+  - "argumentation-theory"
+capabilities:
+  - "handwaving_detection_and_elimination"
+  - "commitment_enforcement"
+  - "knowledge_gap_identification"
+  - "counter_argument_integration"
+integration:
+  - "formal-proof-construction"
+  - "adversarial-intelligence"
+  - "system-builder-experience"
+complexity: "complex"

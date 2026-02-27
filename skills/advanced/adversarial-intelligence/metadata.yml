@@ -1,0 +1,26 @@
+name: "Adversarial Intelligence"
+description: "Advanced adversarial analysis that identifies attack vectors, generates counterexamples, and systematically breaks down proposed technical solutions"
+version: "1.0.0"
+category: "advanced-reasoning"
+tags:
+  - "adversarial-analysis"
+  - "attack-vectors"
+  - "counterexamples"
+  - "security-analysis"
+  - "proof-by-contradiction"
+author: "HeadElf Enhanced Reasoning Framework"
+license: "MIT"
+requirements:
+  - "formal-methods"
+  - "security-analysis"
+  - "system-design"
+capabilities:
+  - "attack_vector_identification"
+  - "counterexample_generation"
+  - "implementation_reality_testing"
+  - "proof_by_contradiction"
+integration:
+  - "security-skills"
+  - "formal-proof-construction"
+  - "implementation-grounded-cto"
+complexity: "research-level"

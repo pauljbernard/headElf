@@ -17,8 +17,10 @@ class HeadElfSkillRegistry:
         self.skills = {}
         self.executive_skills = {}
         self.industry_skills = {}
+        self.security_skills = {}
         self.architecture_skills = {}
         self.advanced_skills = {}
+        self.reasoning_skills = {}
         self._initialize_skills()
 
     def _initialize_skills(self):
@@ -30,6 +32,12 @@ class HeadElfSkillRegistry:
 
         # Load industry skills
         self._load_industry_skills(skills_dir / "industry")
+
+        # Load security skills
+        self._load_security_skills(skills_dir / "security")
+
+        # Load advanced reasoning skills
+        self._load_advanced_skills(skills_dir / "advanced")
 
         # Load architecture skills
         self._load_architecture_skills(skills_dir)
@@ -65,6 +73,42 @@ class HeadElfSkillRegistry:
         for skill_dir in industry_dir.iterdir():
             if skill_dir.is_dir() and (skill_dir / "skill.md").exists():
                 self._load_skill(skill_dir, "industry")
+
+    def _load_security_skills(self, security_dir: Path):
+        """Load all security framework skills."""
+        if not security_dir.exists():
+            return
+
+        # Load security skills from all categories
+        security_categories = [
+            ("executive", "security-executive"),  # CSO, CRO, CPO-Privacy
+            ("operational", "security-operational"),  # SOC, IAM, etc.
+            ("compliance", "security-compliance"),  # Compliance, Audit, etc.
+            ("specialized", "security-specialized")  # Forensics, Incident Response, etc.
+        ]
+
+        for category_name, skill_category in security_categories:
+            category_dir = security_dir / category_name
+            if category_dir.exists():
+                self._load_skills_from_category(category_dir, skill_category)
+
+    def _load_advanced_skills(self, advanced_dir: Path):
+        """Load all advanced reasoning skills."""
+        if not advanced_dir.exists():
+            return
+
+        # Load advanced reasoning skills
+        advanced_skill_names = [
+            "adversarial-intelligence",
+            "formal-proof-construction",
+            "system-builder-experience",
+            "intellectual-honesty-enforcement"
+        ]
+
+        for skill_name in advanced_skill_names:
+            skill_dir = advanced_dir / skill_name
+            if skill_dir.exists():
+                self._load_skill(skill_dir, "advanced-reasoning")
 
     def _load_architecture_skills(self, skills_dir: Path):
         """Load architecture and advanced skills."""
@@ -130,6 +174,10 @@ class HeadElfSkillRegistry:
                 self.executive_skills[skill_id] = skill_info
             elif category == "industry":
                 self.industry_skills[skill_id] = skill_info
+            elif category.startswith("security-"):
+                self.security_skills[skill_id] = skill_info
+            elif category == "advanced-reasoning":
+                self.reasoning_skills[skill_id] = skill_info
             elif category in ["application", "cloud-mastery", "architecture-mastery"]:
                 self.architecture_skills[skill_id] = skill_info
             elif category == "advanced":
@@ -149,6 +197,14 @@ class HeadElfSkillRegistry:
     def get_industry_skills(self) -> Dict[str, Any]:
         """Get all industry vertical skills."""
         return self.industry_skills
+
+    def get_security_skills(self) -> Dict[str, Any]:
+        """Get all security framework skills."""
+        return self.security_skills
+
+    def get_reasoning_skills(self) -> Dict[str, Any]:
+        """Get all advanced reasoning skills."""
+        return self.reasoning_skills
 
     def get_architecture_skills(self) -> Dict[str, Any]:
         """Get all software architecture skills."""
@@ -191,11 +247,15 @@ class HeadElfSkillRegistry:
             "total_skills": len(self.skills),
             "executive_skills": len(self.executive_skills),
             "industry_skills": len(self.industry_skills),
+            "security_skills": len(self.security_skills),
+            "reasoning_skills": len(self.reasoning_skills),
             "architecture_skills": len(self.architecture_skills),
             "advanced_skills": len(self.advanced_skills),
             "skill_categories": {
                 "executive": list(self.executive_skills.keys()),
                 "industry": list(self.industry_skills.keys()),
+                "security": list(self.security_skills.keys()),
+                "reasoning": list(self.reasoning_skills.keys()),
                 "architecture": list(self.architecture_skills.keys()),
                 "advanced": list(self.advanced_skills.keys())
             }
@@ -247,6 +307,34 @@ def get_industry_verticals() -> List[str]:
 
     return sorted(industries)
 
+def get_security_capabilities() -> List[str]:
+    """Get list of all security framework capabilities."""
+    return [
+        # Executive Security (4 roles)
+        "CSO - Chief Security Officer Intelligence",
+        "CRO - Chief Risk Officer Intelligence",
+        "CPO-Privacy - Chief Privacy Officer Intelligence",
+
+        # Operational Security (5 roles)
+        "SOC Director - Security Operations Center Leadership",
+        "IAM Director - Identity & Access Management",
+        "Security Architecture Director - Security Architecture & Design",
+        "Vulnerability Management Director - Vulnerability Assessment & Management",
+        "Threat Intelligence Director - Threat Intelligence & Analysis",
+
+        # Compliance Security (4 roles)
+        "Compliance Director - Regulatory Compliance & Governance",
+        "Audit Director - Security Audit & Assessment",
+        "GRC Director - Governance, Risk & Compliance",
+        "Privacy Director - Privacy Engineering & Data Protection",
+
+        # Specialized Security (4 roles)
+        "Forensic Investigation Director - Digital Forensics & Investigation",
+        "Incident Response Director - Crisis Response & Incident Management",
+        "Security Research Director - Security Research & Innovation",
+        "Business Continuity Director - Business Continuity & Resilience"
+    ]
+
 # Export main functions
 __all__ = [
     'HeadElfSkillRegistry',
@@ -254,5 +342,6 @@ __all__ = [
     'register_all_skills',
     'find_skills',
     'get_executive_capabilities',
+    'get_security_capabilities',
     'get_industry_verticals'
 ]

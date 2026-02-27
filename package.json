@@ -70,9 +70,6 @@
     "@types/uuid": "^9.0.2"
   },
 
-  "peerDependencies": {
-    "claude-code": ">=2.0.0"
-  },
 
   "files": [
     "src/**/*",

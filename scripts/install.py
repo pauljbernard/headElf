@@ -260,6 +260,8 @@ class HeadElfInstaller:
             print(f"✅ Skills registered successfully:")
             print(f"   - Total Skills: {summary['total_skills']}")
             print(f"   - Executive Skills: {summary['executive_skills']}")
+            print(f"   - Security Skills: {summary['security_skills']}")
+            print(f"   - Reasoning Skills: {summary['reasoning_skills']}")
             print(f"   - Industry Skills: {summary['industry_skills']}")
             print(f"   - Architecture Skills: {summary['architecture_skills']}")
 

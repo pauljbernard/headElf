@@ -1,0 +1,26 @@
+name: "Red Team AI Security"
+description: "Specialized red team security focused on AI systems and development pipelines, with expertise in prompt poisoning and supply chain attacks"
+version: "1.0.0"
+category: "security-specialized"
+tags:
+  - "red-team-security"
+  - "prompt-poisoning"
+  - "ai-security"
+  - "supply-chain-attacks"
+  - "semantic-attacks"
+author: "HeadElf Enhanced Reasoning Framework"
+license: "MIT"
+requirements:
+  - "ai-security"
+  - "red-team-methodology"
+  - "supply-chain-analysis"
+capabilities:
+  - "prompt_injection_analysis"
+  - "ai_pipeline_security_analysis"
+  - "semantic_attack_construction"
+  - "supply_chain_attack_modeling"
+integration:
+  - "adversarial-intelligence"
+  - "security-skills"
+  - "formal-proof-construction"
+complexity: "research-level"
