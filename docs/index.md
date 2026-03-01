@@ -489,6 +489,60 @@ HeadElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
     <p>Complete developer documentation for contributing and system integration.</p>
     <a href="developer-guide" class="nav-button">Develop</a>
   </div>
+
+  <div class="nav-card">
+    <h3>📋 Business Constitution Guide</h3>
+    <p>Complete guide for creating executive business constitutions with workshop methodology.</p>
+    <a href="executive-constitution-guide" class="nav-button">Constitution</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>🎯 Strategic Requirements Guide</h3>
+    <p>Comprehensive guide for developing quantitative strategic requirements frameworks.</p>
+    <a href="executive-requirements-guide" class="nav-button">Requirements</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>🏗️ Context Artifacts Guide</h3>
+    <p>Systematic methodology for building organizational intelligence and decision context.</p>
+    <a href="context-artifacts-creation-guide" class="nav-button">Context</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>⚙️ Workshop Methodology</h3>
+    <p>Detailed 6-8 hour constitutional development workshop framework and facilitation guide.</p>
+    <a href="constitutional-development-methodology" class="nav-button">Workshops</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>🏭 Industry Guidance</h3>
+    <p>Industry-specific constitutional frameworks for Financial Services, Healthcare, Technology sectors.</p>
+    <a href="industry-constitutional-guidance" class="nav-button">Industries</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>📊 Quantitative Frameworks</h3>
+    <p>Mathematical optimization models and Python implementations for strategic requirements.</p>
+    <a href="quantitative-requirements-frameworks" class="nav-button">Analytics</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>✅ Validation Methodology</h3>
+    <p>3-stage validation framework with mathematical modeling and stakeholder alignment.</p>
+    <a href="requirements-validation-methodology" class="nav-button">Validation</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>👔 Executive Personas</h3>
+    <p>Role-specific implementation approaches for CEO, CTO, CFO, and multi-role executives.</p>
+    <a href="executive-personas" class="nav-button">Personas</a>
+  </div>
+
+  <div class="nav-card">
+    <h3>📈 Effectiveness Framework</h3>
+    <p>Comprehensive measurement and optimization system for business meta-code effectiveness.</p>
+    <a href="meta-code-effectiveness-framework" class="nav-button">Metrics</a>
+  </div>
 </div>
 
 ## Key Statistics and Performance
