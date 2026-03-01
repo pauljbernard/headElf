@@ -674,6 +674,40 @@
             overlay.classList.remove('open');
         }
 
+        // Menu state persistence using localStorage
+        function saveMenuState() {
+            const expandedSections = [];
+            document.querySelectorAll('.nav-section-content.expanded').forEach(content => {
+                const sectionId = content.id.replace('-content', '');
+                expandedSections.push(sectionId);
+            });
+            localStorage.setItem('headelf-menu-state', JSON.stringify(expandedSections));
+        }
+
+        function restoreMenuState() {
+            try {
+                const savedState = localStorage.getItem('headelf-menu-state');
+                if (savedState) {
+                    const expandedSections = JSON.parse(savedState);
+                    expandedSections.forEach(sectionId => {
+                        const content = document.getElementById(`${sectionId}-content`);
+                        const toggle = document.getElementById(`${sectionId}-toggle`);
+                        const header = document.querySelector(`[onclick="toggleSection('${sectionId}')"]`);
+
+                        if (content && toggle && header) {
+                            content.classList.add('expanded');
+                            toggle.classList.add('expanded');
+                            header.classList.add('active');
+                            toggle.textContent = '▼';
+                        }
+                    });
+                }
+            } catch (e) {
+                // If there's an error, just start with default state
+                console.log('Could not restore menu state:', e);
+            }
+        }
+
         function toggleSection(sectionId) {
             const header = document.querySelector(`[onclick="toggleSection('${sectionId}')"]`);
             const toggle = document.getElementById(`${sectionId}-toggle`);
@@ -695,6 +729,9 @@
                 header.classList.add('active');
                 toggle.textContent = '▼';
             }
+
+            // Save the new menu state
+            saveMenuState();
         }
 
         // Note: No automatic sidebar closing on navigation clicks
@@ -714,10 +751,19 @@
             });
         }
 
-        // Set current page on load (no automatic section manipulation)
+        // Initialize page: restore menu state and set current page indicator
         document.addEventListener('DOMContentLoaded', function() {
+            // First restore the menu state from previous page
+            restoreMenuState();
+
+            // Then set current page indicator
             setCurrentPage();
-            // No automatic section opening - let users control navigation manually
+
+            // If no sections are expanded (first visit), expand Getting Started as default
+            const hasExpandedSections = document.querySelectorAll('.nav-section-content.expanded').length > 0;
+            if (!hasExpandedSections) {
+                toggleSection('getting-started');
+            }
         });
     </script>
 </body>
