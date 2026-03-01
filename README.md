@@ -622,6 +622,20 @@ Each model has distinct setup processes and usage patterns optimized for their s
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Example Executive Intelligence Repository
+
+For a complete example of how to structure your executive intelligence repository with HeadElf, see our comprehensive template:
+
+**[HeadElf-MVIDIA: Executive Intelligence Template](https://github.com/pauljbernard/HeadElf-MVIDIA)**
+
+This template demonstrates:
+- **Business Constitution**: Complete organizational decision framework
+- **Strategic Requirements**: Quantitative business objectives and performance metrics
+- **Context Artifacts**: Competitive intelligence, culture patterns, and stakeholder dynamics
+- **Decision Templates**: Proven frameworks for strategic decision making
+- **Example Decisions**: Sophisticated analysis examples for executive scenarios
+- **Customization Guide**: Step-by-step instructions for adapting to your organization
+
 ## Support
 
 - **Documentation**: [https://pauljbernard.github.io/headElf/](https://pauljbernard.github.io/headElf/)
