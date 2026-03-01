@@ -702,12 +702,17 @@
             toggleSection('getting-started');
         });
 
-        // Close sidebar when clicking on a link (mobile)
+        // Close sidebar when clicking on a link (mobile only)
         document.querySelectorAll('.sidebar a').forEach(link => {
-            link.addEventListener('click', closeSidebar);
+            link.addEventListener('click', function() {
+                // Only close sidebar on mobile
+                if (window.innerWidth <= 768) {
+                    closeSidebar();
+                }
+            });
         });
 
-        // Set current page indicator
+        // Set current page indicator and maintain expanded sections
         function setCurrentPage() {
             const currentPath = window.location.pathname;
             const links = document.querySelectorAll('.sidebar a');
@@ -716,18 +721,68 @@
                 const href = link.getAttribute('href');
                 if (href && (currentPath.includes(href.split('/').pop()) || currentPath === href)) {
                     link.classList.add('current');
-                    // Also expand the parent section
+                    // Also expand the parent section and keep it expanded
                     const section = link.closest('.nav-section');
-                    const sectionId = section.querySelector('[onclick*="toggleSection"]').onclick.toString().match(/'([^']+)'/)[1];
-                    if (!document.getElementById(`${sectionId}-content`).classList.contains('expanded')) {
-                        toggleSection(sectionId);
+                    if (section) {
+                        const sectionHeader = section.querySelector('[onclick*="toggleSection"]');
+                        if (sectionHeader) {
+                            const sectionId = sectionHeader.onclick.toString().match(/'([^']+)'/)[1];
+                            const content = document.getElementById(`${sectionId}-content`);
+                            const toggle = document.getElementById(`${sectionId}-toggle`);
+
+                            // Expand the section if not already expanded
+                            if (!content.classList.contains('expanded')) {
+                                content.classList.add('expanded');
+                                toggle.classList.add('expanded');
+                                sectionHeader.classList.add('active');
+                                toggle.textContent = '▼';
+                            }
+                        }
                     }
                 }
             });
         }
 
-        // Set current page on load
-        document.addEventListener('DOMContentLoaded', setCurrentPage);
+        // Prevent section collapse when navigating within the same section
+        function preventCurrentSectionCollapse() {
+            const currentPath = window.location.pathname;
+            const links = document.querySelectorAll('.sidebar a');
+
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href && (currentPath.includes(href.split('/').pop()) || currentPath === href)) {
+                    const section = link.closest('.nav-section');
+                    if (section) {
+                        const sectionHeader = section.querySelector('[onclick*="toggleSection"]');
+                        if (sectionHeader) {
+                            // Override the toggle function for this section to prevent collapse
+                            const originalOnclick = sectionHeader.onclick;
+                            sectionHeader.onclick = function() {
+                                const sectionId = originalOnclick.toString().match(/'([^']+)'/)[1];
+                                const content = document.getElementById(`${sectionId}-content`);
+
+                                // If section is expanded and contains current page, don't collapse
+                                if (content.classList.contains('expanded')) {
+                                    const currentPageInSection = section.querySelector('a.current');
+                                    if (currentPageInSection) {
+                                        return; // Prevent collapse
+                                    }
+                                }
+
+                                // Otherwise, call original toggle function
+                                toggleSection(sectionId);
+                            };
+                        }
+                    }
+                }
+            });
+        }
+
+        // Set current page on load and prevent unwanted collapse
+        document.addEventListener('DOMContentLoaded', function() {
+            setCurrentPage();
+            preventCurrentSectionCollapse();
+        });
     </script>
 </body>
 </html>
