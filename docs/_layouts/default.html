@@ -697,15 +697,8 @@
             }
         }
 
-        // Close sidebar when clicking on a link (mobile only)
-        document.querySelectorAll('.sidebar a').forEach(link => {
-            link.addEventListener('click', function() {
-                // Only close sidebar on mobile devices
-                if (window.innerWidth <= 768) {
-                    closeSidebar();
-                }
-            });
-        });
+        // Note: No automatic sidebar closing on navigation clicks
+        // Mobile users can close sidebar by clicking the overlay or menu button
 
         // Set current page indicator only (no automatic section manipulation)
         function setCurrentPage() {
