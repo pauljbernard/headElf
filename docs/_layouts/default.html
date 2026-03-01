@@ -697,11 +697,6 @@
             }
         }
 
-        // Initialize navigation - expand Getting Started by default
-        document.addEventListener('DOMContentLoaded', function() {
-            toggleSection('getting-started');
-        });
-
         // Close sidebar when clicking on a link (mobile only)
         document.querySelectorAll('.sidebar a').forEach(link => {
             link.addEventListener('click', function() {
@@ -712,7 +707,7 @@
             });
         });
 
-        // Set current page indicator
+        // Set current page indicator only (no automatic section manipulation)
         function setCurrentPage() {
             const currentPath = window.location.pathname;
             const links = document.querySelectorAll('.sidebar a');
@@ -721,17 +716,7 @@
                 const href = link.getAttribute('href');
                 if (href && (currentPath.includes(href.split('/').pop()) || currentPath === href)) {
                     link.classList.add('current');
-                    // Also expand the parent section
-                    const section = link.closest('.nav-section');
-                    if (section) {
-                        const sectionHeader = section.querySelector('[onclick*="toggleSection"]');
-                        if (sectionHeader) {
-                            const sectionId = sectionHeader.onclick.toString().match(/'([^']+)'/)[1];
-                            if (!document.getElementById(`${sectionId}-content`).classList.contains('expanded')) {
-                                toggleSection(sectionId);
-                            }
-                        }
-                    }
+                    // No automatic section expansion - let users control sections manually
                 }
             });
         }
@@ -739,6 +724,8 @@
         // Set current page on load
         document.addEventListener('DOMContentLoaded', function() {
             setCurrentPage();
+            // Only expand "Getting Started" by default as initial state
+            toggleSection('getting-started');
         });
     </script>
 </body>
