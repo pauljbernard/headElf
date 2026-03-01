@@ -5,27 +5,59 @@ description: "Complete installation guide for Claude Code and HeadElf setup with
 permalink: /getting-started/
 ---
 
-This guide will help you install and configure HeudElf's C-Suite Executive Intelligence system for Claude Code.
+This guide will help you deploy HeadElf's revolutionary dual-lifecycle executive intelligence platform for Claude Code.
 
-## Choose Your Deployment Model
+## Revolutionary Usage Model: Choose Your Path
 
-HeudElf supports two distinct operational models based on your use case:
+HeadElf transforms executive intelligence through two distinct but complementary lifecycle patterns:
 
-### 🛠️ Framework Contributors
-**For developers enhancing HeudElf itself:**
-- Clone the main HeudElf repository
-- Make changes to core framework capabilities
-- Submit pull requests for framework improvements
-- Contribute to testing and documentation
+### 🛠️ Lifecycle 1: Framework Enhancement (Contributors)
+**For developers and domain experts enhancing HeadElf's core intelligence:**
+- **Context Intelligence Development**: Improve how HeadElf consumes and processes executive context artifacts
+- **Pattern Recognition Enhancement**: Develop sophisticated organizational pattern matching algorithms
+- **Decision Quality Optimization**: Enhance decision frameworks based on accumulated outcome data
+- **Extension Framework Development**: Build industry vertical and enterprise context extensions
+- **Contribution to Main Repository**: Submit improvements to HeadElf's core capabilities
 
-### 👔 Executive Intelligence Users
-**For executives using HeudElf for business decisions:**
-- Install HeudElf as a Claude Code extension
-- Create your own Git repository for decision persistence
-- Leverage automatic Git-based audit trail and team collaboration
-- Focus on executive decision-making and business outcomes
+### 👔 Lifecycle 2: Executive Intelligence Deployment (Business Leaders)
+**For executives building personalized intelligence through context curation:**
+- **Executive Repository Creation**: Create your own Git repository with HeadElf installed as extension
+- **Context Artifacts Development**: Build rich organizational, personal, and industry context over time
+- **Personalized Intelligence Evolution**: Leverage accumulated context for increasingly sophisticated decisions
+- **Privacy-Preserving Operations**: Maintain enterprise security through Git-based architecture
+- **Team Collaboration**: Share decisions and insights through standard GitHub workflows
 
-*This guide covers both models. Skip to [Executive User Installation](#executive-user-installation) if you're primarily using HeudElf for business decisions.*
+## The Context Artifacts Revolution
+
+**Key Insight:** HeadElf becomes exponentially smarter as you build context artifacts specific to your organization and leadership style.
+
+### **What Are Context Artifacts?**
+Context artifacts are structured data files that capture the unique intelligence patterns of your organization:
+
+```
+your-executive-intelligence/
+├── data/
+│   ├── contexts/
+│   │   └── users/your-profile.json          # Your decision style & preferences
+│   ├── decisions/                           # Historical decisions & outcomes
+│   │   ├── 2024-02-26-strategic-decision.json
+│   │   └── by-role/cto/technology-decisions.json
+│   ├── organizational/
+│   │   ├── culture-patterns.json           # Organizational cultural context
+│   │   ├── stakeholder-maps.json          # Key relationships & communication patterns
+│   │   └── success-factors.json           # What works in your organization
+│   └── industry/
+│       ├── regulatory-environment.json     # Industry-specific requirements
+│       └── competitive-intelligence.json   # Market dynamics & positioning
+```
+
+### **Context-Driven Intelligence Benefits**
+- **Organizational Learning**: Decisions get smarter based on your company's proven patterns
+- **Cultural Adaptation**: Recommendations align with your organizational culture and constraints
+- **Personal Optimization**: Decision support adapts to your leadership style and proven frameworks
+- **Compliance Intelligence**: Automatic consideration of your industry's regulatory environment
+
+*This guide covers both lifecycles. Skip to [Executive Intelligence Deployment](#executive-intelligence-deployment) if you're using HeadElf for business decisions.*
 
 ## Prerequisites
 
@@ -92,9 +124,9 @@ export HEADELF_LOG_LEVEL=info
 mkdir -p ~/.claude/headElf/config
 ```
 
-## Executive User Installation
+## Executive Intelligence Deployment
 
-**For executives and business leaders who want to use HeudElf for decision-making without contributing to the framework itself:**
+**For executives and business leaders building personalized intelligence through context artifacts:**
 
 ### Simplified Executive Setup
 
@@ -109,26 +141,212 @@ claude-code
 
 ### Executive Intelligence Repository Setup
 
-Create your executive decision repository for Git-based persistence:
+Create your personalized executive intelligence repository for context-driven decision making:
 
 ```bash
-# Create executive intelligence repository
+# Create your executive intelligence repository
 mkdir my-executive-intelligence
 cd my-executive-intelligence
 git init
 
-# Connect to your organization's repository
+# Connect to your organization's repository (private for security)
 git remote add origin https://github.com/mycompany/my-executive-intelligence.git
 
-# Create initial repository structure
-mkdir -p data/{decisions,contexts,analytics,extensions}
-echo "# Executive Intelligence Repository" > README.md
+# Create context artifacts structure
+mkdir -p data/{contexts/users,decisions/by-role,organizational,industry,analytics,extensions}
 
-# Initial commit
+# Create initial context artifacts
+echo '{
+  "user_id": "your-executive-id",
+  "organization_profile": {
+    "industry": "your-industry",
+    "size": "employee-count",
+    "culture": "organizational-culture-type"
+  },
+  "role_preferences": {
+    "decision_style": "data_driven|intuitive|collaborative",
+    "risk_tolerance": "conservative|moderate|aggressive",
+    "communication_style": "detailed|concise|visual"
+  },
+  "learning_patterns": {
+    "frequent_decision_types": ["strategy", "operations", "technology"],
+    "success_factors": ["stakeholder_alignment", "data_quality"],
+    "preferred_frameworks": ["specific_frameworks_you_use"]
+  }
+}' > data/contexts/users/your-profile.json
+
+# Create organizational context template
+echo '{
+  "organizational_culture": {
+    "decision_making_style": "consensus|hierarchical|autonomous",
+    "communication_patterns": ["formal", "informal", "data-driven"],
+    "change_tolerance": "high|medium|low",
+    "innovation_appetite": "early_adopter|fast_follower|conservative"
+  },
+  "stakeholder_ecosystem": {
+    "key_stakeholders": ["board", "investors", "customers", "employees"],
+    "communication_preferences": {},
+    "decision_authority_matrix": {}
+  },
+  "success_patterns": {
+    "proven_approaches": [],
+    "failure_patterns_to_avoid": [],
+    "cultural_constraints": []
+  }
+}' > data/organizational/culture-patterns.json
+
+# Initial commit with context artifacts
+echo "# Executive Intelligence Repository
+
+This repository contains context artifacts for personalized executive intelligence through HeadElf.
+
+## Context Artifacts
+- **Personal Profile**: Decision style, preferences, and proven frameworks
+- **Organizational Context**: Cultural patterns, stakeholder maps, success factors
+- **Decision History**: Accumulated decisions and outcomes for learning
+- **Industry Intelligence**: Regulatory environment and competitive dynamics
+
+The more context artifacts you build, the smarter your executive intelligence becomes." > README.md
+
 git add .
-git commit -m "Initial executive intelligence repository setup"
+git commit -m "Initial executive intelligence repository with context artifacts structure"
 git push -u origin main
 ```
+
+## Step-by-Step Business Meta-Code Creation
+
+Now that you have your repository structure, create the business meta-code that transforms HeadElf into world-class Cxx intelligence:
+
+### Step 1: Create Your Business Constitution
+
+Your business constitution is the foundational operating system for your organization:
+
+```bash
+# Create your business constitution (see detailed guide)
+# This defines how your organization makes decisions
+cp templates/business-constitution-template.md business-constitution.md
+
+# Edit with your organization's actual operating principles
+# - Core values and decision-making principles
+# - Authority matrix (who decides what)
+# - Risk tolerance across different business dimensions
+# - Cultural patterns that determine what approaches work
+# - Stakeholder ecosystem and communication preferences
+
+# Example constitution elements:
+echo "# Our Business Constitution
+## Core Values
+- Data-driven decisions with cultural sensitivity
+- Stakeholder alignment before major changes
+- Risk-managed innovation over pure speed
+
+## Decision Authority Matrix
+- Board approval required: >$10M, strategic pivots
+- Executive autonomy: operational decisions, tactical adjustments
+- Team consensus needed: cultural changes, major process shifts
+
+## Risk Tolerance Profile
+- Financial: Conservative with operations, aggressive with growth
+- Technology: Early adopter for competitive advantage
+- Market: Opportunistic expansion, defensive in core markets" > business-constitution.md
+```
+
+**📖 [Complete Business Constitution Guide](executive-constitution-guide)** - Learn how to create your organizational operating system.
+
+### Step 2: Define Your Strategic Requirements
+
+Strategic requirements provide the business objectives and constraints that guide all decisions:
+
+```bash
+# Create your strategic requirements (see detailed guide)
+# This defines what success looks like for your organization
+cp templates/strategic-requirements-template.md strategic-requirements.md
+
+# Edit with your specific strategic objectives and constraints:
+# - Revenue growth and market position objectives
+# - Operational constraints (cash flow, headcount, technology)
+# - Resource allocation framework and investment criteria
+# - Timeline requirements and milestone framework
+# - Success metrics and KPIs for measurement
+
+# Example requirements elements:
+echo "# Strategic Requirements 2024-2026
+## Strategic Objectives
+- Revenue Growth: 40% YoY growth in core business
+- Market Position: Top 3 position in primary market
+- Operational Excellence: 99.9% uptime for customer systems
+
+## Operational Constraints
+- Cash Flow: Maintain 6-month runway minimum
+- Team Growth: No more than 30% growth per quarter
+- Technology: SOC 2 compliance required for enterprise sales
+
+## Success Metrics
+- Customer satisfaction: >4.5/5.0 NPS
+- Revenue per employee: >$200K
+- Market share: Top 3 in primary market" > strategic-requirements.md
+```
+
+**📊 [Complete Strategic Requirements Guide](executive-requirements-guide)** - Learn how to define executable business objectives.
+
+### Step 3: Build Rich Context Artifacts
+
+Context artifacts capture the unique organizational intelligence that makes HeadElf world-class:
+
+```bash
+# Create comprehensive context artifacts (see detailed guide)
+# These capture your organization's unique patterns and intelligence
+
+# Executive profile - your personal leadership patterns
+echo '{
+  "decision_style": "data_driven_with_intuition",
+  "risk_tolerance": "moderate_calculated",
+  "communication_style": "visual_data_with_narrative",
+  "proven_frameworks": ["OKRs", "DACI", "Jobs_to_be_Done"],
+  "success_factors": ["stakeholder_alignment", "clear_communication", "execution_focus"]
+}' > data/contexts/users/executive-profile.json
+
+# Organizational culture patterns - how decisions actually get made
+echo '{
+  "decision_making_style": "centralized_strategy_decentralized_execution",
+  "communication_culture": "transparent_by_default_formal_documentation",
+  "change_tolerance": "high_for_improvement_moderate_for_disruption",
+  "innovation_culture": "bottom_up_ideas_top_down_prioritization"
+}' > data/organizational/culture-patterns.json
+
+# Success patterns - what has worked in your organization
+echo '{
+  "strategic_initiatives": "executive_sponsor_plus_operational_owner",
+  "product_launches": "customer_problem_first_technology_second",
+  "organizational_change": "pilot_learn_scale_approach"
+}' > data/organizational/success-patterns.json
+
+# Stakeholder dynamics - power structures and relationships
+echo '{
+  "board_of_directors": {
+    "communication_style": "formal_reports_executive_summaries",
+    "decision_speed": "deliberate",
+    "key_concerns": ["growth", "profitability", "risk_management"]
+  },
+  "key_customers": {
+    "communication_style": "relationship_focused_value_demonstration",
+    "key_concerns": ["product_roadmap", "service_quality"]
+  }
+}' > data/organizational/stakeholder-dynamics.json
+
+# Industry intelligence - regulatory and competitive context
+echo '{
+  "regulatory_environment": [
+    {"regulation": "GDPR", "impact": "data_processing_requirements"},
+    {"regulation": "SOC_2", "impact": "enterprise_sales_requirement"}
+  ],
+  "competitive_landscape": [
+    {"competitor": "primary_competitor", "strengths": ["market_share"], "strategy": "differentiation_approach"}
+  ]
+}' > data/industry/regulatory-environment.json
+```
+
+**🔍 [Complete Context Artifacts Guide](context-artifacts-guide)** - Learn how to build comprehensive organizational intelligence.
 
 ### GitHub Setup for Team Collaboration
 

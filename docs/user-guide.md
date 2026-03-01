@@ -7,15 +7,48 @@ permalink: /user-guide/
 
 This comprehensive guide is designed specifically for C-suite executives and senior business leaders who want to leverage HeadElf's executive intelligence capabilities to enhance their decision-making and operational excellence.
 
-## Executive Overview
+## Executive Overview: Context-Driven Intelligence Revolution
 
-HeadElf transforms your existing business intelligence into a comprehensive C-suite advisory system that operates like having the world's best CTO, CIO, CISO, CFO, and COO available 24/7. Rather than replacing human judgment, HeadElf augments your executive capabilities with:
+HeadElf transforms executive decision-making through **context-driven intelligence** - the breakthrough innovation that makes business decisions exponentially smarter by leveraging the rich context artifacts you build in your executive repository.
 
-- **Comprehensive Analysis**: Every business scenario analyzed from all C-suite perspectives simultaneously
-- **Global Best Practices**: Access to proven frameworks used by Fortune 500 executives worldwide
-- **Risk Mitigation**: Proactive identification of risks across technology, finance, security, operations, and strategy
-- **Implementation Roadmaps**: Detailed execution plans with resource allocation and timeline management
-- **Stakeholder Coordination**: Seamless communication strategies for boards, investors, employees, and customers
+### **The Context Intelligence Advantage**
+
+Unlike traditional business intelligence tools, HeadElf becomes **uniquely intelligent about your organization** through context artifacts:
+
+- **Organizational Learning**: Every decision builds intelligence about what works in your specific organization
+- **Cultural Adaptation**: Recommendations automatically align with your company's culture, constraints, and proven patterns
+- **Personal Optimization**: Decision support adapts to your leadership style, risk tolerance, and preferred frameworks
+- **Stakeholder Intelligence**: Deep understanding of your stakeholder ecosystem and communication preferences
+- **Industry Intelligence**: Automatic consideration of your regulatory environment and competitive dynamics
+
+### **How Context Artifacts Transform Decision Quality**
+
+**Traditional Executive Tools**: Generic recommendations based on broad best practices
+**HeadElf Context Intelligence**: Personalized recommendations based on YOUR organization's proven patterns
+
+#### **Example: M&A Decision Enhancement Through Context**
+
+**Without Context Artifacts:**
+```
+Generic M&A Framework:
+✓ Financial due diligence
+✓ Market analysis
+✓ Integration planning
+```
+
+**With Rich Context Artifacts:**
+```
+Your Organization's M&A Intelligence:
+✓ Financial due diligence (adapted to your CFO's proven frameworks)
+✓ Market analysis (incorporating your competitive intelligence patterns)
+✓ Integration planning (based on your organization's past integration successes/failures)
+✓ Cultural fit assessment (using your organizational culture patterns)
+✓ Stakeholder communication (customized to your board's decision-making style)
+✓ Regulatory considerations (specific to your industry context)
+✓ Implementation approach (aligned with your change management capabilities)
+```
+
+**Result:** Decisions that are not just technically sound, but optimized for success in YOUR specific organizational context.
 
 ## Git-Based Executive Workflows
 
@@ -37,12 +70,35 @@ git init
 git remote add origin https://github.com/mycompany/my-executive-intelligence.git
 ```
 
-#### Daily Executive Decision Workflow
-1. **Open Claude Code** with HeudElf enabled
-2. **Ask Executive Questions**: "Analyze this M&A opportunity..." or "Develop crisis response strategy..."
-3. **HeudElf Executes Intelligence**: Provides comprehensive C-suite analysis
-4. **Automatic Decision Persistence**: Decision files created and committed to Git
-5. **Team Collaboration**: Push to shared repository for team access and review
+#### Daily Context-Driven Executive Workflow
+1. **Open Claude Code** in your executive intelligence repository
+2. **Ask Context-Aware Questions**: HeadElf automatically leverages your accumulated context artifacts
+3. **Receive Personalized Intelligence**: Analysis specifically adapted to your organization, culture, and proven patterns
+4. **Automatic Context Evolution**: Decision files and learnings automatically added to your context artifacts
+5. **Team Collaboration**: Share contextualized decisions through Git workflows while preserving organizational intelligence
+
+#### Example Context-Aware Executive Session
+```bash
+# Navigate to your executive intelligence repository
+cd my-executive-intelligence
+
+# Launch Claude Code (HeadElf automatically loads your context)
+claude-code
+
+# Ask context-aware executive questions:
+> "Based on our organizational culture and past M&A patterns, analyze this acquisition opportunity..."
+
+# HeadElf Response includes:
+✓ Analysis using YOUR organization's proven M&A frameworks
+✓ Cultural fit assessment based on YOUR organizational patterns
+✓ Risk assessment aligned with YOUR risk tolerance
+✓ Implementation plan adapted to YOUR change management capabilities
+✓ Stakeholder communication tailored to YOUR board's preferences
+
+# Decision automatically persisted with context learning:
+# data/decisions/2024-02-26-ma-analysis-context-enhanced.json
+# data/contexts/users/your-profile.json (updated with new patterns)
+```
 
 ### Enterprise Benefits
 

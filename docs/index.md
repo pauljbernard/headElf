@@ -1,15 +1,75 @@
 ---
 layout: default
-title: "HeadElf - C-Suite Executive Intelligence System"
-description: "Comprehensive Claude Code extension providing autonomous C-suite executive capabilities with world-class decision-making intelligence."
+title: "HeadElf - Revolutionary Context-Driven Executive Intelligence Platform"
+description: "The world's first dual-lifecycle executive intelligence platform that transforms business decision-making through rich context artifacts and personalized intelligence evolution."
 permalink: /
 ---
 
-A comprehensive Claude Code extension providing autonomous C-suite executive capabilities across **9 core C-suite roles** plus **16 specialized security leadership positions** with world-class decision-making intelligence.
+**The world's first context-driven executive intelligence platform that transforms business decision-making through "business as meta-code" - where your organizational DNA becomes executable intelligence.**
 
-## 🚀 World-Class Executive Intelligence Overview
+## 🚀 Revolutionary Dual-Lifecycle Architecture
 
-HeadElf delivers the most comprehensive C-Suite Executive Intelligence system available for Claude Code, featuring:
+HeadElf operates on a breakthrough model where business leaders create **business meta-code** that transforms generic C-suite capabilities into world-class Cxx intelligence:
+
+### 🛠️ Lifecycle 1: Framework Enhancement
+**For developers enhancing HeadElf's context utilization intelligence:**
+- Improve how HeadElf consumes and processes executive context artifacts
+- Enhance organizational pattern recognition and decision quality algorithms
+- Develop industry vertical and enterprise context extensions
+
+### 👔 Lifecycle 2: Executive Intelligence Deployment
+**For executives building personalized intelligence through business meta-code:**
+- **Create business constitution**: Your organization's fundamental operating principles
+- **Define strategic requirements**: Business objectives, constraints, and success metrics
+- **Build context artifacts**: Organizational culture, stakeholder dynamics, proven patterns
+- **Deploy executive repository**: Git-based intelligence that evolves with every decision
+
+## Business as Meta-Code: The Revolutionary Concept
+
+**Traditional Business Tools**: Generic recommendations based on broad best practices
+**HeadElf Context Intelligence**: Personalized recommendations based on YOUR organization's proven patterns
+
+### **Your Business Constitution as Operating System**
+```markdown
+# Organizational Decision Framework
+## Core Values
+- Data-driven decisions with cultural sensitivity
+- Stakeholder alignment before major changes
+- Risk-managed innovation over pure speed
+
+## Decision Authority Matrix
+- Board approval required: >$10M, strategic pivots
+- Executive autonomy: operational decisions
+- Team consensus needed: cultural changes
+
+## Risk Tolerance Profile
+- Financial: Conservative with operations, aggressive with growth
+- Technology: Early adopter for competitive advantage
+- Market: Opportunistic expansion, defensive in core
+```
+
+### **Context Artifacts Transform Decision Quality**
+
+**Example: M&A Decision Without Context Artifacts**
+```
+Generic M&A Framework:
+✓ Financial due diligence
+✓ Market analysis
+✓ Integration planning
+```
+
+**Example: M&A Decision With Rich Context Artifacts**
+```
+Your Organization's M&A Intelligence:
+✓ Financial due diligence (using YOUR CFO's proven frameworks)
+✓ Market analysis (incorporating YOUR competitive intelligence)
+✓ Cultural fit assessment (based on YOUR organizational patterns)
+✓ Stakeholder communication (customized to YOUR board's style)
+✓ Integration approach (aligned with YOUR change capabilities)
+✓ Risk assessment (calibrated to YOUR risk tolerance)
+```
+
+**Result**: Decisions that aren't just technically sound, but optimized for success in YOUR specific organizational context.
 
 ### **Core C-Suite Executive Intelligence (9 Roles)**
 <div class="capability-grid">
@@ -179,13 +239,49 @@ HeadElf pioneers a **Git-first operational model** that transforms executive int
   </div>
 </div>
 
-### Two Operational Modalities
+## Executive Repository: Your Business Intelligence DNA
 
-**🛠️ Framework Contributors**: Clone HeadElf repository to enhance core capabilities and submit pull requests for framework improvements.
+**The Core Innovation**: Executives create repositories containing their **business meta-code** - structured organizational intelligence that HeadElf processes to deliver world-class Cxx decisions.
 
-**👔 Executive Intelligence Users**: Install HeadElf as Claude Code extension, create your own Git repository for decision persistence and team collaboration.
+### **Executive Repository Structure**
+```
+your-executive-intelligence/
+├── business-constitution.md          # Organizational operating principles
+├── strategic-requirements.md         # Business objectives and constraints
+├── data/
+│   ├── contexts/
+│   │   └── users/executive-profile.json    # Your leadership patterns
+│   ├── organizational/
+│   │   ├── culture-patterns.json          # How decisions get made here
+│   │   ├── stakeholder-dynamics.json      # Power structures & relationships
+│   │   └── success-failure-patterns.json  # What works/fails in your org
+│   ├── industry/
+│   │   ├── regulatory-environment.json    # Compliance requirements
+│   │   └── competitive-intelligence.json  # Market positioning
+│   └── decisions/                         # Accumulated decision history
+```
 
-[**📖 Complete Git-Based Architecture Guide**](git-based-architecture) - Learn how HeudElf's revolutionary approach solves enterprise challenges through Git workflows.
+### **Business Meta-Code in Action**
+
+**Executive Workflow**: Business intelligence, not code development
+```bash
+# Navigate to your executive intelligence repository
+cd your-executive-intelligence
+
+# Ask context-aware business questions
+claude-code
+> "Based on our business constitution and proven patterns, should we acquire TechCorp?"
+
+# HeadElf provides context-enhanced analysis using:
+✓ YOUR organizational decision framework
+✓ YOUR risk tolerance profile
+✓ YOUR stakeholder dynamics
+✓ YOUR cultural constraints
+✓ YOUR proven success patterns
+✓ YOUR industry regulatory environment
+```
+
+[**📖 Complete Executive Repository Guide**](getting-started) - Learn how to create your business meta-code for world-class intelligence.
 
 ### 🔌 Enterprise System Integration via MCP
 

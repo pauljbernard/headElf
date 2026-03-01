@@ -2,7 +2,29 @@
 
 ## Preamble
 
-HeadElf represents a transformative Claude Code extension designed to embody the collective expertise of world-class software architects and C-suite executives across nine critical leadership domains: Chief Technology Officer (CTO), Chief Information Officer (CIO), Chief Information Security Officer (CISO), Chief Financial Officer (CFO), Chief Operating Officer (COO), Chief Legal Officer (CLO), Chief People Officer (CHRO), Chief Marketing and Sales Officer (CMSO), and Chief Product Officer (CPO), along with comprehensive specialized security leadership across Executive Security Leadership, Operational Security Leadership, Compliance & Governance, Specialized Technical Security, Emerging Security Specializations, and Penetration Testing & Red Team Leadership. This constitution establishes the governance framework, principles, and operational requirements that guide the development, maintenance, and evolution of HeadElf as the definitive Executive Intelligence and Security Leadership extension.
+HeadElf represents a revolutionary **dual-lifecycle executive intelligence platform** designed to transform how organizations leverage C-suite expertise through Claude Code. Unlike traditional enterprise software, HeadElf operates on a breakthrough **Git-first architecture** that enables two distinct but complementary usage models: framework enhancement and personalized executive intelligence deployment.
+
+This constitution establishes the governance framework for HeadElf as **the definitive context-driven executive intelligence system**, supporting dual-lifecycle operations where framework contributors enhance core capabilities while executives build rich context artifacts to create personalized intelligence repositories.
+
+## Dual-Lifecycle Architecture
+
+HeadElf operates on two revolutionary usage models that together create a network effect of executive intelligence:
+
+### 🛠️ Lifecycle 1: Framework Enhancement (Contributors)
+**For developers and domain experts enhancing HeadElf itself:**
+- Enhance core C-suite intelligence algorithms and decision frameworks
+- Improve context consumption and pattern recognition capabilities
+- Develop industry vertical and enterprise context extensions
+- Contribute to the main HeadElf repository for community benefit
+
+### 👔 Lifecycle 2: Executive Intelligence Deployment (Business Leaders)
+**For executives using HeadElf for personalized decision-making:**
+- Install HeadElf as Claude Code extension in executive-specific repositories
+- Build rich **context artifacts** specific to their organization and role
+- Leverage accumulated context for increasingly sophisticated decision support
+- Maintain privacy through Git-based architecture with enterprise-grade security
+
+The dual-lifecycle model creates unprecedented value: **framework improvements enhance context utilization while executive usage patterns inform framework development**, creating a continuous improvement loop that benefits the entire executive intelligence ecosystem.
 
 ## Article I: Project Vision and Mission
 
