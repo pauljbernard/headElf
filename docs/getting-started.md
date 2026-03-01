@@ -5,9 +5,9 @@ description: "Complete installation guide for Claude Code and HeadElf setup with
 permalink: /getting-started/
 ---
 
-This guide will help you deploy HeadElf's revolutionary dual-lifecycle executive intelligence platform for Claude Code.
+This guide will help you deploy HeadElf's dual-lifecycle executive intelligence platform for Claude Code.
 
-## Revolutionary Usage Model: Choose Your Path
+## Dual Usage Model: Choose Your Path
 
 HeadElf transforms executive intelligence through two distinct but complementary lifecycle patterns:
 
@@ -27,7 +27,7 @@ HeadElf transforms executive intelligence through two distinct but complementary
 - **Privacy-Preserving Operations**: Maintain enterprise security through Git-based architecture
 - **Team Collaboration**: Share decisions and insights through standard GitHub workflows
 
-## The Context Artifacts Revolution
+## Context Artifacts Foundation
 
 **Key Insight:** HeadElf becomes exponentially smarter as you build context artifacts specific to your organization and leadership style.
 
@@ -215,7 +215,7 @@ git push -u origin main
 
 ## Step-by-Step Business Meta-Code Creation
 
-Now that you have your repository structure, create the business meta-code that transforms HeadElf into world-class Cxx intelligence:
+Now that you have your repository structure, create the business meta-code that transforms HeadElf into specialized Cxx intelligence:
 
 ### Step 1: Create Your Business Constitution
 
@@ -291,7 +291,7 @@ echo "# Strategic Requirements 2024-2026
 
 ### Step 3: Build Rich Context Artifacts
 
-Context artifacts capture the unique organizational intelligence that makes HeadElf world-class:
+Context artifacts capture the unique organizational intelligence that makes HeadElf effective:
 
 ```bash
 # Create comprehensive context artifacts (see detailed guide)
