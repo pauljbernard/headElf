@@ -439,6 +439,44 @@ HeadElf transforms Claude Code into a comprehensive C-Suite Executive Intelligen
   </div>
 </div>
 
+## 📚 Complete Executive Intelligence Example
+
+**See HeadElf in Action with Real-World Business Meta-Code:**
+
+<div class="example-repository-highlight">
+  <div class="example-card">
+    <h3>🏢 HeadElf-MVIDIA: Complete Template</h3>
+    <p>Comprehensive executive intelligence repository showing how to structure your business meta-code using real organizational patterns.</p>
+
+    <div class="template-features">
+      <div class="feature-item">
+        <h4>📋 Business Constitution</h4>
+        <p>Complete organizational decision framework with authority matrix and risk tolerance</p>
+      </div>
+
+      <div class="feature-item">
+        <h4>🎯 Strategic Requirements</h4>
+        <p>Quantitative business objectives, performance metrics, and strategic constraints</p>
+      </div>
+
+      <div class="feature-item">
+        <h4>🧠 Context Artifacts</h4>
+        <p>Competitive intelligence, culture patterns, stakeholder dynamics, and success patterns</p>
+      </div>
+
+      <div class="feature-item">
+        <h4>⚡ Decision Examples</h4>
+        <p>Sophisticated analysis examples including M&A evaluation and market expansion</p>
+      </div>
+    </div>
+
+    <div class="example-actions">
+      <a href="https://github.com/pauljbernard/HeadElf-MVIDIA" class="example-button primary">View Complete Example</a>
+      <a href="https://github.com/pauljbernard/HeadElf-MVIDIA/blob/master/docs/how-to-customize.md" class="example-button secondary">Customization Guide</a>
+    </div>
+  </div>
+</div>
+
 ## Quick Start Navigation
 
 <div class="navigation-grid">
@@ -851,5 +889,109 @@ HeadElf provides comprehensive C-suite executive intelligence that enhances your
     color: #555;
     font-size: 0.95rem;
     line-height: 1.4;
+}
+
+/* Example Repository Highlight */
+.example-repository-highlight {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.example-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.example-card h3 {
+    color: #2c3e50;
+    margin: 0 0 1rem 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.example-card > p {
+    color: #555;
+    margin: 0 0 1.5rem 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.template-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.feature-item {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(52, 152, 219, 0.3);
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.feature-item h4 {
+    color: #3498db;
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.feature-item p {
+    color: #666;
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.example-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.example-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    min-width: 180px;
+}
+
+.example-button.primary {
+    background: #3498db;
+    color: white;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.example-button.primary:hover {
+    background: #2980b9;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+.example-button.secondary {
+    background: #34495e;
+    color: white;
+    box-shadow: 0 4px 15px rgba(52, 73, 94, 0.3);
+}
+
+.example-button.secondary:hover {
+    background: #2c3e50;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(52, 73, 94, 0.4);
 }
 </style>
