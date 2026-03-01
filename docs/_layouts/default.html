@@ -714,11 +714,10 @@
             });
         }
 
-        // Set current page on load
+        // Set current page on load (no automatic section manipulation)
         document.addEventListener('DOMContentLoaded', function() {
             setCurrentPage();
-            // Only expand "Getting Started" by default as initial state
-            toggleSection('getting-started');
+            // No automatic section opening - let users control navigation manually
         });
     </script>
 </body>
