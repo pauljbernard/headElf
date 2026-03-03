@@ -17,6 +17,13 @@ const COMMANDS_FILE = path.join(CLAUDE_CODE_CONFIG_DIR, 'commands.json');
 
 // HeadElf commands configuration
 const HEADELF_COMMANDS = {
+  headelf: {
+    name: 'headelf',
+    description: 'Activate HeadElf Executive Intelligence Framework with world-class output quality',
+    type: 'node_script',
+    script: path.join(__dirname, '..', 'dist', 'claude-code-integration', 'slash-commands.js'),
+    function: 'handleHeadElfCommand'
+  },
   skills: {
     name: 'skills',
     description: 'List all available HeadElf skills organized by category',
@@ -89,11 +96,13 @@ async function registerCommands() {
     await saveCommands(updatedCommands);
 
     console.log('✅ Successfully registered HeadElf commands:');
+    console.log('   • /headelf - Activate HeadElf Executive Intelligence Framework');
     console.log('   • /skills - List all available HeadElf skills');
     console.log('   • /agents - List all available HeadElf subagents');
     console.log('');
     console.log('🎯 Commands are now available in Claude Code!');
-    console.log('   Try typing "/skills" or "/agents" in Claude Code');
+    console.log('   ⚠️  IMPORTANT: Run "/headelf" first to activate the framework');
+    console.log('   Then try "/skills" or "/agents" to access capabilities');
 
   } catch (error) {
     console.error('❌ Failed to register commands:', error.message);

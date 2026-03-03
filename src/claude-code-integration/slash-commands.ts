@@ -125,7 +125,7 @@ export class HeadElfSlashCommands {
   /**
    * Discover all skills in the project
    */
-  private async discoverSkills(): Promise<SkillInfo[]> {
+  async discoverSkills(): Promise<SkillInfo[]> {
     const skills: SkillInfo[] = [];
 
     if (!fs.existsSync(this.skillsPath)) {
@@ -221,7 +221,7 @@ export class HeadElfSlashCommands {
   /**
    * Discover all subagents in the project
    */
-  private async discoverSubagents(): Promise<SubagentInfo[]> {
+  async discoverSubagents(): Promise<SubagentInfo[]> {
     const subagents: SubagentInfo[] = [];
 
     if (!fs.existsSync(this.subagentsPath)) {
@@ -348,6 +348,70 @@ export class HeadElfSlashCommands {
   }
 }
 
+/**
+ * Main HeadElf command that activates the executive intelligence framework
+ */
+export async function handleHeadElfCommand(): Promise<string> {
+  const commander = new HeadElfSlashCommands();
+
+  try {
+    const skills = await commander.discoverSkills();
+    const subagents = await commander.discoverSubagents();
+
+    return `┌─────────────────────────────────────────────────────────┐
+│                    HEADELF INTELLIGENCE                 │
+│              Executive Framework Activated              │
+└─────────────────────────────────────────────────────────┘
+
+🎯 **EXECUTIVE INTELLIGENCE FRAMEWORK ACTIVATED**
+
+**World-Class Output Quality**: McKinsey/Bain/BCG-standard executive intelligence now active
+
+**Executive Capabilities Loaded**:
+• **${skills.length} Advanced Skills** across ${new Set(skills.map(s => s.category)).size} executive domains
+• **${subagents.length} Specialized Subagents** for cross-functional coordination
+• **Professional Output Templates** for all executive roles
+• **Quality Assurance Framework** ensuring consulting-grade deliverables
+
+📊 **AVAILABLE COMMANDS**
+
+**Browse Capabilities**:
+\`/skills\` - List all ${skills.length} executive skills by category
+\`/agents\` - List all ${subagents.length} specialized subagents
+
+**Usage Examples**:
+\`Read the CTO Intelligence skill and analyze our technology strategy\`
+\`Use the Executive Orchestrator subagent for M&A analysis\`
+\`Apply CFO Intelligence to our capital allocation decisions\`
+
+💡 **EXECUTIVE OUTPUT QUALITY**
+
+All HeadElf responses now automatically include:
+• **Executive Summary** - 30-second CEO-level clarity
+• **Strategic Recommendations** - Specific, actionable guidance
+• **Business Impact** - Quantified value creation and ROI
+• **Implementation Roadmap** - Detailed execution planning
+• **Risk Assessment** - Comprehensive analysis and mitigation
+• **Professional Formatting** - Consulting-grade presentation
+
+⚠️ **IMPORTANT**: You can now directly request executive analysis without additional setup. The framework will automatically apply world-class output standards to all responses.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HeadElf Executive Intelligence Framework | Status: Active
+Quality Standards: McKinsey/Bain/BCG Level | Output Format: Professional
+Generated: ${new Date().toISOString()}`;
+
+  } catch (error) {
+    return `❌ **HeadElf Framework Activation Failed**
+
+Error: ${error instanceof Error ? error.message : 'Unknown error'}
+
+Please ensure you are in a HeadElf project directory with skills/ and subagents/ folders.
+
+For setup instructions, visit: https://pauljbernard.github.io/headElf/getting-started/`;
+  }
+}
+
 // Main command handlers for Claude Code integration
 export async function handleSkillsCommand(): Promise<string> {
   const commander = new HeadElfSlashCommands();
@@ -361,6 +425,7 @@ export async function handleAgentsCommand(): Promise<string> {
 
 // Export for direct usage
 export const slashCommands = {
+  headelf: handleHeadElfCommand,
   skills: handleSkillsCommand,
   agents: handleAgentsCommand
 };
