@@ -100,7 +100,7 @@ export interface RelationshipManagementFramework {
 export interface ValueCreationFramework {
   mutualValueCreation: MutualValueCreationFramework;
   stakeholderValueProposition: ValuePropositionFramework;
-  co-creationStrategies: CoCreationStrategyFramework;
+  coCreationStrategies: CoCreationStrategyFramework;
   innovationPartnerships: InnovationPartnershipFramework;
   sharedValueInitiatives: SharedValueInitiativeFramework;
   sustainabilityPartnerships: SustainabilityPartnershipFramework;

@@ -14,7 +14,8 @@
     "format": "prettier --write src/**/*.ts",
     "validate": "npm run lint && npm run build && npm run test",
     "install:claude-code": "node scripts/install-claude-code.js",
-    "setup:complete": "npm install && npm run build && npm run install:claude-code"
+    "register:commands": "node scripts/register-slash-commands.js",
+    "setup:complete": "npm install && npm run build && npm run install:claude-code && npm run register:commands"
   },
 
   "keywords": [

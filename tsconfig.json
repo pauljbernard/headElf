@@ -45,8 +45,7 @@
 
   "include": [
     "src/**/*",
-    "skills/**/*.ts",
-    "scripts/**/*.ts"
+    "skills/**/*.ts"
   ],
 
   "exclude": [
