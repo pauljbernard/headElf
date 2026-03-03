@@ -15,6 +15,8 @@
     "validate": "npm run lint && npm run build && npm run test",
     "install:claude-code": "node scripts/install-claude-code.js",
     "register:commands": "node scripts/register-slash-commands.js",
+    "skills": "node scripts/skills-command.js",
+    "agents": "node scripts/agents-command.js",
     "setup:complete": "npm install && npm run build && npm run install:claude-code && npm run register:commands"
   },
 
