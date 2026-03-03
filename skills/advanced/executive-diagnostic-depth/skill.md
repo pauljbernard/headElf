@@ -247,3 +247,141 @@ Decision Quality Gates → Proceed/Investigate Further/Escalate
 - **System Thinking Application**: Have you mapped the feedback loops and unintended consequences of intervention?
 
 This diagnostic depth capability transforms C-suite responses from consultant-grade analysis to operator-grade decision-making by ensuring deep understanding before prescriptive action.
+
+## Enterprise Diagnostic Architecture
+
+### Strategic Problem Classification Framework
+```
+Enterprise Problem Taxonomy → Diagnostic Approach Selection
+├── Category A: Performance Gap Problems
+│   ├── Defined metrics showing deviation from targets
+│   ├── Clear measurement and baseline comparison capability
+│   ├── Focus: Data-driven root cause analysis and quantitative solutions
+│   └── Examples: Revenue shortfall, cost overruns, quality defects, productivity decline
+├── Category B: Strategic Misalignment Problems
+│   ├── Organizational activities disconnected from strategic objectives
+│   ├── Resource allocation and priorities not supporting stated goals
+│   ├── Focus: Stakeholder analysis and governance structure examination
+│   └── Examples: Innovation stagnation, market share erosion, talent retention issues
+├── Category C: Systemic Dysfunction Problems
+│   ├── Repeated patterns of failure across multiple business areas
+│   ├── Organizational immune responses preventing positive change
+│   ├── Focus: Cultural and structural root cause analysis
+│   └── Examples: Change resistance, communication breakdowns, accountability gaps
+└── Category D: Environmental Adaptation Problems
+    ├── External changes requiring organizational response capability
+    ├── Market, regulatory, or competitive dynamics requiring strategic adjustment
+    ├── Focus: Environmental scanning and adaptive capacity assessment
+    └── Examples: Digital transformation, regulatory compliance, competitive disruption
+```
+
+### Enterprise Diagnostic Methodology
+- **Multi-Level Analysis**: Technical, organizational, political, and cultural dimensions
+- **Stakeholder Triangulation**: Multiple perspective validation of problem definition
+- **System Dynamics Modeling**: Feedback loop and unintended consequence analysis
+- **Political Economy Assessment**: Power structure and incentive alignment evaluation
+
+### Advanced Information Architecture
+```
+Information Quality Framework → Decision Support Classification
+├── Tier 1: High-Confidence Data (>90% reliability)
+│   ├── Quantitative metrics with established measurement systems
+│   ├── Historical trends with statistical significance
+│   ├── Direct observation and validated stakeholder input
+│   └── Application: Primary decision-making foundation
+├── Tier 2: Medium-Confidence Information (70-90% reliability)
+│   ├── Expert judgment from multiple qualified sources
+│   ├── Analogical reasoning from similar situations
+│   ├── Stakeholder survey and interview data
+│   └── Application: Decision validation and risk assessment
+├── Tier 3: Exploratory Information (40-70% reliability)
+│   ├── Preliminary data and early indicator signals
+│   ├── Single-source expert opinion and speculation
+│   ├── Competitive intelligence and market rumors
+│   └── Application: Hypothesis generation and scenario planning
+└── Tier 4: Unknown Information Zones
+    ├── Identified knowledge gaps critical to decision quality
+    ├── Information that exists but is not accessible
+    ├── Future uncertainties and emergent conditions
+    └── Application: Risk planning and adaptive strategy design
+```
+
+## Advanced Executive Diagnostic Capabilities
+
+### Cross-Functional Problem Analysis
+- **Value Chain Mapping**: Problem impact across all business functions and processes
+- **Interdependency Analysis**: How problems in one area create or amplify issues elsewhere
+- **Resource Allocation Assessment**: Whether problems stem from resource constraints or misallocation
+- **Capability Gap Analysis**: Missing organizational capabilities contributing to problems
+
+### Competitive and Market Context Integration
+```
+External Factor Analysis → Internal Problem Correlation
+├── Market Dynamics Assessment
+│   ├── Customer behavior and preference evolution
+│   ├── Competitive landscape and strategic moves
+│   ├── Supply chain and partner ecosystem changes
+│   └── Technology and innovation trend impact
+├── Regulatory Environment Analysis
+│   ├── Current compliance requirements and interpretation
+│   ├── Pending regulatory changes and timeline
+│   ├── Industry standard evolution and best practices
+│   └── Enforcement pattern and penalty risk assessment
+├── Economic Context Evaluation
+│   ├── Macroeconomic conditions affecting business environment
+│   ├── Industry-specific economic factors and cycles
+│   ├── Capital availability and investment climate
+│   └── Currency, commodity, and market volatility impact
+└── Stakeholder Ecosystem Dynamics
+    ├── Customer and client relationship evolution
+    ├── Investor and analyst expectations and pressure
+    ├── Employee and talent market conditions
+    └── Community and social responsibility considerations
+```
+
+### Organizational Learning System Design
+- **Diagnostic Knowledge Management**: Systematic capture and application of diagnostic insights
+- **Pattern Recognition Development**: Organizational capability to identify recurring problem types
+- **Early Warning System Creation**: Diagnostic indicators that predict future problems
+- **Cross-Business Learning**: Application of diagnostic insights across business units
+
+### Risk-Adjusted Decision Framework
+```
+Diagnostic Certainty → Decision Approach Calibration
+├── High Diagnostic Confidence (>85%)
+│   ├── Proceed with full resource commitment and aggressive timeline
+│   ├── Use proven solution approaches with minor customization
+│   ├── Establish standard success metrics and monitoring
+│   └── Apply normal change management and communication
+├── Medium Diagnostic Confidence (65-85%)
+│   ├── Proceed with staged implementation and milestone validation
+│   ├── Design solution approaches with built-in adjustment capability
+│   ├── Create enhanced monitoring and early warning systems
+│   └── Implement robust stakeholder communication and feedback loops
+├── Lower Diagnostic Confidence (45-65%)
+│   ├── Implement pilot programs and limited scope experiments
+│   ├── Design solutions with high reversibility and low sunk costs
+│   ├── Focus on learning objectives and information generation
+│   └── Plan for significant course correction and strategy evolution
+└── Insufficient Diagnostic Confidence (<45%)
+    ├── Delay major decisions pending additional investigation
+    ├── Implement information-gathering initiatives and research
+    ├── Design immediate actions to prevent problem escalation
+    └── Establish clear criteria for decision readiness assessment
+```
+
+## Enterprise Implementation Quality Standards
+
+### Diagnostic Rigor Requirements
+- **Multi-Perspective Validation**: Problem definition confirmed by at least three stakeholder groups
+- **Historical Context Integration**: Analysis of how similar problems were addressed previously
+- **Cross-Industry Benchmarking**: Understanding of how other organizations handle comparable issues
+- **Forward-Looking Impact Assessment**: Consideration of how current problems might evolve
+
+### Executive Communication Excellence
+- **Problem Definition Clarity**: Precise articulation of what is actually wrong vs. what appears wrong
+- **Root Cause Evidence**: Specific evidence supporting causal relationships rather than correlations
+- **Information Gap Transparency**: Explicit acknowledgment of what is unknown and why it matters
+- **Implementation Readiness Assessment**: Honest evaluation of organizational capacity for solution execution
+
+This enterprise-class executive diagnostic depth creates organizational problem-solving capability that consistently identifies and addresses root causes rather than symptoms, dramatically improving strategic decision quality and implementation success rates.

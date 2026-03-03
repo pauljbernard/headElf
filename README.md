@@ -1,6 +1,16 @@
-# HeadElf - Revolutionary Dual-Lifecycle Executive Intelligence Platform for Claude Code
+# HeadElf - Universal Intelligence Platform for Modeling Any Influential Role
 
-**The world's first context-driven executive intelligence platform that transforms business decision-making through rich context artifacts and personalized intelligence evolution.**
+**The world's first context-driven intelligence platform that transforms decision-making analysis through rich context artifacts and universal persona modeling - from corporate executives to political leaders to fund managers.**
+
+## 🌟 Revolutionary Universal Role Architecture
+
+HeadElf now supports **Universal Persona Intelligence** - the ability to model and predict the behavior of any influential decision-maker across domains:
+
+### **🎯 Core Use Cases**
+- **Competitive Intelligence**: Model competitor CEOs and leaders to predict strategic moves
+- **Financial Market Intelligence**: Model fund managers to predict allocation and trading patterns
+- **Political & Regulatory Forecasting**: Model political figures to predict policy and regulatory decisions
+- **Crisis Response Modeling**: Predict stakeholder responses across any domain during critical situations
 
 ## Revolutionary Dual-Lifecycle Architecture
 
@@ -104,7 +114,7 @@ Unlike traditional enterprise software requiring databases and complex infrastru
 ### **🏗️ Enterprise Architecture Excellence**
 - **Chief Software Architect**: 29+ architectural skills across enterprise, application, and full-stack domains
 
-## Executive Intelligence Architecture
+## Universal Intelligence Architecture
 
 ```
 HeadElf/
@@ -119,6 +129,27 @@ HeadElf/
 │   │   ├── chro-intelligence/      # Chief People Officer
 │   │   ├── cmso-intelligence/      # Chief Marketing and Sales Officer
 │   │   └── cpo-intelligence/       # Chief Product Officer
+│   ├── personas/                   # NEW: Universal Role Intelligence (16+ roles)
+│   │   ├── political/              # Political Leaders & Officials (5 roles)
+│   │   │   ├── senator-intelligence/           # US Senator decision modeling
+│   │   │   ├── congressman-intelligence/       # House Representative modeling
+│   │   │   ├── world-leader-intelligence/      # Head of State/Government
+│   │   │   ├── central-bank-governor-intelligence/  # Monetary Policy Leaders
+│   │   │   └── regulatory-commissioner-intelligence/ # Regulatory Authority Heads
+│   │   ├── financial/              # Fund Managers & Financial Leaders (5 roles)
+│   │   │   ├── hedge-fund-manager-intelligence/     # Hedge Fund Decision Modeling
+│   │   │   ├── mutual-fund-manager-intelligence/    # Mutual Fund Allocation Patterns
+│   │   │   ├── pension-fund-cio-intelligence/       # Institutional Investment Strategy
+│   │   │   ├── sovereign-wealth-fund-intelligence/  # Sovereign Capital Allocation
+│   │   │   └── private-equity-partner-intelligence/ # PE Investment Decision Modeling
+│   │   ├── competitive/            # Competitor Intelligence (3 roles)
+│   │   │   ├── competitor-ceo-intelligence/    # Competitor Strategic Decision Modeling
+│   │   │   ├── competitor-cto-intelligence/    # Competitor Technology Strategy
+│   │   │   └── market-leader-intelligence/     # Market Leader Response Patterns
+│   │   └── institutional/          # Institutional Leaders (3 roles)
+│   │       ├── university-president-intelligence/   # Academic Leadership Modeling
+│   │       ├── foundation-ceo-intelligence/         # Foundation Strategy & Philanthropy
+│   │       └── media-executive-intelligence/        # Media Strategy & Content Decisions
 │   ├── security/                   # Comprehensive Security Intelligence Framework (16 roles)
 │   │   ├── executive/             # Executive Security Leadership (3 roles)
 │   │   │   ├── cso-intelligence/   # Chief Security Officer
@@ -158,9 +189,11 @@ HeadElf/
 │   ├── persona-manager/           # Multi-Persona Executive Coordination
 │   └── meeting-proxy/             # Executive Meeting and Communication
 ├── src/                           # TypeScript Intelligence Modules
-│   ├── core/                      # Core executive intelligence engines
-│   │   ├── specialized-security/   # Specialized Security Coordination Framework
-│   │   └── [9 additional modules] # Complete C-suite intelligence engines
+│   ├── core/                      # Universal Intelligence Engines
+│   │   ├── universal-persona-engine.ts     # Role-agnostic decision intelligence framework
+│   │   ├── cross-domain-intelligence.ts   # Pattern recognition across all role types
+│   │   ├── specialized-security/          # Specialized Security Coordination Framework
+│   │   └── [9 additional modules]         # Complete C-suite intelligence engines
 │   ├── advanced/                  # Advanced C-suite capabilities
 │   ├── extensibility/             # Three-dimensional extensibility engine
 │   └── extensions/                # Industry and enterprise extensions
@@ -201,6 +234,39 @@ HeadElf operates on a revolutionary Git-first architecture that provides enterpr
 - Community contributions through standard GitHub collaboration
 - Extension discovery through GitHub search and topics
 - Quality validation through GitHub's social proof mechanisms
+
+## Universal Persona Intelligence Framework
+
+HeadElf's breakthrough **Universal Persona Engine** enables modeling and prediction of influential decision-makers across any domain:
+
+### **🎯 Political Intelligence Capabilities**
+- **Senator Intelligence**: Legislative strategy, coalition building, electoral dynamics, policy positioning
+- **Congressional Intelligence**: House dynamics, committee strategy, district management, party coordination
+- **World Leader Intelligence**: International relations, domestic policy, crisis management, coalition building
+- **Central Bank Governor**: Monetary policy, financial stability, regulatory coordination, market communication
+- **Regulatory Commissioner**: Industry oversight, policy development, enforcement strategy, stakeholder management
+
+### **💰 Financial Intelligence Capabilities**
+- **Hedge Fund Manager**: Investment strategy, risk management, capital allocation, performance optimization
+- **Mutual Fund Manager**: Portfolio construction, sector rotation, flow management, benchmark performance
+- **Pension Fund CIO**: Long-term allocation, liability matching, ESG integration, risk management
+- **Sovereign Wealth Fund**: Strategic asset allocation, geopolitical considerations, long-term value creation
+- **Private Equity Partner**: Deal sourcing, value creation, portfolio management, exit strategy
+
+### **⚔️ Competitive Intelligence Capabilities**
+- **Competitor CEO**: Strategic planning, competitive positioning, market expansion, crisis response
+- **Competitor CTO**: Technology strategy, innovation priorities, R&D allocation, competitive differentiation
+- **Market Leader**: Market defense, competitive moats, ecosystem strategy, regulatory influence
+
+### **🏛️ Institutional Intelligence Capabilities**
+- **University President**: Academic strategy, fundraising, faculty management, stakeholder coordination
+- **Foundation CEO**: Philanthropic strategy, grant-making, impact measurement, stakeholder engagement
+- **Media Executive**: Content strategy, audience development, platform decisions, advertiser relations
+
+### **🧠 Cross-Domain Intelligence Patterns**
+- **Universal Behavioral Patterns**: Crisis response, performance pressure, competitive escalation
+- **Domain-Specific Patterns**: Political partisan pressure, financial risk parity, competitive market defense
+- **Predictive Analytics**: Multi-domain pattern recognition, behavioral forecasting, strategic recommendations
 
 ## Core Capabilities by Executive Role
 
