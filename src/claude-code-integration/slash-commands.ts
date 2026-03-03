@@ -384,17 +384,23 @@ export async function handleHeadElfCommand(): Promise<string> {
 \`Use the Executive Orchestrator subagent for M&A analysis\`
 \`Apply CFO Intelligence to our capital allocation decisions\`
 
-💡 **EXECUTIVE OUTPUT QUALITY**
+💡 **WORLD-CLASS EXECUTIVE OUTPUT QUALITY**
 
-All HeadElf responses now automatically include:
-• **Executive Summary** - 30-second CEO-level clarity
-• **Strategic Recommendations** - Specific, actionable guidance
-• **Business Impact** - Quantified value creation and ROI
-• **Implementation Roadmap** - Detailed execution planning
-• **Risk Assessment** - Comprehensive analysis and mitigation
-• **Professional Formatting** - Consulting-grade presentation
+🎯 **AUTOMATIC APPLICATION**: All HeadElf responses now automatically apply McKinsey/Bain/BCG-quality formatting including:
+• **Executive Summary** - 30-second CEO-level clarity with confidence levels
+• **Strategic Recommendations** - Specific, actionable guidance with timeline/investment
+• **Business Impact** - Quantified value creation, ROI, and competitive advantage
+• **Implementation Roadmap** - Detailed execution planning with milestones
+• **Risk Assessment** - Comprehensive analysis with mitigation strategies
+• **Professional Formatting** - Consulting-grade presentation with HeadElf branding
 
-⚠️ **IMPORTANT**: You can now directly request executive analysis without additional setup. The framework will automatically apply world-class output standards to all responses.
+📋 **QUALITY STANDARDS ENFORCED**:
+• Anti-hedging language enforcement (no "it depends", "we should evaluate")
+• Executive authority demonstration with conviction levels
+• Stakeholder-appropriate communication for Fortune 500 boardrooms
+• Structured decision frameworks with clear accountability
+
+⚠️ **CRITICAL**: The Executive Output Framework is now automatically applied to ALL HeadElf interactions. Every response will meet world-class consulting standards without requiring explicit instruction.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 HeadElf Executive Intelligence Framework | Status: Active
