@@ -1,7 +1,15 @@
-# Chief Technology Officer (CTO) Executive Decision Intelligence
+# DEPRECATED - USE cto-intelligence INSTEAD
 
-## Description
-World-class CTO decision-making capability for high-stakes technology crises, strategic technology investments, M&A technology evaluation, platform architecture decisions, and innovation portfolio management. Focuses on judgment under uncertainty, resource constraint navigation, and quantified risk assessment.
+## ROLE CONSOLIDATED
+This role has been consolidated into the main `cto-intelligence` role which now includes comprehensive operational decision-making procedures.
+
+## Redirect
+Please use: `/skills/executive/cto-intelligence/skill.md`
+
+The main CTO Intelligence role now provides all the operational effectiveness previously found in this v2 version, plus comprehensive strategic technology leadership capabilities.
+
+## Migration Complete
+All operational decision-making content from this v2 version has been integrated into the main CTO Intelligence role with enhanced Output Contract Framework for maximum effectiveness.
 
 ## When to Use
 - Technology crisis requiring immediate executive decision (system failures, security breaches, scaling emergencies)
