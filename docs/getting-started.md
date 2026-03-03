@@ -100,17 +100,14 @@ cd headElf
 ls -la
 ```
 
-### Step 3: Install HeadElf Extension
+### Step 3: Register HeadElf Slash Commands
 
 ```bash
-# Create Claude Code skills directory (if it doesn't exist)
-mkdir -p ~/.claude/skills
+# Register HeadElf slash commands for Claude Code
+node scripts/register-slash-commands.js register
 
-# Install HeadElf skills
-cp -r src/* ~/.claude/skills/headElf/
-
-# Verify installation
-ls -la ~/.claude/skills/headElf/
+# Verify registration
+node scripts/register-slash-commands.js list
 ```
 
 ### Step 4: Configure Environment
@@ -131,13 +128,21 @@ mkdir -p ~/.claude/headElf/config
 ### Simplified Executive Setup
 
 ```bash
-# One-time HeudElf installation (IT team or technical assistant)
-curl -sSL https://raw.githubusercontent.com/pauljbernard/headElf/main/install.sh | bash
+# One-time HeadElf installation (IT team or technical assistant)
+git clone https://github.com/pauljbernard/headElf.git
+cd headElf
+node scripts/register-slash-commands.js register
 
-# Verify HeudElf is available in Claude Code
-claude-code
-> "HeudElf status check"
+# REQUIRED: Activate HeadElf in Claude Code
+# Open Claude Code and run:
+/headelf
+
+# Verify HeadElf capabilities are available
+/headelf skills    # List all available skills
+/headelf agents    # List specialized subagents
 ```
+
+**⚠️ CRITICAL:** You must run `/headelf` before using any HeadElf capabilities. This command activates the entire framework.
 
 ### Executive Intelligence Repository Setup
 
@@ -369,8 +374,14 @@ Test your setup with a simple executive query:
 cd my-executive-intelligence
 claude-code
 
-# Ask HeudElf for executive analysis
-> "Use cfo-intelligence: Analyze our Q4 financial performance and identify optimization opportunities"
+# FIRST: Activate HeadElf framework
+/headelf
+
+# THEN: Access executive capabilities
+/skills cfo-intelligence
+
+# Ask for executive analysis
+"Analyze our Q4 financial performance and identify optimization opportunities"
 ```
 
 **What Happens Automatically:**
@@ -398,6 +409,47 @@ git pull                      # Get latest executive decisions
 # Comment and discuss through GitHub Issues/PRs
 ```
 
+## Claude Code Commands Reference
+
+### HeadElf Slash Commands
+
+HeadElf provides comprehensive slash commands for Claude Code integration:
+
+#### **Main Command Hub**
+```bash
+/headelf              # Activate HeadElf framework and show status
+/headelf skills       # List all 125+ skills by category
+/headelf agents       # List all 6 specialized subagents
+/headelf help         # Show detailed command help
+```
+
+#### **Direct Access Commands**
+```bash
+/skills               # List all HeadElf skills with descriptions
+/skills [skill-name]  # Activate specific skill (e.g., /skills cto-intelligence)
+/agents               # List all HeadElf subagents
+/agents [agent-name]  # Use specialized subagent
+```
+
+#### **Usage Pattern**
+```bash
+# Step 1: ALWAYS activate HeadElf first
+/headelf
+
+# Step 2: Browse available capabilities
+/headelf skills       # See all 125+ executive skills
+/headelf agents       # See all 6 specialized subagents
+
+# Step 3: Activate specific capabilities
+/skills cto-intelligence           # For technology strategy
+/agents executive-orchestrator     # For cross-functional coordination
+
+# Step 4: Make executive requests
+"Analyze our technology modernization requirements and provide strategic roadmap"
+```
+
+**⚠️ CRITICAL REQUIREMENT:** The `/headelf` command must be run before any other HeadElf functionality will work. This initializes the entire executive intelligence framework.
+
 ## Initial Configuration
 
 ### Basic Configuration
@@ -408,11 +460,12 @@ Create your initial HeadElf configuration:
 # Launch Claude Code
 claude-code
 
-# Enable HeadElf extension
-> "Enable HeadElf C-suite executive intelligence"
+# REQUIRED: Activate HeadElf framework
+/headelf
 
 # Verify all modules are loaded
-> "List available C-suite capabilities"
+/headelf skills       # List all executive capabilities
+/headelf agents       # List specialized subagents
 ```
 
 ### C-Suite Module Activation
@@ -420,11 +473,13 @@ claude-code
 Activate specific C-suite roles based on your needs:
 
 ```bash
-# Activate all C-suite modules (recommended)
-> "Activate all C-suite executive modules: CTO, CIO, CISO, CFO, COO"
+# Activate specific C-suite capabilities
+/skills cto-intelligence      # For technology strategy
+/skills cfo-intelligence      # For financial analysis
+/skills ciso-intelligence     # For security leadership
 
-# Or activate specific modules
-> "Activate CTO and CFO modules for technology and financial analysis"
+# Or use the executive orchestrator for cross-functional decisions
+/agents executive-orchestrator
 ```
 
 ### Authority Level Configuration

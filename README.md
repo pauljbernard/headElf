@@ -572,11 +572,29 @@ The specialized technical security tier provides advanced technical expertise in
 - Git repository for decision persistence
 - GitHub account for collaboration and extension access
 
+## Claude Code Integration
+
+### Essential HeadElf Commands
+```bash
+# Main command hub - REQUIRED to activate HeadElf
+/headelf              # Show HeadElf status and available commands
+
+# Browse capabilities
+/headelf skills       # List all 125+ skills across 16 domains
+/headelf agents       # Access 6 specialized subagents
+
+# Direct access commands
+/skills cto-intelligence  # Activate specific C-suite capabilities
+/agents executive-orchestrator  # Use specialized executive subagents
+```
+
+**⚠️ IMPORTANT:** You must run `/headelf` first to activate the HeadElf framework before using any other capabilities.
+
 ### Quick Start
 
 1. **Clone HeadElf Repository**
 ```bash
-git clone https://github.com/user/headElf.git
+git clone https://github.com/pauljbernard/headElf.git
 cd headElf
 ```
 
@@ -586,25 +604,31 @@ npm install
 pip install -r requirements.txt
 ```
 
-3. **Configure Claude Code Integration**
+3. **Register HeadElf Slash Commands**
 ```bash
-claude skills register skills/executive/cto-intelligence/
-claude skills register skills/security/executive/cso-intelligence/
-# Register additional skills as needed
+# Register HeadElf slash commands for Claude Code
+node scripts/register-slash-commands.js register
 ```
 
-4. **Initialize Git-Based Persistence**
+4. **Activate HeadElf in Claude Code**
+```bash
+# REQUIRED: Activate HeadElf before using any capabilities
+/headelf
+```
+
+5. **Access Executive Intelligence**
+```bash
+# Browse available capabilities
+/headelf skills    # List all 125+ skills
+/headelf agents    # List specialized subagents
+/skills cto-intelligence  # Activate specific executive roles
+```
+
+6. **Initialize Git-Based Persistence**
 ```bash
 git init data/executive-decisions
 cd data/executive-decisions
 git remote add origin [your-decisions-repo]
-```
-
-5. **Activate Executive Intelligence**
-```bash
-claude skills use cto-intelligence
-claude skills use cso-intelligence
-# Activate additional executive roles as needed
 ```
 
 ### Executive Intelligence Usage
